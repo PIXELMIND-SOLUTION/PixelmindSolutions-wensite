@@ -98,7 +98,7 @@ function BlogDetails() {
                                     <Helmet>
                                         <title>Digital Marketing & App Dev IT Services</title>
                                         <meta name="description" content="From app creation to digital promotion, our IT team supports your business at every digital stage." />
-                                        <meta name="keywords" content="Digital Marketing and IT services in KPHB, Best Online Marketing Service in Hyderabad, IT Service Providers in KPHP, Software development company in Hyderabad, Mobile App Development in Gacchibowli, UI/UX in Hyderabad, Best IT Company in KPHP, Affortable Software IT Company in Hyderabad, Best Online Services in Hyderabad, Top Digital Marketing Services in KPHP, Best SEO Services in Hyderabad, Social Media Services Near Me, PixelmindSolutions in KPHP, PPC Services in Hyderabad, Digital Marketing Company in KPHP" />
+                                        <meta name="keywords" content="Digital Marketing and IT services in KPHB, Best Online Marketing Service in Hyderabad, IT Service Providers in KPHP, Software development company in Hyderabad, Mobile App Development in Gacchibowli, UI/UX in Hyderabad, Best IT Company in KPHP, Affortable Software IT Company in Hyderabad, Best Online Services in Hyderabad, Top Digital Marketing Services in KPHP, Best SEO Services in Hyderabad, Social Media Services Near Me, PIXELMINDSOLUTIONS in KPHP, PPC Services in Hyderabad, Digital Marketing Company in KPHP" />
                                     </Helmet>
 
                                     <section className="blog-details-area pb-5">
@@ -116,12 +116,12 @@ function BlogDetails() {
                                                     <li><i className="fa-regular fa-comments me-2"></i> 0 Comments</li>
                                                 </ul>
 
-                                                <p className="">IT services are at the heart of business expansion and digital transformation in the fast-paced digital world of today. Businesses need a dependable technology partner to help them succeed online, whether it's through powerful digital marketing strategies, user-friendly mobile apps, or custom websites. This partner is <strong>PixelMind Solutions</strong>, which provides businesses of all sizes with cutting-edge IT services, innovative design, and performance-driven digital strategies.</p>
+                                                <p className="">IT services are at the heart of business expansion and digital transformation in the fast-paced digital world of today. Businesses need a dependable technology partner to help them succeed online, whether it's through powerful digital marketing strategies, user-friendly mobile apps, or custom websites. This partner is <strong>PIXELMINDSOLUTIONS</strong>, which provides businesses of all sizes with cutting-edge IT services, innovative design, and performance-driven digital strategies.</p>
 
-                                                <h3 className="mt-4">1. About PixelMind Solutions</h3>
-                                                <p><strong>PixelMind Solutions</strong> is a results-focused IT service company that specializes in providing end-to-end digital solutions. Whether you're a startup or an established brand, PixelMind helps you build a strong online presence by combining creativity, technology, and data-driven strategies. With an experienced team and a customer-first approach, PixelMind Solutions is committed to delivering measurable results.</p>
+                                                <h3 className="mt-4">1. About PIXELMINDSOLUTIONS</h3>
+                                                <p><strong>PIXELMINDSOLUTIONS</strong> is a results-focused IT service company that specializes in providing end-to-end digital solutions. Whether you're a startup or an established brand, PIXELMINDSOLUTIONS helps you build a strong online presence by combining creativity, technology, and data-driven strategies. With an experienced team and a customer-first approach, PIXELMINDSOLUTIONS is committed to delivering measurable results.</p>
 
-                                                <h3 className="mt-4">2. What Services Does PixelMind Solutions Offer?</h3>
+                                                <h3 className="mt-4">2. What Services Does PIXELMINDSOLUTIONS Offer?</h3>
                                                 <ul className="list-group list-group-numbered mb-3">
                                                     <li className="list-group-item border-0 ps-0"><strong>Website Design & Development:</strong> Responsive, fast-loading, SEO-optimized, and tailored to each business's goals.</li>
                                                     <li className="list-group-item border-0 ps-0"><strong>Mobile App Development:</strong> Feature-rich Android and iOS apps focused on functionality, design, and performance.</li>
@@ -130,7 +130,7 @@ function BlogDetails() {
                                                     <li className="list-group-item border-0 ps-0"><strong>Branding & Identity Design:</strong> Logos, color palettes, and identity packages for professional brand presence.</li>
                                                 </ul>
 
-                                                <h3 className="mt-4">3. Why Choose PixelMind Solutions?</h3>
+                                                <h3 className="mt-4">3. Why Choose PIXELMINDSOLUTIONS?</h3>
                                                 <ul className="list-group list-group-numbered mb-3">
                                                     <li className="list-group-item border-0 ps-0">Tailored IT Solutions for each client</li>
                                                     <li className="list-group-item border-0 ps-0">Open and honest communication</li>
@@ -139,7 +139,7 @@ function BlogDetails() {
                                                     <li className="list-group-item border-0 ps-0">Cost-effective packages</li>
                                                 </ul>
 
-                                                <h3 className="mt-4">4. The PixelMind Process</h3>
+                                                <h3 className="mt-4">4. The PIXELMINDSOLUTIONS Process</h3>
                                                 <ol className="list-group list-group-numbered mb-3">
                                                     <li className="list-group-item border-0 ps-0">Discovery Call – Understanding your goals</li>
                                                     <li className="list-group-item border-0 ps-0">Strategic Planning – Crafting a custom plan</li>
@@ -148,16 +148,16 @@ function BlogDetails() {
                                                     <li className="list-group-item border-0 ps-0">Ongoing Support – Continued assistance and optimization</li>
                                                 </ol>
 
-                                                <h3 className="mt-4">5. What Clients Say About PixelMind</h3>
+                                                <h3 className="mt-4">5. What Clients Say About PIXELMINDSOLUTIONS</h3>
                                                 <blockquote className="blockquote bg-light p-3 rounded">
-                                                    <p>"PixelMind Solutions gave us a strong online presence and helped increase our sales through effective SEO and website design."</p>
+                                                    <p>"PIXELMINDSOLUTIONS gave us a strong online presence and helped increase our sales through effective SEO and website design."</p>
                                                 </blockquote>
                                                 <blockquote className="blockquote bg-light p-3 rounded">
-                                                    <p>"The app PixelMind developed for us is flawless. Their team was responsive and very easy to work with."</p>
+                                                    <p>"The app PIXELMINDSOLUTIONS developed for us is flawless. Their team was responsive and very easy to work with."</p>
                                                 </blockquote>
 
-                                                <h3 className="mt-4">6. Getting Started with PixelMind Solutions</h3>
-                                                <p>Whether you're building a brand from scratch or optimizing an existing one, PixelMind is ready to help. Getting started is as simple as:</p>
+                                                <h3 className="mt-4">6. Getting Started with PIXELMINDSOLUTIONS</h3>
+                                                <p>Whether you're building a brand from scratch or optimizing an existing one, PIXELMINDSOLUTIONS is ready to help. Getting started is as simple as:</p>
                                                 <ul className="list-group list-group-numbered mb-3">
                                                     <li className="list-group-item border-0 ps-0">Booking a free consultation</li>
                                                     <li className="list-group-item border-0 ps-0">Sharing your business objectives and vision</li>
@@ -165,8 +165,8 @@ function BlogDetails() {
                                                     <li className="list-group-item border-0 ps-0">Watching your digital journey unfold with expert guidance</li>
                                                 </ul>
 
-                                                <h3 className="mt-4">Conclusion: Choose PixelMind for Smarter IT Solutions</h3>
-                                                <p>Your digital success starts with the right partner. PixelMind Solutions offers user-focused design, expert marketing strategies, and cutting-edge IT services that help your business expand. With a dedicated team and forward-thinking approach, PixelMind ensures that your brand thrives in the digital world.</p>
+                                                <h3 className="mt-4">Conclusion: Choose PIXELMINDSOLUTIONS for Smarter IT Solutions</h3>
+                                                <p>Your digital success starts with the right partner. PIXELMINDSOLUTIONS offers user-focused design, expert marketing strategies, and cutting-edge IT services that help your business expand. With a dedicated team and forward-thinking approach, PIXELMINDSOLUTIONS ensures that your brand thrives in the digital world.</p>
 
                                                 <div className="mt-5">
                                                     <Link to="/blog" className="btn btn-outline-primary">
@@ -196,13 +196,13 @@ function BlogDetails() {
                                                     <li><i className="fa-regular fa-comments me-2"></i> 0 Comments</li>
                                                 </ul>
 
-                                                <p className="">Having a strong digital presence is no longer optional in today's technology-driven market. <strong>PixelMind Solutions</strong> is at the forefront of this digital transformation, offering cutting-edge IT services that empower businesses to grow, engage customers, and stay ahead of the competition.</p>
+                                                <p className="">Having a strong digital presence is no longer optional in today's technology-driven market. <strong>PIXELMINDSOLUTIONS</strong> is at the forefront of this digital transformation, offering cutting-edge IT services that empower businesses to grow, engage customers, and stay ahead of the competition.</p>
 
                                                 <h3 className="mt-4 d-flex align-items-center gap-2">
                                                     <FaSearch color="#06cabc" size={28} />
-                                                    <span>About PixelMind Solutions</span>
+                                                    <span>About PIXELMINDSOLUTIONS</span>
                                                 </h3>
-                                                <p>PixelMind Solutions is a forward-thinking IT company delivering expert solutions in web development, mobile app design, and digital marketing. By combining creative thinking with advanced technology, they help organizations across industries build powerful digital experiences. Their mission is simple: to help brands succeed online with customized, high-performance solutions that meet modern demands.</p>
+                                                <p>PIXELMINDSOLUTIONS is a forward-thinking IT company delivering expert solutions in web development, mobile app design, and digital marketing. By combining creative thinking with advanced technology, they help organizations across industries build powerful digital experiences. Their mission is simple: to help brands succeed online with customized, high-performance solutions that meet modern demands.</p>
 
                                                 <h3 className="mt-4 d-flex align-items-center gap-2">
                                                     <FaBriefcase color="#06cabc" size={28} />
@@ -223,7 +223,7 @@ function BlogDetails() {
 
                                                 <h3 className="mt-4 d-flex align-items-center gap-2">
                                                     <FaLightbulb color="#06cabc" size={28} />
-                                                    <span>Why Businesses Trust PixelMind</span>
+                                                    <span>Why Businesses Trust PIXELMINDSOLUTIONS</span>
                                                 </h3>
 
                                                 <ul className="list-group list-group-flush mb-3">
@@ -237,7 +237,7 @@ function BlogDetails() {
                                                     <FaThumbtack color="#06cabc" size={28} />
                                                     <span>Conclusion</span>
                                                 </h3>
-                                                <p>Partnering with a dependable IT solutions provider is essential in this day and age when a company's success is determined by its digital presence. <strong>PixelMind Solutions</strong> delivers comprehensive services that help businesses unlock their full online potential.</p>
+                                                <p>Partnering with a dependable IT solutions provider is essential in this day and age when a company's success is determined by its digital presence. <strong>PIXELMINDSOLUTIONS</strong> delivers comprehensive services that help businesses unlock their full online potential.</p>
 
                                                 <div className="mt-5">
                                                     <Link to="/blog" className="btn btn-outline-primary">
@@ -267,10 +267,10 @@ function BlogDetails() {
                                                     <li><i className="fa-regular fa-comments me-2"></i> 0 Comments</li>
                                                 </ul>
 
-                                                <p className="">Digital innovation is the key to staying competitive in today's business landscape. Companies need more than just a website—they need digital systems that drive efficiency, deliver value, and engage their customers. This is where <strong>PixelMind Solutions</strong> makes a lasting impact.</p>
+                                                <p className="">Digital innovation is the key to staying competitive in today's business landscape. Companies need more than just a website—they need digital systems that drive efficiency, deliver value, and engage their customers. This is where <strong>PIXELMINDSOLUTIONS</strong> makes a lasting impact.</p>
 
                                                 <h3 className="mt-4">The Vision Behind PixelMind</h3>
-                                                <p>At its core, PixelMind Solutions is more than just an IT company—it is a digital transformation partner. The team offers services that assist businesses in navigating and achieving success in the digital age. Their services place a strong emphasis on creativity, technology, and strategy. From concept to execution, PixelMind supports clients through every phase of their digital journey.</p>
+                                                <p>At its core, PIXELMINDSOLUTIONS is more than just an IT company—it is a digital transformation partner. The team offers services that assist businesses in navigating and achieving success in the digital age. Their services place a strong emphasis on creativity, technology, and strategy. From concept to execution, PIXELMINDSOLUTIONS supports clients through every phase of their digital journey.</p>
 
 
                                                 <h3 className="mt-4 d-flex align-items-center gap-2">
@@ -289,7 +289,7 @@ function BlogDetails() {
                                                 <p>Each website is customized to reflect the client's brand and deliver the best user experience.</p>
 
                                                 <h4 className="mt-3">End-to-End Mobile App Development</h4>
-                                                <p>Mobile apps are essential in today's smartphone-driven world. PixelMind crafts high-performance apps using technologies like:</p>
+                                                <p>Mobile apps are essential in today's smartphone-driven world. PIXELMINDSOLUTIONS crafts high-performance apps using technologies like:</p>
                                                 <ul className="list-group list-group-flush mb-3">
                                                     <li className="list-group-item border-0 ps-0">Flutter</li>
                                                     <li className="list-group-item border-0 ps-0">React Native</li>
@@ -298,7 +298,7 @@ function BlogDetails() {
                                                 <p>These apps are intuitive, secure, and designed to scale with your business.</p>
 
                                                 <h4 className="mt-3">Digital Marketing That Delivers</h4>
-                                                <p>Marketing in the digital era requires strategy and data. PixelMind Solutions offers:</p>
+                                                <p>Marketing in the digital era requires strategy and data. PIXELMINDSOLUTIONS offers:</p>
                                                 <ul className="list-group list-group-flush mb-3">
                                                     <li className="list-group-item border-0 ps-0">SEO (Search Engine Optimization), Google Ads, and Paid Campaigns</li>
                                                     <li className="list-group-item border-0 ps-0">Social Media Marketing</li>
@@ -308,7 +308,7 @@ function BlogDetails() {
 
                                                 <h3 className="mt-4 d-flex align-items-center gap-2">
                                                     <GiBrain color="#06cabc" size={28} />
-                                                    <span>What Sets PixelMind Apart?</span>
+                                                    <span>What Sets PIXELMINDSOLUTIONS Apart?</span>
                                                 </h3>
 
                                                 <ul className="list-group list-group-flush mb-3">
@@ -318,7 +318,7 @@ function BlogDetails() {
                                                 </ul>
 
                                                 <h3 className="mt-4">Final Words</h3>
-                                                <p>The digital world is changing fast—and PixelMind Solutions ensures you don't get left behind. They assist brands in transformation, growth, and leadership by combining experience, innovation, and client dedication to perfection.</p>
+                                                <p>The digital world is changing fast—and PIXELMINDSOLUTIONS ensures you don't get left behind. They assist brands in transformation, growth, and leadership by combining experience, innovation, and client dedication to perfection.</p>
 
                                                 <div className="mt-5">
                                                     <Link to="/blog" className="btn btn-outline-primary">
