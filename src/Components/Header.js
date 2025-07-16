@@ -128,7 +128,7 @@ function Header() {
     <div className="container header__container">
       <div className="header__main">
           <Link to="/" className="logo1">
-          <img src="assets/images/logo/logo.png" alt="logo" />
+          <img src="/assets/images/logo/logo.png" alt="logo" />
     {/* <img style={{width:"50px"}} src="assets/images/icon/counter-icon3.png" alt="icon" />
     <h2 className="text-white">pixelmind</h2> */}
   </Link>
@@ -153,9 +153,9 @@ function Header() {
                 <Link to="/blog">Blog</Link>
               </li>
 
-              <li>
+              {/* <li>
                 <Link to="/portfolio">Our Portfolio</Link>
-              </li>
+              </li> */}
            
             </ul>
           </nav>

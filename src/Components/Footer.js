@@ -11,7 +11,7 @@ function Footer() {
     data-wow-delay="00ms"
     data-wow-duration="1500ms"
   >
-    <img alt="shape" src="assets/images/shape/footer-regular-left.png" />
+    <img alt="shape" src="/assets/images/shape/footer-regular-left.png" />
   </div>
   <div
     className="footer__shape-solid-left wow slideInLeft"
@@ -21,7 +21,7 @@ function Footer() {
     <img
       className="sway_Y__animation"
       alt="shape"
-      src="assets/images/shape/footer-solid-left.png"
+      src="/assets/images/shape/footer-solid-left.png"
     />
   </div>
   <div
@@ -32,7 +32,7 @@ function Footer() {
     <img
       className="sway_Y__animation"
       alt="shape"
-      src="assets/images/shape/footer-regular-right.png"
+      src="/assets/images/shape/footer-regular-right.png"
     />
   </div>
   <div
@@ -40,10 +40,10 @@ function Footer() {
     data-wow-delay="200ms"
     data-wow-duration="1500ms"
   >
-    <img alt="shape" src="assets/images/shape/footer-solid-right.png" />
+    <img alt="shape" src="/assets/images/shape/footer-solid-right.png" />
   </div>
   <div className="footer__shadow-shape">
-    <img alt="shodow" src="assets/images/shape/footer-shadow-shape.png" />
+    <img alt="shodow" src="/assets/images/shape/footer-shadow-shape.png" />
   </div>
   <div className="container">
     <div className="footer__wrp pt-60 pb-60">
@@ -53,11 +53,11 @@ function Footer() {
         data-wow-duration="1500ms"
       >
         <a className="logo1  mb-30" href="/" data-discover="true">
-        <img src="assets/images/logo/logo.png" alt="logo" />
+        <img src="/assets/images/logo/logo.png" alt="logo" />
 
           {/* <img
             alt="icon"
-            src="assets/images/icon/counter-icon3.png"
+            src="/assets/images/icon/counter-icon3.png"
             style={{ width: 50 }}
           />
           <h2 className="text-white">pixelmind</h2> */}

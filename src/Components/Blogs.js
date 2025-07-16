@@ -22,7 +22,7 @@ function Blog() {
                 <div className="container">
                     <div className="section-header text-center mb-60">
                         <h5 className="wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">
-                            <img className="me-1" src="assets/images/icon/section-title.png" alt="icon" />
+                            <img className="me-1" src="/assets/images/icon/section-title.png" alt="icon" />
                             Blog & News
                         </h5>
                         <h2 className="wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
@@ -40,7 +40,7 @@ function Blog() {
                                     data-wow-duration="1500ms"
                                 >
                                     <div className="blog__item">
-                                        <Link to={`/blog/${blog.slug}`} className="blog__image d-block image">
+                                        <Link to={`/blog/${blog.name}`} className="blog__image d-block image">
                                             <img src={`assets/images/blog/blog-image${blog.id}.jpg`} alt="blog preview" />
                                             <div className="blog-tag">
                                                 <h3 className="text-white">{day}</h3>
@@ -57,11 +57,11 @@ function Blog() {
                                                 </li>
                                             </ul>
                                             <h3>
-                                                <Link to={`/blog/${blog.slug}`} className="primary-hover">
+                                                <Link to={`/blog/${blog.name}`} className="primary-hover">
                                                     {blog.title.length > 60 ? blog.title.slice(0, 57) + '...' : blog.title}
                                                 </Link>
                                             </h3>
-                                            <Link className="mt-25 read-more-btn" to={`/blog/${blog.slug}`}>
+                                            <Link className="mt-25 read-more-btn" to={`/blog/${blog.name}`}>
                                                 Read More <i className="fa-regular fa-arrow-right-long" />
                                             </Link>
                                         </div>

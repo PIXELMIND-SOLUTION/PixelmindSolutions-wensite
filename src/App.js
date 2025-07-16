@@ -26,7 +26,7 @@ function App() {
       <Route path="/digitalmarketing" element={<Digitalmarketing />} />
       <Route path="/formdata" element={<Contactdata />} />
       <Route path="/blog" element={<Blog />} />
-      <Route path="/blog/:slug" element={<BlogDetails />} />
+      <Route path="/blog/:name" element={<BlogDetails />} />
       {/* <Route path="/" element={<Home />} /> */}
     </Routes>
   );
