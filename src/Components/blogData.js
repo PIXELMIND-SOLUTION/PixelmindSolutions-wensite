@@ -9,14 +9,14 @@ const blogPosts = [
     },
     {
         id: 2,
-        name: "driving-innovation-through-smart-it",
+        name: "professional-it-consulting-and-app-development",
         title: "PIXELMINDSOLUTIONS: Driving Innovation Through Smart IT Services",
         date: "2025-07-02",
         author: "Admin"
     },
     {
         id: 3,
-        name: "shaping-digital-transformation-future",
+        name: "application-maintainence-and-digital-growth-strategy",
         title: "How PIXELMINDSOLUTIONS is Shaping the Future of Digital Transformation",
         date: "2025-07-03",
         author: "Admin"

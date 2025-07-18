@@ -99,13 +99,14 @@ function BlogDetails() {
                                         <title>Digital Marketing & App Dev IT Services</title>
                                         <meta name="description" content="From app creation to digital promotion, our IT team supports your business at every digital stage." />
                                         <meta name="keywords" content="Digital Marketing and IT services in KPHB, Best Online Marketing Service in Hyderabad, IT Service Providers in KPHP, Software development company in Hyderabad, Mobile App Development in Gacchibowli, UI/UX in Hyderabad, Best IT Company in KPHP, Affortable Software IT Company in Hyderabad, Best Online Services in Hyderabad, Top Digital Marketing Services in KPHP, Best SEO Services in Hyderabad, Social Media Services Near Me, PIXELMINDSOLUTIONS in KPHP, PPC Services in Hyderabad, Digital Marketing Company in KPHP" />
+
                                     </Helmet>
 
                                     <section className="blog-details-area pb-5">
                                         <div className="blog__details">
                                             <div className="blog__content">
                                                 <div className="blog__image mb-4 position-relative">
-                                                    <img src="/assets/images/blog/blog-image1.jpg" alt="PixelMind Blog" className="img-fluid rounded w-100" style={{ height: '400px', objectFit: 'cover' }} />
+                                                    <img src="/assets/images/blog/blog-image1.jpg" alt="Web Application Development in Hyderabad" className="img-fluid rounded w-100" style={{ height: '400px', objectFit: 'cover' }} />
                                                     <div className="blog-tag position-absolute top-0 start-0 bg-primary p-2 text-white">
                                                         <h3 className="text-white m-0">12</h3>
                                                         <span className="text-white">Jul</span>
@@ -116,10 +117,17 @@ function BlogDetails() {
                                                     <li><i className="fa-regular fa-comments me-2"></i> 0 Comments</li>
                                                 </ul>
 
-                                                <p className="">IT services are at the heart of business expansion and digital transformation in the fast-paced digital world of today. Businesses need a dependable technology partner to help them succeed online, whether it's through powerful digital marketing strategies, user-friendly mobile apps, or custom websites. This partner is <strong>PIXELMINDSOLUTIONS</strong>, which provides businesses of all sizes with cutting-edge IT services, innovative design, and performance-driven digital strategies.</p>
+                                                <p className=""><em>IT Services</em> are at the heart of business expansion and digital transformation in the fast-paced digital world of today. Businesses need a dependable technology partner to help them succeed online, whether it's through powerful digital marketing strategies, user-friendly mobile apps, or custom websites. This partner is <strong>PIXELMINDSOLUTIONS</strong>, which provides businesses of all sizes with cutting-edge IT services, innovative design, and performance-driven digital strategies.</p>
 
                                                 <h3 className="mt-4">1. About PIXELMINDSOLUTIONS</h3>
-                                                <p><strong>PIXELMINDSOLUTIONS</strong> is a results-focused IT service company that specializes in providing end-to-end digital solutions. Whether you're a startup or an established brand, PIXELMINDSOLUTIONS helps you build a strong online presence by combining creativity, technology, and data-driven strategies. With an experienced team and a customer-first approach, PIXELMINDSOLUTIONS is committed to delivering measurable results.</p>
+                                                <p><strong>PIXELMINDSOLUTIONS</strong> is a results-focused IT
+                                                    <a
+                                                        href="/services"
+                                                        className="text-primary"
+                                                        alt="Pixelmindsolutions"
+                                                    >
+                                                        service
+                                                    </a> company that specializes in providing end-to-end digital solutions. Whether you're a startup or an established brand, PIXELMINDSOLUTIONS helps you build a strong online presence by combining creativity, technology, and data-driven strategies. With an experienced team and a customer-first approach, <em>PIXELMINDSOLUTIONS</em> is committed to delivering measurable results.</p>
 
                                                 <h3 className="mt-4">2. What Services Does PIXELMINDSOLUTIONS Offer?</h3>
                                                 <ul className="list-group list-group-numbered mb-3">
@@ -132,7 +140,7 @@ function BlogDetails() {
 
                                                 <h3 className="mt-4">3. Why Choose PIXELMINDSOLUTIONS?</h3>
                                                 <ul className="list-group list-group-numbered mb-3">
-                                                    <li className="list-group-item border-0 ps-0">Tailored IT Solutions for each client</li>
+                                                    <li className="list-group-item border-0 ps-0">Tailored <a href="https://www.statista.com/" target="_blank" className="text-primary"><em>IT Solutions</em></a> for each client</li>
                                                     <li className="list-group-item border-0 ps-0">Open and honest communication</li>
                                                     <li className="list-group-item border-0 ps-0">Creative & Technical expertise</li>
                                                     <li className="list-group-item border-0 ps-0">Scalable solutions that grow with your business</li>
@@ -145,7 +153,7 @@ function BlogDetails() {
                                                     <li className="list-group-item border-0 ps-0">Strategic Planning – Crafting a custom plan</li>
                                                     <li className="list-group-item border-0 ps-0">Design & Development – Executing with precision</li>
                                                     <li className="list-group-item border-0 ps-0">Testing & Launch – Ensuring quality before going live</li>
-                                                    <li className="list-group-item border-0 ps-0">Ongoing Support – Continued assistance and optimization</li>
+                                                    <li className="list-group-item border-0 ps-0">Ongoing <a href="/contact" className="text-primary">Support</a> – Continued assistance and optimization</li>
                                                 </ol>
 
                                                 <h3 className="mt-4">5. What Clients Say About PIXELMINDSOLUTIONS</h3>
@@ -181,11 +189,19 @@ function BlogDetails() {
 
                             {step === 2 &&
                                 <>
+
+                                    <Helmet>
+                                        <title>IT Support & Digital Services for Your Business</title>
+                                        <meta name="description" content="Get full digital support — from web and app development to SEO and campaign strategy." />
+                                        <meta name="keywords" content="Mobile app marketing services in Hyderabad, Affordable IT support services for companies, PPC campaign management for IT service providers, Custom software development with digital marketing support, Website redesign and SEO services, Custom IT solutions for small businesses" />
+
+                                    </Helmet>
+
                                     <section className="blog-details-area pb-5">
                                         <div className="blog__details">
                                             <div className="blog__content">
                                                 <div className="blog__image mb-4 position-relative">
-                                                    <img src="/assets/images/blog/blog-image2.jpg" alt="PixelMind Blog" className="img-fluid rounded w-100" style={{ height: '400px', objectFit: 'cover' }} />
+                                                    <img src="/assets/images/blog/blog-image2.jpg" alt="Custom app development services for small businesses" className="img-fluid rounded w-100" style={{ height: '400px', objectFit: 'cover' }} />
                                                     <div className="blog-tag position-absolute top-0 start-0 bg-primary p-2 text-white">
                                                         <h3 className="text-white m-0">12</h3>
                                                         <span className="text-white">Jul</span>
@@ -202,7 +218,13 @@ function BlogDetails() {
                                                     <FaSearch color="#06cabc" size={28} />
                                                     <span>About PIXELMINDSOLUTIONS</span>
                                                 </h3>
-                                                <p>PIXELMINDSOLUTIONS is a forward-thinking IT company delivering expert solutions in web development, mobile app design, and digital marketing. By combining creative thinking with advanced technology, they help organizations across industries build powerful digital experiences. Their mission is simple: to help brands succeed online with customized, high-performance solutions that meet modern demands.</p>
+                                                <p>PIXELMINDSOLUTIONS is a forward-thinking <a
+                                                    href="/"
+                                                    className="text-primary"
+                                                    alt="Pixelmindsolutions"
+                                                >
+                                                    IT Company
+                                                </a> delivering expert solutions in web development, mobile app design, and digital marketing. By combining creative thinking with advanced technology, they help <em>organizations</em> across industries build powerful digital experiences. Their mission is simple: to help brands succeed online with customized, high-performance solutions that meet modern demands.</p>
 
                                                 <h3 className="mt-4 d-flex align-items-center gap-2">
                                                     <FaBriefcase color="#06cabc" size={28} />
@@ -210,7 +232,14 @@ function BlogDetails() {
                                                 </h3>
                                                 <ul className="list-group list-group-flush mb-3">
                                                     <li className="list-group-item border-0 ps-0"><strong>1. Custom Website Development:</strong> Responsive, SEO-optimized, fast, and visually stunning. Tools include WordPress, PHP, and modern frontend frameworks.</li>
-                                                    <li className="list-group-item border-0 ps-0"><strong>2. Mobile App Development:</strong> Seamless Android & iOS apps using Flutter and React Native with great UX and short development cycles.</li>
+                                                    <li className="list-group-item border-0 ps-0"><strong>2. Mobile App Development:</strong> Seamless Android & iOS <a
+                                                        href="https://www.itservicesindia.com/"
+                                                        className="text-primary"
+                                                        alt="Pixelmindsolutions"
+                                                        target="_blank"
+                                                    >
+                                                        apps
+                                                    </a> using Flutter and React Native with great UX and short development cycles.</li>
                                                     <li className="list-group-item border-0 ps-0"><strong>3. Digital Marketing:</strong>
                                                         <ul className="mt-2">
                                                             <li>Organic SEO to improve search rankings</li>
@@ -228,7 +257,13 @@ function BlogDetails() {
 
                                                 <ul className="list-group list-group-flush mb-3">
                                                     <li className="list-group-item border-0 ps-0"><strong>✅ Tailored Solutions:</strong> Custom-built based on your industry, goals, and budget.</li>
-                                                    <li className="list-group-item border-0 ps-0"><strong>✅ Expert Team:</strong> UI/UX designers, developers, marketers, and content creators ensure top-notch results.</li>
+                                                    <li className="list-group-item border-0 ps-0"><strong>✅ Expert Team:</strong> <a
+                                                        href="/contact"
+                                                        className="text-primary"
+                                                        alt="Pixelmindsolutions"
+                                                    >
+                                                        UI/UX designers
+                                                    </a>, developers, marketers, and content creators ensure top-notch results.</li>
                                                     <li className="list-group-item border-0 ps-0"><strong>✅ Affordable & Scalable:</strong> Perfect for startups and growing enterprises.</li>
                                                     <li className="list-group-item border-0 ps-0"><strong>📈 Real Results:</strong> Proven success in boosting website engagement for both local and global businesses.</li>
                                                 </ul>
@@ -237,7 +272,7 @@ function BlogDetails() {
                                                     <FaThumbtack color="#06cabc" size={28} />
                                                     <span>Conclusion</span>
                                                 </h3>
-                                                <p>Partnering with a dependable IT solutions provider is essential in this day and age when a company's success is determined by its digital presence. <strong>PIXELMINDSOLUTIONS</strong> delivers comprehensive services that help businesses unlock their full online potential.</p>
+                                                <p>Partnering with a dependable <em>IT solutions</em> provider is essential in this day and age when a company's success is determined by its digital presence. <strong>PIXELMINDSOLUTIONS</strong> delivers comprehensive services that help businesses unlock their full online potential.</p>
 
                                                 <div className="mt-5">
                                                     <Link to="/blog" className="btn btn-outline-primary">
@@ -252,11 +287,18 @@ function BlogDetails() {
 
                             {step === 3 &&
                                 <>
+                                    <Helmet>
+                                        <title>Smart IT Services & Digital Marketing Experts</title>
+                                        <meta name="description" content="Grow your business with expert IT solutions and data-driven digital marketing that deliver measurable results." />
+                                        <meta name="keywords" content="Email marketing and SEO for mobile apps, Best web and app development company in Hyderabad, Local SEO for IT service providers, Professional website design company in Kukatpally, Social media marketing for small businesses in Hyderabad, Google Ads management for Hyderabad" />
+
+                                    </Helmet>
+
                                     <section className="blog-details-area pb-5">
                                         <div className="blog__details">
                                             <div className="blog__content">
                                                 <div className="blog__image mb-4 position-relative">
-                                                    <img src="/assets/images/blog/blog-image3.jpg" alt="PixelMind Blog" className="img-fluid rounded w-100" style={{ height: '400px', objectFit: 'cover' }} />
+                                                    <img src="/assets/images/blog/blog-image3.jpg" alt="App development services with SEO optimization" className="img-fluid rounded w-100" style={{ height: '400px', objectFit: 'cover' }} />
                                                     <div className="blog-tag position-absolute top-0 start-0 bg-primary p-2 text-white">
                                                         <h3 className="text-white m-0">15</h3>
                                                         <span className="text-white">Jul</span>
@@ -267,15 +309,22 @@ function BlogDetails() {
                                                     <li><i className="fa-regular fa-comments me-2"></i> 0 Comments</li>
                                                 </ul>
 
-                                                <p className="">Digital innovation is the key to staying competitive in today's business landscape. Companies need more than just a website—they need digital systems that drive efficiency, deliver value, and engage their customers. This is where <strong>PIXELMINDSOLUTIONS</strong> makes a lasting impact.</p>
+                                                <p className=""><em>Digital innovation</em> is the key to staying competitive in today's business landscape. Companies need more than just a website—they need digital systems that drive efficiency, deliver value, and engage their customers. This is where <strong>PIXELMINDSOLUTIONS</strong> makes a lasting impact.</p>
 
                                                 <h3 className="mt-4">The Vision Behind PixelMind</h3>
-                                                <p>At its core, PIXELMINDSOLUTIONS is more than just an IT company—it is a digital transformation partner. The team offers services that assist businesses in navigating and achieving success in the digital age. Their services place a strong emphasis on creativity, technology, and strategy. From concept to execution, PIXELMINDSOLUTIONS supports clients through every phase of their digital journey.</p>
+                                                <p>At its core, <em>PIXELMINDSOLUTIONS</em> is more than just an IT company—it is a digital transformation partner. The team offers 
+                                                <a
+                                                    href="/services"
+                                                    className="text-primary"
+                                                    alt="Pixelmindsolutions"
+                                                >
+                                                    services
+                                                </a> that assist businesses in navigating and achieving success in the digital age. Their services place a strong emphasis on creativity, technology, and strategy. From concept to execution, PIXELMINDSOLUTIONS supports clients through every phase of their digital journey.</p>
 
 
                                                 <h3 className="mt-4 d-flex align-items-center gap-2">
                                                     <FaGem color="#06cabc" size={28} />
-                                                    <span>Core Offerings that Drive Digital Growth</span>
+                                                    <strong>Core Offerings that Drive Digital Growth</strong>
                                                 </h3>
 
                                                 <h4 className="mt-3">Website Development That Converts</h4>
@@ -286,7 +335,13 @@ function BlogDetails() {
                                                     <li className="list-group-item border-0 ps-0">SEO-friendly</li>
                                                     <li className="list-group-item border-0 ps-0">Built using the latest coding standards</li>
                                                 </ul>
-                                                <p>Each website is customized to reflect the client's brand and deliver the best user experience.</p>
+                                                <p>Each <a
+                                                    href="/contact"
+                                                    className="text-primary"
+                                                    alt="Pixelmindsolutions"
+                                                >
+                                                    website is customized
+                                                </a> to reflect the client's brand and deliver the best user experience.</p>
 
                                                 <h4 className="mt-3">End-to-End Mobile App Development</h4>
                                                 <p>Mobile apps are essential in today's smartphone-driven world. PIXELMINDSOLUTIONS crafts high-performance apps using technologies like:</p>
@@ -298,7 +353,14 @@ function BlogDetails() {
                                                 <p>These apps are intuitive, secure, and designed to scale with your business.</p>
 
                                                 <h4 className="mt-3">Digital Marketing That Delivers</h4>
-                                                <p>Marketing in the digital era requires strategy and data. PIXELMINDSOLUTIONS offers:</p>
+                                                <p><a
+                                                        href="https://www.thecolourmoon.com/"
+                                                        className="text-primary"
+                                                        alt="Pixelmindsolutions"
+                                                        target="_blank"
+                                                    >
+                                                        Marketing
+                                                    </a> in the digital era requires strategy and data. PIXELMINDSOLUTIONS offers:</p>
                                                 <ul className="list-group list-group-flush mb-3">
                                                     <li className="list-group-item border-0 ps-0">SEO (Search Engine Optimization), Google Ads, and Paid Campaigns</li>
                                                     <li className="list-group-item border-0 ps-0">Social Media Marketing</li>

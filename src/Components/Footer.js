@@ -39,6 +39,7 @@ function Footer() {
     className="footer__shape-regular-right wow slideInRight"
     data-wow-delay="200ms"
     data-wow-duration="1500ms"
+    
   >
     <img alt="shape" src="/assets/images/shape/footer-solid-right.png" />
   </div>
@@ -76,7 +77,7 @@ function Footer() {
           <a href="#0">
             <i className="fa-brands fa-twitter" />
           </a>
-          <a href="#0">
+          <a target='blank' href="https://www.linkedin.com/company/pixelmindsolutions-pvt-ltd/">
             <i className="fa-brands fa-linkedin-in" />
           </a>
          
