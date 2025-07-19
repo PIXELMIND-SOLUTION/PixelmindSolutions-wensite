@@ -236,21 +236,21 @@ function Header() {
       </li>
       <li>
         <i className="fa-solid primary-color fa-paper-plane" />{" "}
-        <a href="#0">   info@pixelmindsolutions.com</a>
+        <a href="https://mail.google.com/mail/?view=cm&fs=1&to=info@pixelmindsolutions.com" target="_blank">   info@pixelmindsolutions.com</a>
       </li>
     </ul>
     <div className="social-icon mt-20">
-      <a href="#0">
+      <a href="https://www.facebook.com/share/1E6gPK4vhm/" target="_blank">
         <i className="fa-brands fa-facebook-f" />
       </a>
-      <a href="#0">
+      <a href="https://x.com/PIXELMINDS41249" target="_blank">
         <i className="fa-brands fa-twitter" />
       </a>
-      <a href="#0">
+      <a href="https://www.linkedin.com/company/pixelmindsolutions-pvt-ltd/" target="_blank">
         <i className="fa-brands fa-linkedin-in" />
       </a>
-      <a href="#0">
-        <i className="fa-brands fa-youtube" />
+      <a href="https://www.instagram.com/pixelmindsolutions?igsh=ZmQ1c2c0b2twdTd1" target="_blank">
+        <i className="fa-brands fa-instagram" />
       </a>
     </div>
     <button id="closeButton" className="text-white">

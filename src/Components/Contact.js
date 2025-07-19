@@ -138,7 +138,7 @@ function Contact() {
                   <div className="contact__left-item primary-bg">
                     <h3 className="text-white mb-30">Contact Information</h3>
                     <p className="text-white">
-                      Whether you’re looking for a full-scale digital transformation, need help with web or mobile development, or simply want to say hello our team is ready to connect.
+                      Whether you're looking for a full-scale digital transformation, need help with web or mobile development, or simply want to say hello our team is ready to connect.
                     </p>
                     <ul className="mt-40 mb-40">
                       <li>
@@ -172,7 +172,7 @@ function Contact() {
                               <span className="text-white">Location</span>
                               <h3 className="mt-1">
                                 <a className="text-white" href="tel:+2085550112">
-                                  Manjeera trinity corporate. Jntu -Hitich city road kphb phase 1, Kukatpally hyderabad
+                                  Manjeera trinity corporate. Jntu -Hitich city road kphb phase 1, Kukatpally hyderabad
                                 </a>
                               </h3>
                             </div>
@@ -208,9 +208,7 @@ function Contact() {
                             <div>
                               <span className="text-white">Call Us 7/24</span>
                               <h3 className="mt-1">
-                                <a className="text-white" href="tel:+2085550112">
-                                  +91 9052 097 475
-                                </a>
+                                <a href='tel: +91 9052 097 475' className='text-white'> +91 9052097475</a>
                               </h3>
                             </div>
                           </div>
@@ -246,7 +244,7 @@ function Contact() {
                             <div>
                               <span className="text-white">Make a Quote</span>
                               <h3 className="mt-1">
-                                <a className="text-white" href="#0">
+                                <a className="text-white" href="https://mail.google.com/mail/?view=cm&fs=1&to=info@pixelmindsolutions.com" target='_blank'>
                                   info@pixelmindsolutions.com
                                 </a>
                               </h3>
@@ -300,7 +298,7 @@ function Contact() {
                         data-wow-delay="400ms"
                         data-wow-duration="1500ms"
                       >
-                        Whether you’re looking for a full-scale digital transformation, need help with web or mobile development, or simply want to say hello our team is ready to connect.
+                        Whether you're looking for a full-scale digital transformation, need help with web or mobile development, or simply want to say hello our team is ready to connect.
                       </p>
                     </div>
                     <div className="contact__form">
@@ -401,6 +399,27 @@ function Contact() {
             </div>
           </section>
           {/* Contact area end here */}
+          
+          {/* Embedded Map Section */}
+          <section className="map-area pb-80">
+            <div className="container">
+              <div className="row">
+                <div className="col-12">
+                  <div className="map-container">
+                    <iframe 
+                      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d668.7270662045914!2d78.39230197517291!3d17.489051779814673!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb918dab342375%3A0x180a04af0c47f594!2sManjeera%20Trinity%20Corporate!5e1!3m2!1sen!2sin!4v1752847604252!5m2!1sen!2sin" 
+                      width="100%" 
+                      height="450" 
+                      style={{border:0}} 
+                      allowFullScreen="" 
+                      loading="lazy"
+                      title="PixelMind Solutions Location"
+                    ></iframe>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
         </>
         <ToastContainer />
       </main>
