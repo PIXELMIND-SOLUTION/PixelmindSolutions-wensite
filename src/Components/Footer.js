@@ -54,7 +54,7 @@ function Footer() {
               data-wow-duration="1500ms"
             >
               <a className="logo1  mb-30" href="/" data-discover="true">
-                <img src="/assets/images/logo/logo.png" alt="logo" />
+                <img src="/assets/images/logo/logo1.png" alt="logo" />
 
                 {/* <img
             alt="icon"
@@ -139,7 +139,7 @@ function Footer() {
                   <i className="fa-duotone fa-phone" />
                   <div className="info">
                     <h5>Phone Call:</h5>
-                    <a href='tel: +91 9052 097 475'> +91 9052097475</a>
+                    <a href='tel: +91 9666317749'> +91 9666317749</a>
                   </div>
                 </li>
               </ul>

@@ -78,9 +78,9 @@ function Contact() {
         {/* Page banner area start here */}
         <section
           className="banner__inner-page bg-image pt-100 pb-100 bg-image"
-          // data-background="assets/images/banner/banner-inner-page.jpg"
+          // data-background="/assets/images/banner/banner-inner-page.jpg"
           style={{
-            backgroundImage: `url(${"assets/images/banner/banner-inner-page.jpg"})`,
+            backgroundImage: `url(${"/assets/images/banner/banner-inner-page.jpg"})`,
           }}
         >
           <div
@@ -88,14 +88,14 @@ function Contact() {
             data-wow-delay="00ms"
             data-wow-duration="1500ms"
           >
-            <img src="assets/images/banner/inner-banner-shape2.png" alt="shape" />
+            <img src="/assets/images/banner/inner-banner-shape2.png" alt="shape" />
           </div>
           <div
             className="shape1 wow slideInLeft"
             data-wow-delay="200ms"
             data-wow-duration="1500ms"
           >
-            <img src="assets/images/banner/inner-banner-shape1.png" alt="shape" />
+            <img src="/assets/images/banner/inner-banner-shape1.png" alt="shape" />
           </div>
           <div
             className="shape3 wow slideInRight"
@@ -104,7 +104,7 @@ function Contact() {
           >
             <img
               className="sway__animationX"
-              src="assets/images/banner/inner-banner-shape3.png"
+              src="/assets/images/banner/inner-banner-shape3.png"
               alt="shape"
             />
           </div>
@@ -208,7 +208,7 @@ function Contact() {
                             <div>
                               <span className="text-white">Call Us 7/24</span>
                               <h3 className="mt-1">
-                                <a href='tel: +91 9052 097 475' className='text-white'> +91 9052097475</a>
+                                <a href='tel: +91 9666317749' className='text-white'> +91 9666317749</a>
                               </h3>
                             </div>
                           </div>
@@ -271,6 +271,7 @@ function Contact() {
                     </div>
                   </div>
                 </div>
+                
                 <div className="col-lg-6">
                   <div className="contact__right-item">
                     <div className="section-header mb-20">
@@ -281,7 +282,7 @@ function Contact() {
                       >
                         <img
                           className="me-1"
-                          src="assets/images/icon/section-title.png"
+                          src="/assets/images/icon/section-title.png"
                           alt="icon"
                         />
                         GET IN TOUCH

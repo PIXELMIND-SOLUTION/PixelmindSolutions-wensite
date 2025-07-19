@@ -18,9 +18,9 @@ function Services() {
         {/* Page banner area start here */}
         <section
           className="banner__inner-page bg-image pt-100 pb-100 bg-image"
-          // data-background="assets/images/banner/banner-inner-page.jpg"
+          // data-background="/assets/images/banner/banner-inner-page.jpg"
           style={{
-            backgroundImage: `url(${"assets/images/banner/banner-inner-page.jpg"})`,
+            backgroundImage: `url(${"/assets/images/banner/banner-inner-page.jpg"})`,
           }}
         >
           <div
@@ -28,14 +28,14 @@ function Services() {
             data-wow-delay="00ms"
             data-wow-duration="1500ms"
           >
-            <img src="assets/images/banner/inner-banner-shape2.png" alt="shape" />
+            <img src="/assets/images/banner/inner-banner-shape2.png" alt="shape" />
           </div>
           <div
             className="shape1 wow slideInLeft"
             data-wow-delay="200ms"
             data-wow-duration="1500ms"
           >
-            <img src="assets/images/banner/inner-banner-shape1.png" alt="shape" />
+            <img src="/assets/images/banner/inner-banner-shape1.png" alt="shape" />
           </div>
           <div
             className="shape3 wow slideInRight"
@@ -44,7 +44,7 @@ function Services() {
           >
             <img
               className="sway__animationX"
-              src="assets/images/banner/inner-banner-shape3.png"
+              src="/assets/images/banner/inner-banner-shape3.png"
               alt="shape"
             />
           </div>
@@ -77,15 +77,15 @@ function Services() {
               <div className="col-lg-4 col-md-6">
                 <div className="service-two__item">
                   <div className="image">
-                    <img src="assets/images/service/service-image3.jpg" alt="image" />
+                    <img src="/assets/images/service/service-image3.jpg" alt="image" />
                   </div>
                   <div className="service-two__content">
                     <div className="icon">
-                      <img src="assets/images/icon/service-two-icon3.png" alt="icon" />
+                      <img src="/assets/images/icon/service-two-icon3.png" alt="icon" />
                     </div>
                     <div className="shape">
                       <img
-                        src="assets/images/shape/service-two-item-shape.png"
+                        src="/assets/images/shape/service-two-item-shape.png"
                         alt="shape"
                       />
                     </div>
@@ -106,15 +106,15 @@ function Services() {
               {/* <div className="col-lg-4 col-md-6">
         <div className="service-two__item">
           <div className="image">
-            <img src="assets/images/service/service-image4.jpg" alt="image" />
+            <img src="/assets/images/service/service-image4.jpg" alt="image" />
           </div>
           <div className="service-two__content">
             <div className="icon">
-              <img src="assets/images/icon/service-two-icon4.png" alt="icon" />
+              <img src="/assets/images/icon/service-two-icon4.png" alt="icon" />
             </div>
             <div className="shape">
               <img
-                src="assets/images/shape/service-two-item-shape.png"
+                src="/assets/images/shape/service-two-item-shape.png"
                 alt="shape"
               />
             </div>
@@ -136,15 +136,15 @@ function Services() {
               <div className="col-lg-4 col-md-6">
                 <div className="service-two__item">
                   <div className="image">
-                    <img src="assets/images/service/service-image5.jpg" alt="image" />
+                    <img src="/assets/images/service/service-image5.jpg" alt="image" />
                   </div>
                   <div className="service-two__content">
                     <div className="icon">
-                      <img src="assets/images/icon/service-two-icon5.png" alt="icon" />
+                      <img src="/assets/images/icon/service-two-icon5.png" alt="icon" />
                     </div>
                     <div className="shape">
                       <img
-                        src="assets/images/shape/service-two-item-shape.png"
+                        src="/assets/images/shape/service-two-item-shape.png"
                         alt="shape"
                       />
                     </div>
@@ -165,15 +165,15 @@ function Services() {
               <div className="col-lg-4 col-md-6">
                 <div className="service-two__item">
                   <div className="image">
-                    <img src="assets/images/service/service-image6.jpg" alt="image" />
+                    <img src="/assets/images/service/service-image6.jpg" alt="image" />
                   </div>
                   <div className="service-two__content">
                     <div className="icon">
-                      <img src="assets/images/icon/service-two-icon6.png" alt="icon" />
+                      <img src="/assets/images/icon/service-two-icon6.png" alt="icon" />
                     </div>
                     <div className="shape">
                       <img
-                        src="assets/images/shape/service-two-item-shape.png"
+                        src="/assets/images/shape/service-two-item-shape.png"
                         alt="shape"
                       />
                     </div>
@@ -194,15 +194,15 @@ function Services() {
               <div className="col-lg-4 col-md-6">
                 <div className="service-two__item">
                   <div className="image">
-                    <img src="assets/images/service/service-image2.jpg" alt="image" />
+                    <img src="/assets/images/service/service-image2.jpg" alt="image" />
                   </div>
                   <div className="service-two__content">
                     <div className="icon">
-                      <img src="assets/images/icon/service-two-icon2.png" alt="icon" />
+                      <img src="/assets/images/icon/service-two-icon2.png" alt="icon" />
                     </div>
                     <div className="shape">
                       <img
-                        src="assets/images/shape/service-two-item-shape.png"
+                        src="/assets/images/shape/service-two-item-shape.png"
                         alt="shape"
                       />
                     </div>

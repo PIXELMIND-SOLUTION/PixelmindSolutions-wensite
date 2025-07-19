@@ -12,9 +12,9 @@ function Webdevelopment() {
   {/* Page banner area start here */}
   <section
     className="banner__inner-page bg-image pt-100 pb-100 bg-image"
-    // data-background="assets/images/banner/banner-inner-page.jpg"
+    // data-background="/assets/images/banner/banner-inner-page.jpg"
     style={{
-      backgroundImage: `url(${"assets/images/banner/banner-inner-page.jpg"})`,
+      backgroundImage: `url(${"/assets/images/banner/banner-inner-page.jpg"})`,
     }}
   >
     <div
@@ -22,14 +22,14 @@ function Webdevelopment() {
       data-wow-delay="00ms"
       data-wow-duration="1500ms"
     >
-      <img src="assets/images/banner/inner-banner-shape2.png" alt="shape" />
+      <img src="/assets/images/banner/inner-banner-shape2.png" alt="shape" />
     </div>
     <div
       className="shape1 wow slideInLeft"
       data-wow-delay="200ms"
       data-wow-duration="1500ms"
     >
-      <img src="assets/images/banner/inner-banner-shape1.png" alt="shape" />
+      <img src="/assets/images/banner/inner-banner-shape1.png" alt="shape" />
     </div>
     <div
       className="shape3 wow slideInRight"
@@ -38,7 +38,7 @@ function Webdevelopment() {
     >
       <img
         className="sway__animationX"
-        src="assets/images/banner/inner-banner-shape3.png"
+        src="/assets/images/banner/inner-banner-shape3.png"
         alt="shape"
       />
     </div>
@@ -81,7 +81,7 @@ function Webdevelopment() {
                 <div className='col-md-6'>
                 <div className="image mb-50">
             <img
-              src="assets/images/service/service-image6.jpg"
+              src="/assets/images/service/service-image6.jpg"
               alt="image"
             />
            

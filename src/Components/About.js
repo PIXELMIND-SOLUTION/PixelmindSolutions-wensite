@@ -19,9 +19,9 @@ function About() {
   {/* Page banner area start here */}
   <section
     className="banner__inner-page bg-image pt-100 pb-100 bg-image"
-    // data-background="assets/images/banner/banner-inner-page.jpg"
+    // data-background="/assets/images/banner/banner-inner-page.jpg"
     style={{
-      backgroundImage: `url(${"assets/images/banner/banner-inner-page.jpg"})`,
+      backgroundImage: `url(${"/assets/images/banner/banner-inner-page.jpg"})`,
     }}
   >
     <div
@@ -29,14 +29,14 @@ function About() {
       data-wow-delay="00ms"
       data-wow-duration="1500ms"
     >
-      <img src="assets/images/banner/inner-banner-shape2.png" alt="shape" />
+      <img src="/assets/images/banner/inner-banner-shape2.png" alt="shape" />
     </div>
     <div
       className="shape1 wow slideInLeft"
       data-wow-delay="200ms"
       data-wow-duration="1500ms"
     >
-      <img src="assets/images/banner/inner-banner-shape1.png" alt="shape" />
+      <img src="/assets/images/banner/inner-banner-shape1.png" alt="shape" />
     </div>
     <div
       className="shape3 wow slideInRight"
@@ -45,7 +45,7 @@ function About() {
     >
       <img
         className="sway__animationX"
-        src="assets/images/banner/inner-banner-shape3.png"
+        src="/assets/images/banner/inner-banner-shape3.png"
         alt="shape"
       />
     </div>
@@ -72,7 +72,7 @@ function About() {
   </section>
   <section className="about-two-area pt-80">
   <div className="about-two__shape">
-    <img src="assets/images/shape/about-two-shape.png" alt="shape" />
+    <img src="/assets/images/shape/about-two-shape.png" alt="shape" />
   </div>
   <div className="container">
     <div className="row g-4">
@@ -85,27 +85,27 @@ function About() {
           <div className="dots">
             <img
               className="sway_Y__animation"
-              src="assets/images/shape/about-two-dot.png"
+              src="/assets/images/shape/about-two-dot.png"
               alt="shape"
             />
           </div>
           <div className="shape-halper">
             <img
               className="sway__animation"
-              src="assets/images/shape/about-circle-helper.png"
+              src="/assets/images/shape/about-circle-helper.png"
               alt="shape"
             />
           </div>
           <div className="image big-image">
-            <img src="assets/images/about/about-two-image1.jpg" alt="image" />
+            <img src="/assets/images/about/about-two-image1.jpg" alt="image" />
           </div>
           <div className="image sm-image">
-            <img src="assets/images/about/about-two-image2.png" alt="image" />
+            <img src="/assets/images/about/about-two-image2.png" alt="image" />
           </div>
           <div className="circle-shape">
             <img
               className="animation__rotate"
-              src="assets/images/shape/about-two-circle.png"
+              src="/assets/images/shape/about-two-circle.png"
               alt="shape"
             />
           </div>
@@ -120,7 +120,7 @@ function About() {
           >
             <img
               className="me-1"
-              src="assets/images/icon/section-title.png"
+              src="/assets/images/icon/section-title.png"
               alt="icon"
             />
             WHO WE ARE
@@ -174,7 +174,7 @@ function About() {
           <a href="#0" className="btn-one">
             Explore More <i className="fa-regular fa-arrow-right-long" />
           </a>
-          <img src="assets/images/about/singature.png" alt="singature" />
+          <img src="/assets/images/about/singature.png" alt="singature" />
         </div> */}
       </div>
     </div>
@@ -187,7 +187,7 @@ function About() {
               data-wow-duration="1500ms"
             >
               <img
-                src="assets/images/shape/offer-shadow-shape.png"
+                src="/assets/images/shape/offer-shadow-shape.png"
                 alt="shadow"
               />
             </div>
@@ -196,7 +196,7 @@ function About() {
                 className="wow fadeInUpBig"
                 data-wow-delay="400ms"
                 data-wow-duration="1500ms"
-                src="assets/images/shape/offer-bg-shape-left.png"
+                src="/assets/images/shape/offer-bg-shape-left.png"
                 alt="shape"
               />
             </div>
@@ -205,7 +205,7 @@ function About() {
                 className="wow fadeInDownBig"
                 data-wow-delay="400ms"
                 data-wow-duration="1500ms"
-                src="assets/images/shape/offer-bg-shape-right.png"
+                src="/assets/images/shape/offer-bg-shape-right.png"
                 alt="shape"
               />
             </div>
@@ -219,7 +219,7 @@ function About() {
                   >
                     <img
                       className="me-1"
-                      src="assets/images/icon/section-title.png"
+                      src="/assets/images/icon/section-title.png"
                       alt="icon"
                     />
                     Our offering
@@ -250,13 +250,13 @@ function About() {
                   <div className="offer__item">
                     <div className="shape-top">
                       <img
-                        src="assets/images/shape/offter-item-shape-top.png"
+                        src="/assets/images/shape/offter-item-shape-top.png"
                         alt="shape"
                       />
                     </div>
                     <div className="shape-bottom">
                       <img
-                        src="assets/images/shape/offter-item-shape-bottom.png"
+                        src="/assets/images/shape/offter-item-shape-bottom.png"
                         alt="shape"
                       />
                     </div>
@@ -285,13 +285,13 @@ function About() {
                   <div className="offer__item">
                     <div className="shape-top">
                       <img
-                        src="assets/images/shape/offter-item-shape-top.png"
+                        src="/assets/images/shape/offter-item-shape-top.png"
                         alt="shape"
                       />
                     </div>
                     <div className="shape-bottom">
                       <img
-                        src="assets/images/shape/offter-item-shape-bottom.png"
+                        src="/assets/images/shape/offter-item-shape-bottom.png"
                         alt="shape"
                       />
                     </div>
@@ -324,13 +324,13 @@ function About() {
                   <div className="offer__item">
                     <div className="shape-top">
                       <img
-                        src="assets/images/shape/offter-item-shape-top.png"
+                        src="/assets/images/shape/offter-item-shape-top.png"
                         alt="shape"
                       />
                     </div>
                     <div className="shape-bottom">
                       <img
-                        src="assets/images/shape/offter-item-shape-bottom.png"
+                        src="/assets/images/shape/offter-item-shape-bottom.png"
                         alt="shape"
                       />
                     </div>
@@ -370,13 +370,13 @@ function About() {
                   <div className="offer__item">
                     <div className="shape-top">
                       <img
-                        src="assets/images/shape/offter-item-shape-top.png"
+                        src="/assets/images/shape/offter-item-shape-top.png"
                         alt="shape"
                       />
                     </div>
                     <div className="shape-bottom">
                       <img
-                        src="assets/images/shape/offter-item-shape-bottom.png"
+                        src="/assets/images/shape/offter-item-shape-bottom.png"
                         alt="shape"
                       />
                     </div>
@@ -421,13 +421,13 @@ function About() {
                   <div className="offer__item">
                     <div className="shape-top">
                       <img
-                        src="assets/images/shape/offter-item-shape-top.png"
+                        src="/assets/images/shape/offter-item-shape-top.png"
                         alt="shape"
                       />
                     </div>
                     <div className="shape-bottom">
                       <img
-                        src="assets/images/shape/offter-item-shape-bottom.png"
+                        src="/assets/images/shape/offter-item-shape-bottom.png"
                         alt="shape"
                       />
                     </div>
@@ -471,13 +471,13 @@ function About() {
                   <div className="offer__item">
                     <div className="shape-top">
                       <img
-                        src="assets/images/shape/offter-item-shape-top.png"
+                        src="/assets/images/shape/offter-item-shape-top.png"
                         alt="shape"
                       />
                     </div>
                     <div className="shape-bottom">
                       <img
-                        src="assets/images/shape/offter-item-shape-bottom.png"
+                        src="/assets/images/shape/offter-item-shape-bottom.png"
                         alt="shape"
                       />
                     </div>
@@ -515,7 +515,7 @@ function About() {
                 >
                   <img
                     className="me-1"
-                    src="assets/images/icon/section-title.png"
+                    src="/assets/images/icon/section-title.png"
                     alt="icon"
                   />
                   Work Process
@@ -537,13 +537,13 @@ function About() {
                   <div className="process__item mb-100">
                     <div className="process-arry bobble__animation">
                       <img
-                        src="assets/images/process/process-arry.png"
+                        src="/assets/images/process/process-arry.png"
                         alt="arry-icon"
                       />
                     </div>
                     <div className="process__image">
                       <img
-                        src="assets/images/process/process-image1.png"
+                        src="/assets/images/process/process-image1.png"
                         alt="image"
                       />
                       <span className="process-number">1</span>
@@ -566,13 +566,13 @@ function About() {
                   <div className="process__item mb-100">
                     <div className="process-arry bobble__animation">
                       <img
-                        src="assets/images/process/process-arry.png"
+                        src="/assets/images/process/process-arry.png"
                         alt="arry-icon"
                       />
                     </div>
                     <div className="process__image">
                       <img
-                        src="assets/images/process/process-image2.png"
+                        src="/assets/images/process/process-image2.png"
                         alt="image"
                       />
                       <span className="process-number">2</span>
@@ -595,7 +595,7 @@ function About() {
                   <div className="process__item">
                     <div className="process__image">
                       <img
-                        src="assets/images/process/process-image3.png"
+                        src="/assets/images/process/process-image3.png"
                         alt="image"
                       />
                       <span className="process-number">3</span>

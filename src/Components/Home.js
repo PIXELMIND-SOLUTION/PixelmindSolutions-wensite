@@ -37,7 +37,7 @@ function Home() {
             <div className="banner__line">
               <img
                 className="sway__animation"
-                src="assets/images/banner/banner-line.png"
+                src="/assets/images/banner/banner-line.png"
                 alt="shape"
               />
             </div>
@@ -52,7 +52,7 @@ function Home() {
                     className="banner__shape-left2"
                   >
                     <img
-                      src="assets/images/banner/banner-regular-left-shape.png"
+                      src="/assets/images/banner/banner-regular-left-shape.png"
                       alt="shape"
                     />
                   </div>
@@ -63,14 +63,14 @@ function Home() {
                     className="banner__shape-left1"
                   >
                     <img
-                      src="assets/images/banner/banner-solid-left-shape.png"
+                      src="/assets/images/banner/banner-solid-left-shape.png"
                       alt="shape"
                     />
                   </div>
                   <div className="banner__shape-left3 wow slideInLeft">
                     <img
                       className="sway__animation"
-                      src="assets/images/banner/banner-shape-left.png"
+                      src="/assets/images/banner/banner-shape-left.png"
                       alt="shape"
                     />
                   </div>
@@ -81,7 +81,7 @@ function Home() {
                     data-delay=".3s"
                   >
                     <img
-                      src="assets/images/banner/banner-shape-right-line.png"
+                      src="/assets/images/banner/banner-shape-right-line.png"
                       alt="shape"
                     />
                   </div>
@@ -92,7 +92,7 @@ function Home() {
                     data-delay=".3s"
                   >
                     <img
-                      src="assets/images/banner/banner-shape-right.png"
+                      src="/assets/images/banner/banner-shape-right.png"
                       alt="shape"
                     />
                   </div>
@@ -103,7 +103,7 @@ function Home() {
                     data-delay=".9s"
                   >
                     <img
-                      src="assets/images/banner/banner-right-line1.png"
+                      src="/assets/images/banner/banner-right-line1.png"
                       alt="shape"
                     />
                   </div>
@@ -114,7 +114,7 @@ function Home() {
                     data-delay=".7s"
                   >
                     <img
-                      src="assets/images/banner/banner-right-line2.png"
+                      src="/assets/images/banner/banner-right-line2.png"
                       alt="shape"
                     />
                   </div>
@@ -125,7 +125,7 @@ function Home() {
                     data-delay=".5s"
                   >
                     <img
-                      src="assets/images/banner/banner-right-line3.png"
+                      src="/assets/images/banner/banner-right-line3.png"
                       alt="shape"
                     />
                   </div>
@@ -136,16 +136,16 @@ function Home() {
                     data-delay=".3s"
                   >
                     <img
-                      src="assets/images/banner/banner-right-line4.png"
+                      src="/assets/images/banner/banner-right-line4.png"
                       alt="shape"
                     />
                   </div>
                   <div
                     className="slide-bg"
                     style={{
-                      backgroundImage: `url(${"assets/images/banner/banner-image.jpg"})`,
+                      backgroundImage: `url(${"/assets/images/banner/banner-image.jpg"})`,
                     }}
-                  //   data-background="assets/images/banner/banner-image.jpg"
+                  //   data-background="/assets/images/banner/banner-image.jpg"
                   />
                   <div className="container">
                     <div className="banner__content">
@@ -223,7 +223,7 @@ function Home() {
                     className="banner__shape-left2"
                   >
                     <img
-                      src="assets/images/banner/banner-regular-left-shape.png"
+                      src="/assets/images/banner/banner-regular-left-shape.png"
                       alt="shape"
                     />
                   </div>
@@ -234,14 +234,14 @@ function Home() {
                     className="banner__shape-left1"
                   >
                     <img
-                      src="assets/images/banner/banner-solid-left-shape.png"
+                      src="/assets/images/banner/banner-solid-left-shape.png"
                       alt="shape"
                     />
                   </div>
                   <div className="banner__shape-left3 wow slideInLeft">
                     <img
                       className="sway__animation"
-                      src="assets/images/banner/banner-shape-left.png"
+                      src="/assets/images/banner/banner-shape-left.png"
                       alt="shape"
                     />
                   </div>
@@ -252,7 +252,7 @@ function Home() {
                     data-delay=".3s"
                   >
                     <img
-                      src="assets/images/banner/banner-shape-right-line.png"
+                      src="/assets/images/banner/banner-shape-right-line.png"
                       alt="shape"
                     />
                   </div>
@@ -263,7 +263,7 @@ function Home() {
                     data-delay=".3s"
                   >
                     <img
-                      src="assets/images/banner/banner-shape-right.png"
+                      src="/assets/images/banner/banner-shape-right.png"
                       alt="shape"
                     />
                   </div>
@@ -274,7 +274,7 @@ function Home() {
                     data-delay=".9s"
                   >
                     <img
-                      src="assets/images/banner/banner-right-line1.png"
+                      src="/assets/images/banner/banner-right-line1.png"
                       alt="shape"
                     />
                   </div>
@@ -285,7 +285,7 @@ function Home() {
                     data-delay=".7s"
                   >
                     <img
-                      src="assets/images/banner/banner-right-line2.png"
+                      src="/assets/images/banner/banner-right-line2.png"
                       alt="shape"
                     />
                   </div>
@@ -296,7 +296,7 @@ function Home() {
                     data-delay=".5s"
                   >
                     <img
-                      src="assets/images/banner/banner-right-line3.png"
+                      src="/assets/images/banner/banner-right-line3.png"
                       alt="shape"
                     />
                   </div>
@@ -307,13 +307,13 @@ function Home() {
                     data-delay=".3s"
                   >
                     <img
-                      src="assets/images/banner/banner-right-line4.png"
+                      src="/assets/images/banner/banner-right-line4.png"
                       alt="shape"
                     />
                   </div>
                   <div
                     className="slide-bg"
-                    data-background="assets/images/banner/banner-image2.jpg"
+                    data-background="/assets/images/banner/banner-image2.jpg"
                   />
                   <div className="container">
                     <div className="banner__content">
@@ -391,7 +391,7 @@ function Home() {
                     className="banner__shape-left2"
                   >
                     <img
-                      src="assets/images/banner/banner-regular-left-shape.png"
+                      src="/assets/images/banner/banner-regular-left-shape.png"
                       alt="shape"
                     />
                   </div>
@@ -402,14 +402,14 @@ function Home() {
                     className="banner__shape-left1"
                   >
                     <img
-                      src="assets/images/banner/banner-solid-left-shape.png"
+                      src="/assets/images/banner/banner-solid-left-shape.png"
                       alt="shape"
                     />
                   </div>
                   <div className="banner__shape-left3 wow slideInLeft">
                     <img
                       className="sway__animation"
-                      src="assets/images/banner/banner-shape-left.png"
+                      src="/assets/images/banner/banner-shape-left.png"
                       alt="shape"
                     />
                   </div>
@@ -420,7 +420,7 @@ function Home() {
                     data-delay=".3s"
                   >
                     <img
-                      src="assets/images/banner/banner-shape-right-line.png"
+                      src="/assets/images/banner/banner-shape-right-line.png"
                       alt="shape"
                     />
                   </div>
@@ -431,7 +431,7 @@ function Home() {
                     data-delay=".3s"
                   >
                     <img
-                      src="assets/images/banner/banner-shape-right.png"
+                      src="/assets/images/banner/banner-shape-right.png"
                       alt="shape"
                     />
                   </div>
@@ -442,7 +442,7 @@ function Home() {
                     data-delay=".9s"
                   >
                     <img
-                      src="assets/images/banner/banner-right-line1.png"
+                      src="/assets/images/banner/banner-right-line1.png"
                       alt="shape"
                     />
                   </div>
@@ -453,7 +453,7 @@ function Home() {
                     data-delay=".7s"
                   >
                     <img
-                      src="assets/images/banner/banner-right-line2.png"
+                      src="/assets/images/banner/banner-right-line2.png"
                       alt="shape"
                     />
                   </div>
@@ -464,7 +464,7 @@ function Home() {
                     data-delay=".5s"
                   >
                     <img
-                      src="assets/images/banner/banner-right-line3.png"
+                      src="/assets/images/banner/banner-right-line3.png"
                       alt="shape"
                     />
                   </div>
@@ -475,13 +475,13 @@ function Home() {
                     data-delay=".3s"
                   >
                     <img
-                      src="assets/images/banner/banner-right-line4.png"
+                      src="/assets/images/banner/banner-right-line4.png"
                       alt="shape"
                     />
                   </div>
                   <div
                     className="slide-bg"
-                    data-background="assets/images/banner/banner-image3.jpg"
+                    data-background="/assets/images/banner/banner-image3.jpg"
                   />
                   <div className="container">
                     <div className="banner__content">
@@ -564,7 +564,7 @@ function Home() {
             <div className="service__shape wow slideInRight">
               <img
                 className="sway_Y__animation"
-                src="assets/images/shape/service-bg-shape.png"
+                src="/assets/images/shape/service-bg-shape.png"
                 alt="shape"
               />
             </div>
@@ -578,7 +578,7 @@ function Home() {
                   >
                     <img
                       className="me-1"
-                      src="assets/images/icon/section-title.png"
+                      src="/assets/images/icon/section-title.png"
                       alt="icon"
                     />
                     What We OFFER
@@ -610,13 +610,13 @@ function Home() {
                   <div className="service__item">
                     <div className="service-shape">
                       <img
-                        src="assets/images/shape/service-item-shape.png"
+                        src="/assets/images/shape/service-item-shape.png"
                         alt="shape"
                       />
                     </div>
                     <div className="service__icon">
                       <img
-                        src="assets/images/icon/service-icon1.png"
+                        src="/assets/images/icon/service-icon1.png"
                         alt="icon"
                       />
                     </div>
@@ -638,13 +638,13 @@ function Home() {
                   <div className="service__item active">
                     <div className="service-shape">
                       <img
-                        src="assets/images/shape/service-item-shape.png"
+                        src="/assets/images/shape/service-item-shape.png"
                         alt="shape"
                       />
                     </div>
                     <div className="service__icon">
                       <img
-                        src="assets/images/icon/service-icon2.png"
+                        src="/assets/images/icon/service-icon2.png"
                         alt="icon"
                       />
                     </div>
@@ -665,13 +665,13 @@ function Home() {
                   <div className="service__item">
                     <div className="service-shape">
                       <img
-                        src="assets/images/shape/service-item-shape.png"
+                        src="/assets/images/shape/service-item-shape.png"
                         alt="shape"
                       />
                     </div>
                     <div className="service__icon">
                       <img
-                        src="assets/images/icon/service-icon3.png"
+                        src="/assets/images/icon/service-icon3.png"
                         alt="icon"
                       />
                     </div>
@@ -696,7 +696,7 @@ function Home() {
               data-wow-delay="400ms"
               data-wow-duration="1500ms"
             >
-              <img src="assets/images/shape/about-line.png" alt="shape" />
+              <img src="/assets/images/shape/about-line.png" alt="shape" />
             </div>
             <div className="container">
               <div className="row g-4">
@@ -708,7 +708,7 @@ function Home() {
                   <div className="about__left-item">
                     <div className="image big-image">
                       <img
-                        src="assets/images/about/about-image1.jpg"
+                        src="/assets/images/about/about-image1.jpg"
                         alt="image"
                       />
                     </div>
@@ -724,13 +724,13 @@ function Home() {
                         </div>
                       </div> */}
                       <img
-                        src="assets/images/about/about-image2.png"
+                        src="/assets/images/about/about-image2.png"
                         alt="image"
                       />
                     </div>
                     <div className="circle-shape">
                       <img
-                        src="assets/images/shape/about-circle.png"
+                        src="/assets/images/shape/about-circle.png"
                         alt="shape"
                       />
                     </div>
@@ -745,7 +745,7 @@ function Home() {
                     >
                       <img
                         className="me-1"
-                        src="assets/images/icon/section-title.png"
+                        src="/assets/images/icon/section-title.png"
                         alt="icon"
                       />
                       ABOUT Pixelmind Solutions
@@ -780,7 +780,7 @@ function Home() {
                       <div className="about__right-item">
                         <div className="icon">
                           <img
-                            src="assets/images/icon/about-icon1.png"
+                            src="/assets/images/icon/about-icon1.png"
                             alt="icon"
                           />
                         </div>
@@ -794,7 +794,7 @@ function Home() {
                       <div className="about__right-item">
                         <div className="icon">
                           <img
-                            src="assets/images/icon/about-icon2.png"
+                            src="/assets/images/icon/about-icon2.png"
                             alt="icon"
                           />
                         </div>
@@ -816,7 +816,7 @@ function Home() {
                     </Link>
                     {/* <div className="d-flex gap-2 align-items-center">
                       <img
-                        src="assets/images/about/about-info.png"
+                        src="/assets/images/about/about-info.png"
                         alt="image"
                       />
                       <div className="info">
@@ -840,7 +840,7 @@ function Home() {
                   data-wow-duration="1500ms"
                 >
                   <img
-                    src="assets/images/shape/counnter-bg-shape.png"
+                    src="/assets/images/shape/counnter-bg-shape.png"
                     alt="shape"
                   />
                 </div>
@@ -849,7 +849,7 @@ function Home() {
                   data-wow-delay="00ms"
                   data-wow-duration="1000ms"
                 >
-                  <img src="assets/images/icon/counter-icon1.png" alt="icon" />
+                  <img src="/assets/images/icon/counter-icon1.png" alt="icon" />
                   <div className="content">
                     <h3>
                       <span className="count">499</span>+
@@ -862,7 +862,7 @@ function Home() {
                   data-wow-delay="200ms"
                   data-wow-duration="1000ms"
                 >
-                  <img src="assets/images/icon/counter-icon2.png" alt="icon" />
+                  <img src="/assets/images/icon/counter-icon2.png" alt="icon" />
                   <div className="content">
                     <h3>
                       <span className="count">25</span>+
@@ -875,7 +875,7 @@ function Home() {
                   data-wow-delay="400ms"
                   data-wow-duration="1000ms"
                 >
-                  <img src="assets/images/icon/counter-icon3.png" alt="icon" />
+                  <img src="/assets/images/icon/counter-icon3.png" alt="icon" />
                   <div className="content">
                     <h3>
                       <span className="count">50</span>+
@@ -888,7 +888,7 @@ function Home() {
                   data-wow-delay="800ms"
                   data-wow-duration="1000ms"
                 >
-                  <img src="assets/images/icon/counter-icon4.png" alt="icon" />
+                  <img src="/assets/images/icon/counter-icon4.png" alt="icon" />
                   <div className="content">
                     <h3>
                       <span className="count">30</span>+
@@ -912,7 +912,7 @@ function Home() {
                   >
                     <img
                       className="me-1"
-                      src="assets/images/icon/section-title.png"
+                      src="/assets/images/icon/section-title.png"
                       alt="icon"
                     />
                     FROM OUR CASE studies
@@ -941,7 +941,7 @@ function Home() {
                   <div className="case__item">
                     <div className="image case__image">
                       <img
-                        src="assets/images/case/case-image1.jpg"
+                        src="/assets/images/case/case-image1.jpg"
                         alt="image"
                       />
                     </div>
@@ -965,7 +965,7 @@ function Home() {
                   <div className="case__item">
                     <div className="image case__image">
                       <img
-                        src="assets/images/case/case-image2.jpg"
+                        src="/assets/images/case/case-image2.jpg"
                         alt="image"
                       />
                     </div>
@@ -989,7 +989,7 @@ function Home() {
                   <div className="case__item">
                     <div className="image case__image">
                       <img
-                        src="assets/images/case/case-image3.jpg"
+                        src="/assets/images/case/case-image3.jpg"
                         alt="image"
                       />
                     </div>
@@ -1013,7 +1013,7 @@ function Home() {
                   <div className="case__item">
                     <div className="image case__image">
                       <img
-                        src="assets/images/case/case-image4.jpg"
+                        src="/assets/images/case/case-image4.jpg"
                         alt="image"
                       />
                     </div>
@@ -1052,7 +1052,7 @@ function Home() {
               data-wow-duration="1500ms"
             >
               <img
-                src="assets/images/shape/offer-shadow-shape.png"
+                src="/assets/images/shape/offer-shadow-shape.png"
                 alt="shadow"
               />
             </div>
@@ -1061,7 +1061,7 @@ function Home() {
                 className="wow fadeInUpBig"
                 data-wow-delay="400ms"
                 data-wow-duration="1500ms"
-                src="assets/images/shape/offer-bg-shape-left.png"
+                src="/assets/images/shape/offer-bg-shape-left.png"
                 alt="shape"
               />
             </div>
@@ -1070,7 +1070,7 @@ function Home() {
                 className="wow fadeInDownBig"
                 data-wow-delay="400ms"
                 data-wow-duration="1500ms"
-                src="assets/images/shape/offer-bg-shape-right.png"
+                src="/assets/images/shape/offer-bg-shape-right.png"
                 alt="shape"
               />
             </div>
@@ -1084,7 +1084,7 @@ function Home() {
                   >
                     <img
                       className="me-1"
-                      src="assets/images/icon/section-title.png"
+                      src="/assets/images/icon/section-title.png"
                       alt="icon"
                     />
                     Our offering
@@ -1115,13 +1115,13 @@ function Home() {
                   <div className="offer__item">
                     <div className="shape-top">
                       <img
-                        src="assets/images/shape/offter-item-shape-top.png"
+                        src="/assets/images/shape/offter-item-shape-top.png"
                         alt="shape"
                       />
                     </div>
                     <div className="shape-bottom">
                       <img
-                        src="assets/images/shape/offter-item-shape-bottom.png"
+                        src="/assets/images/shape/offter-item-shape-bottom.png"
                         alt="shape"
                       />
                     </div>
@@ -1150,13 +1150,13 @@ function Home() {
                   <div className="offer__item">
                     <div className="shape-top">
                       <img
-                        src="assets/images/shape/offter-item-shape-top.png"
+                        src="/assets/images/shape/offter-item-shape-top.png"
                         alt="shape"
                       />
                     </div>
                     <div className="shape-bottom">
                       <img
-                        src="assets/images/shape/offter-item-shape-bottom.png"
+                        src="/assets/images/shape/offter-item-shape-bottom.png"
                         alt="shape"
                       />
                     </div>
@@ -1189,13 +1189,13 @@ function Home() {
                   <div className="offer__item">
                     <div className="shape-top">
                       <img
-                        src="assets/images/shape/offter-item-shape-top.png"
+                        src="/assets/images/shape/offter-item-shape-top.png"
                         alt="shape"
                       />
                     </div>
                     <div className="shape-bottom">
                       <img
-                        src="assets/images/shape/offter-item-shape-bottom.png"
+                        src="/assets/images/shape/offter-item-shape-bottom.png"
                         alt="shape"
                       />
                     </div>
@@ -1235,13 +1235,13 @@ function Home() {
                   <div className="offer__item">
                     <div className="shape-top">
                       <img
-                        src="assets/images/shape/offter-item-shape-top.png"
+                        src="/assets/images/shape/offter-item-shape-top.png"
                         alt="shape"
                       />
                     </div>
                     <div className="shape-bottom">
                       <img
-                        src="assets/images/shape/offter-item-shape-bottom.png"
+                        src="/assets/images/shape/offter-item-shape-bottom.png"
                         alt="shape"
                       />
                     </div>
@@ -1286,13 +1286,13 @@ function Home() {
                   <div className="offer__item">
                     <div className="shape-top">
                       <img
-                        src="assets/images/shape/offter-item-shape-top.png"
+                        src="/assets/images/shape/offter-item-shape-top.png"
                         alt="shape"
                       />
                     </div>
                     <div className="shape-bottom">
                       <img
-                        src="assets/images/shape/offter-item-shape-bottom.png"
+                        src="/assets/images/shape/offter-item-shape-bottom.png"
                         alt="shape"
                       />
                     </div>
@@ -1336,13 +1336,13 @@ function Home() {
                   <div className="offer__item">
                     <div className="shape-top">
                       <img
-                        src="assets/images/shape/offter-item-shape-top.png"
+                        src="/assets/images/shape/offter-item-shape-top.png"
                         alt="shape"
                       />
                     </div>
                     <div className="shape-bottom">
                       <img
-                        src="assets/images/shape/offter-item-shape-bottom.png"
+                        src="/assets/images/shape/offter-item-shape-bottom.png"
                         alt="shape"
                       />
                     </div>
@@ -1376,14 +1376,14 @@ function Home() {
             <div className="container">
               <div className="brand__wrp">
                 <div className="brand__shape">
-                  <img src="assets/images/shape/brand-shape.png" alt="" />
+                  <img src="/assets/images/shape/brand-shape.png" alt="" />
                 </div>
                 <div className="swiper brand__slider">
                   <div className="swiper-wrapper">
                     <div className="swiper-slide">
                       <div className="brand__image image">
                         <img
-                          src="assets/images/brand/brand-image1.png"
+                          src="/assets/images/brand/brand-image1.png"
                           alt="image"
                         />
                       </div>
@@ -1391,7 +1391,7 @@ function Home() {
                     <div className="swiper-slide">
                       <div className="brand__image image">
                         <img
-                          src="assets/images/brand/brand-image2.png"
+                          src="/assets/images/brand/brand-image2.png"
                           alt="image"
                         />
                       </div>
@@ -1399,7 +1399,7 @@ function Home() {
                     <div className="swiper-slide">
                       <div className="brand__image image">
                         <img
-                          src="assets/images/brand/brand-image3.png"
+                          src="/assets/images/brand/brand-image3.png"
                           alt="image"
                         />
                       </div>
@@ -1407,7 +1407,7 @@ function Home() {
                     <div className="swiper-slide">
                       <div className="brand__image image">
                         <img
-                          src="assets/images/brand/brand-image4.png"
+                          src="/assets/images/brand/brand-image4.png"
                           alt="image"
                         />
                       </div>
@@ -1415,7 +1415,7 @@ function Home() {
                     <div className="swiper-slide">
                       <div className="brand__image image">
                         <img
-                          src="assets/images/brand/brand-image5.png"
+                          src="/assets/images/brand/brand-image5.png"
                           alt="image"
                         />
                       </div>
@@ -1437,7 +1437,7 @@ function Home() {
                 >
                   <img
                     className="me-1"
-                    src="assets/images/icon/section-title.png"
+                    src="/assets/images/icon/section-title.png"
                     alt="icon"
                   />
                   Work Process
@@ -1459,13 +1459,13 @@ function Home() {
                   <div className="process__item mb-100">
                     <div className="process-arry bobble__animation">
                       <img
-                        src="assets/images/process/process-arry.png"
+                        src="/assets/images/process/process-arry.png"
                         alt="arry-icon"
                       />
                     </div>
                     <div className="process__image">
                       <img
-                        src="assets/images/process/process-image1.png"
+                        src="/assets/images/process/process-image1.png"
                         alt="image"
                       />
                       <span className="process-number">1</span>
@@ -1488,13 +1488,13 @@ function Home() {
                   <div className="process__item mb-100">
                     <div className="process-arry bobble__animation">
                       <img
-                        src="assets/images/process/process-arry.png"
+                        src="/assets/images/process/process-arry.png"
                         alt="arry-icon"
                       />
                     </div>
                     <div className="process__image">
                       <img
-                        src="assets/images/process/process-image2.png"
+                        src="/assets/images/process/process-image2.png"
                         alt="image"
                       />
                       <span className="process-number">2</span>
@@ -1517,7 +1517,7 @@ function Home() {
                   <div className="process__item">
                     <div className="process__image">
                       <img
-                        src="assets/images/process/process-image3.png"
+                        src="/assets/images/process/process-image3.png"
                         alt="image"
                       />
                       <span className="process-number">3</span>
@@ -1550,7 +1550,7 @@ function Home() {
                 >
                   <img
                     className="me-1"
-                    src="assets/images/icon/section-title.png"
+                    src="/assets/images/icon/section-title.png"
                     alt="icon"
                   />
                   Blog &amp; news
@@ -1575,7 +1575,7 @@ function Home() {
                       className="blog__image d-block image"
                     >
                       <img
-                        src="assets/images/blog/blog-image1.jpg"
+                        src="/assets/images/blog/blog-image1.jpg"
                         alt="image"
                       />
                       <div className="blog-tag">
@@ -1667,7 +1667,7 @@ function Home() {
                       className="blog__image image d-block"
                     >
                       <img
-                        src="assets/images/blog/blog-image2.jpg"
+                        src="/assets/images/blog/blog-image2.jpg"
                         alt="image"
                       />
                       <div className="blog-tag">
@@ -1759,7 +1759,7 @@ function Home() {
                       className="blog__image image d-block"
                     >
                       <img
-                        src="assets/images/blog/blog-image3.jpg"
+                        src="/assets/images/blog/blog-image3.jpg"
                         alt="image"
                       />
                       <div className="blog-tag">

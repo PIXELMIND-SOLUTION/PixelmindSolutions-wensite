@@ -92,7 +92,7 @@ function Header() {
               </defs>
             </svg>
             <a href="#0" className="ms-1">
-              +91 9052 097 475
+              +91 9666317749
             </a>
           </li>
         </ul>
@@ -128,8 +128,8 @@ function Header() {
     <div className="container header__container">
       <div className="header__main">
           <Link to="/" className="logo1">
-          <img src="/assets/images/logo/logo.png" alt="logo" />
-    {/* <img style={{width:"50px"}} src="assets/images/icon/counter-icon3.png" alt="icon" />
+          <img src="/assets/images/logo/logo1.png" alt="logo" />
+    {/* <img style={{width:"50px"}} src="/assets/images/icon/counter-icon3.png" alt="icon" />
     <h2 className="text-white">pixelmind</h2> */}
   </Link>
         <div className="main-menu">
@@ -176,10 +176,10 @@ function Header() {
   <div id="targetElement" className="sidebar-area sidebar__hide">
     <div className="sidebar__overlay" />
     {/* <Link to="/" className="logo mb-40">
-      <img src="assets/images/logo/logo.svg" alt="logo" />
+      <img src="/assets/images/logo/logo.svg" alt="logo" />
     </Link> */}
     <Link to="/" className="logo1  mb-40">
-    <img style={{width:"50px"}} src="assets/images/icon/counter-icon3.png" alt="icon" />
+    <img style={{width:"50px"}} src="/assets/images/icon/counter-icon3.png" alt="icon" />
     <h2 className="text-white">pixelmind</h2>
   </Link>
     <div className="sidebar__search mb-30">
@@ -187,7 +187,7 @@ function Header() {
       <i className="fa-regular fa-magnifying-glass" /> */}
        <div className="">
         {/* <Link to="/" className="logo">
-          <img src="assets/images/logo/logo-light.svg" alt="logo" />
+          <img src="/assets/images/logo/logo-light.svg" alt="logo" />
         </Link> */}
         <div className="main-menu">
           <nav className="">
@@ -232,7 +232,7 @@ function Header() {
    
       <li className="py-2">
         <i className="fa-solid primary-color fa-phone-volume" />{" "}
-        <a href="tel: +91 9052 097 475"> +91 9052 097 475</a>
+        <a href="tel: +91 9666317749"> +91 9666317749</a>
       </li>
       <li>
         <i className="fa-solid primary-color fa-paper-plane" />{" "}

@@ -74,9 +74,9 @@ function Contactform() {
             <section
                 className="testimonial-area bg-image pt-60 pb-60"
                 style={{
-                    backgroundImage: `url(${"assets/images/bg/testimonial-bg.png"})`,
+                    backgroundImage: `url(${"/assets/images/bg/testimonial-bg.png"})`,
                 }}
-            // data-background="assets/images/bg/testimonial-bg.png"
+            // data-background="/assets/images/bg/testimonial-bg.png"
             >
                 <div className="container">
                     <div className="row g-4">
@@ -212,7 +212,7 @@ function Contactform() {
                                 >
                                     <img
                                         className="me-1"
-                                        src="assets/images/icon/section-title.png"
+                                        src="/assets/images/icon/section-title.png"
                                         alt="icon"
                                     />
                                     CLIENTS REVIEW
@@ -255,7 +255,7 @@ function Contactform() {
                                             </svg>
                                             <div className="d-flex align-items-center gap-3">
                                                 <img
-                                                    src="assets/images/testimonial/testimonial-image1.png"
+                                                    src="/assets/images/testimonial/testimonial-image1.png"
                                                     alt="image"
                                                 />
                                                 <div className="testi-info">
@@ -292,7 +292,7 @@ function Contactform() {
                                             </svg>
                                             <div className="d-flex align-items-center gap-3">
                                                 <img
-                                                    src="assets/images/testimonial/testimonial-image2.png"
+                                                    src="/assets/images/testimonial/testimonial-image2.png"
                                                     alt="image"
                                                 />
                                                 <div className="testi-info">
