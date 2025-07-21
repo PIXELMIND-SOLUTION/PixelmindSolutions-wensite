@@ -12,6 +12,8 @@ import Digitalmarketing from './Components/Digitalmarketing';
 import Contactdata from './Components/Contactdata';
 import Blog from './Components/Blogs';
 import BlogDetails from './Components/blogDetail';
+import 'bootstrap-icons/font/bootstrap-icons.css';
+
 
 function App() {
   return (
