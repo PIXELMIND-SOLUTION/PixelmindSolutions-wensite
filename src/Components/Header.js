@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Link } from 'react-router-dom'
 
-
 function Header() {
     const [sticky, setSticky] = useState("");
     useEffect(() => {
@@ -274,6 +273,18 @@ function Header() {
         </form>
       </div>
     </div>
+  </div>
+
+  {/* WhatsApp floating button */}
+  <div className="whatsapp-float">
+    <a 
+      href="https://wa.me/9052097475" 
+      target="_blank" 
+      rel="noopener noreferrer"
+      className="whatsapp-link"
+    >
+      <i className="fa-brands fa-whatsapp whatsapp-icon"></i>
+    </a>
   </div>
     </div>
   )
