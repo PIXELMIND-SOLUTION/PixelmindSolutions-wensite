@@ -96,10 +96,12 @@ function BlogDetails() {
                             {step === 1 &&
                                 <>
                                     <Helmet>
+
+                                        <link rel="canonical" href="https://www.pixelmindsolutions.com/blog/empowering-businesses-through-it-services" />
                                         <title>Digital Marketing & App Dev IT Services</title>
                                         <meta name="description" content="From app creation to digital promotion, our IT team supports your business at every digital stage." />
                                         <meta name="keywords" content="Digital Marketing and IT services in KPHB, Best Online Marketing Service in Hyderabad, IT Service Providers in KPHP, Software development company in Hyderabad, Mobile App Development in Gacchibowli, UI/UX in Hyderabad, Best IT Company in KPHP, Affortable Software IT Company in Hyderabad, Best Online Services in Hyderabad, Top Digital Marketing Services in KPHP, Best SEO Services in Hyderabad, Social Media Services Near Me, PIXELMINDSOLUTIONS in KPHP, PPC Services in Hyderabad, Digital Marketing Company in KPHP" />
-
+                                        
                                     </Helmet>
 
                                     <section className="blog-details-area pb-5">
@@ -191,10 +193,12 @@ function BlogDetails() {
                                 <>
 
                                     <Helmet>
+
+                                        <link rel="canonical" href="https://www.pixelmindsolutions.com/blog/professional-it-consulting-and-app-development" />
                                         <title>IT Support & Digital Services for Your Business</title>
                                         <meta name="description" content="Obtain comprehensive digital assistance that includes online and app development, SEO, and advertising strategy." />
                                         <meta name="keywords" content="Mobile app marketing services in Hyderabad, Affordable IT support services for companies, PPC campaign management for IT service providers, Custom software development with digital marketing support, Website redesign and SEO services, Custom IT solutions for small businesses" />
-
+                                        
                                     </Helmet>
 
                                     <section className="blog-details-area pb-5">
@@ -289,10 +293,12 @@ function BlogDetails() {
                             {step === 3 &&
                                 <>
                                     <Helmet>
+
+                                        <link rel="canonical" href="https://www.pixelmindsolutions.com/blog/application-maintainence-and-digital-growth-strategy" />
                                         <title>Smart IT Services & Digital Marketing Experts</title>
                                         <meta name="description" content="Grow your business with expert IT solutions and data-driven digital marketing that deliver measurable results." />
                                         <meta name="keywords" content="Email marketing and SEO for mobile apps, Best web and app development company in Hyderabad, Local SEO for IT service providers, Professional website design company in Kukatpally, Social media marketing for small businesses in Hyderabad, Google Ads management for Hyderabad" />
-
+                                        
                                     </Helmet>
 
                                     <section className="blog-details-area pb-5">

@@ -57,7 +57,7 @@ function Header() {
                 fill="white"
               />
             </svg>
-            <a href="#0" className="ms-1">
+            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=info@pixelmindsolutions.com" target="_blank" className="ms-1">
             info@pixelmindsolutions.com
             </a>
           </li>
@@ -90,7 +90,7 @@ function Header() {
                 </clipPath>
               </defs>
             </svg>
-            <a href="#0" className="ms-1">
+            <a href="tel: +91 9666317749" className="ms-1">
               +91 9666317749
             </a>
           </li>
@@ -107,12 +107,12 @@ function Header() {
             </a>
           </li>
           <li>
-            <a href="#">
+            <a target="_blank" href="https://x.com/PIXELMINDS41249">
               <i className="fa-brands fa-twitter" />
             </a>
           </li>
           <li>
-            <a href="#">
+            <a target="_blank" href="https://www.linkedin.com/company/pixelmindsolutions-pvt-ltd/">
               <i className="fa-brands fa-linkedin-in" />
             </a>
           </li>

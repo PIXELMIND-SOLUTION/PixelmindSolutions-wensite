@@ -3,170 +3,170 @@ import Header from './Header'
 import Footer from './Footer'
 import { Link } from 'react-router-dom'
 import Contactform from './Contactform'
-import {Helmet} from "react-helmet";
+import { Helmet } from "react-helmet";
 
 function About() {
   return (
     <div>
-            <Helmet>
-                <title>Experts in Web, Mobile, and Digital Marketing | About Pixelmind Solutions</title>
-                 <meta name="description" content="Discover Pixelmind Solutions – a leading IT and digital services company in Hyderabad offering expert web development, mobile app solutions, and results-focused digital marketing. Learn more about our mission and team." />
-  <meta name="keywords" content="best software company in hyderabad, it software company in hyderabad, it companies in hyderabad, web development services, web developers in hyderabad, web development companies in hyderabad, best web design company in hyderabad, best ui/ux design companies in hyderabad, app designers in hyderabad, ios app development companies in hyderabad, best app developers in hyderabad, digital marketing companies in hyderabad, digital marketing consultants in hyderabad, website maintenance companies" />
- 
-            </Helmet>
+      <Helmet>
+        <title>Experts in Web, Mobile, and Digital Marketing | About Pixelmind Solutions</title>
+        <meta name="description" content="Discover Pixelmind Solutions – a leading IT and digital services company in Hyderabad offering expert web development, mobile app solutions, and results-focused digital marketing. Learn more about our mission and team." />
+        <meta name="keywords" content="best software company in hyderabad, it software company in hyderabad, it companies in hyderabad, web development services, web developers in hyderabad, web development companies in hyderabad, best web design company in hyderabad, best ui/ux design companies in hyderabad, app designers in hyderabad, ios app development companies in hyderabad, best app developers in hyderabad, digital marketing companies in hyderabad, digital marketing consultants in hyderabad, website maintenance companies" />
+
+      </Helmet>
       <Header />
       <main>
-  {/* Page banner area start here */}
-  <section
-    className="banner__inner-page bg-image pt-100 pb-100 bg-image"
-    // data-background="/assets/images/banner/banner-inner-page.jpg"
-    style={{
-      backgroundImage: `url(${"/assets/images/banner/banner-inner-page.jpg"})`,
-    }}
-  >
-    <div
-      className="shape2 wow slideInLeft"
-      data-wow-delay="00ms"
-      data-wow-duration="1500ms"
-    >
-      <img src="/assets/images/banner/inner-banner-shape2.png" alt="shape" />
-    </div>
-    <div
-      className="shape1 wow slideInLeft"
-      data-wow-delay="200ms"
-      data-wow-duration="1500ms"
-    >
-      <img src="/assets/images/banner/inner-banner-shape1.png" alt="shape" />
-    </div>
-    <div
-      className="shape3 wow slideInRight"
-      data-wow-delay="200ms"
-      data-wow-duration="1500ms"
-    >
-      <img
-        className="sway__animationX"
-        src="/assets/images/banner/inner-banner-shape3.png"
-        alt="shape"
-      />
-    </div>
-    <div className="container">
-      <h2
-        className="wow fadeInUp"
-        data-wow-delay="00ms"
-        data-wow-duration="1500ms"
-      >
-        About Us
-      </h2>
-      <div
-        className="breadcrumb-list wow fadeInUp"
-        data-wow-delay="200ms"
-        data-wow-duration="1500ms"
-      >
-         <Link to="/">Home</Link>
-        <span>
-          <i className="fa-regular fa-angles-right mx-2" />
-          About Us
-        </span>
-      </div>
-    </div>
-  </section>
-  <section className="about-two-area pt-80">
-  <div className="about-two__shape">
-    <img src="/assets/images/shape/about-two-shape.png" alt="shape" />
-  </div>
-  <div className="container">
-    <div className="row g-4">
-      <div
-        className="col-xl-6 wow fadeInRight"
-        data-wow-delay="200ms"
-        data-wow-duration="1500ms"
-      >
-        <div className="about-two__left-item">
-          <div className="dots">
-            <img
-              className="sway_Y__animation"
-              src="/assets/images/shape/about-two-dot.png"
-              alt="shape"
-            />
-          </div>
-          <div className="shape-halper">
-            <img
-              className="sway__animation"
-              src="/assets/images/shape/about-circle-helper.png"
-              alt="shape"
-            />
-          </div>
-          <div className="image big-image">
-            <img src="/assets/images/about/about-two-image1.jpg" alt="image" />
-          </div>
-          <div className="image sm-image">
-            <img src="/assets/images/about/about-two-image2.png" alt="image" />
-          </div>
-          <div className="circle-shape">
-            <img
-              className="animation__rotate"
-              src="/assets/images/shape/about-two-circle.png"
-              alt="shape"
-            />
-          </div>
-        </div>
-      </div>
-      <div className="col-xl-6">
-        <div className="section-header mb-40">
-          <h5
-            className="wow fadeInUp"
+        {/* Page banner area start here */}
+        <section
+          className="banner__inner-page bg-image pt-100 pb-100 bg-image"
+          // data-background="/assets/images/banner/banner-inner-page.jpg"
+          style={{
+            backgroundImage: `url(${"/assets/images/banner/banner-inner-page.jpg"})`,
+          }}
+        >
+          <div
+            className="shape2 wow slideInLeft"
             data-wow-delay="00ms"
             data-wow-duration="1500ms"
           >
-            <img
-              className="me-1"
-              src="/assets/images/icon/section-title.png"
-              alt="icon"
-            />
-            WHO WE ARE
-          </h5>
-          <h2
-            className="wow fadeInUp"
+            <img src="/assets/images/banner/inner-banner-shape2.png" alt="shape" />
+          </div>
+          <div
+            className="shape1 wow slideInLeft"
             data-wow-delay="200ms"
             data-wow-duration="1500ms"
           >
-           Our goal is to provide intelligent business solutions.
-          </h2>
-          <p
-            className="wow fadeInUp"
-            data-wow-delay="400ms"
+            <img src="/assets/images/banner/inner-banner-shape1.png" alt="shape" />
+          </div>
+          <div
+            className="shape3 wow slideInRight"
+            data-wow-delay="200ms"
             data-wow-duration="1500ms"
           >
-         Pixelmind Solutions is a leading IT services provider, offering innovative solutions in website development, mobile application design, and digital marketing. We are dedicated to helping businesses thrive in the digital world by delivering tailored, high-quality services that enhance user experiences, drive growth, and build a strong online presence.
-          </p>
-        </div>
-        <div
-          className="about-two__right-item wow fadeInDown"
-          data-wow-delay="200ms"
-          data-wow-duration="1500ms"
-        >
-          <ul>
-            <li>
-              <i className="fa-solid fa-check" />
-              Technology Consultancy
-            </li>
-            <li>
-              <i className="fa-solid fa-check" />
-              We Provide best services
-            </li>
-          </ul>
-          <ul>
-            <li>
-              <i className="fa-solid fa-check" />
-              Maintenance And Support
-            </li>
-            <li>
-              <i className="fa-solid fa-check" />
-              Requirements Gathering
-            </li>
-          </ul>
-        </div>
-        {/* <div
+            <img
+              className="sway__animationX"
+              src="/assets/images/banner/inner-banner-shape3.png"
+              alt="shape"
+            />
+          </div>
+          <div className="container">
+            <h2
+              className="wow fadeInUp"
+              data-wow-delay="00ms"
+              data-wow-duration="1500ms"
+            >
+              About Us
+            </h2>
+            <div
+              className="breadcrumb-list wow fadeInUp"
+              data-wow-delay="200ms"
+              data-wow-duration="1500ms"
+            >
+              <Link to="/">Home</Link>
+              <span>
+                <i className="fa-regular fa-angles-right mx-2" />
+                About Us
+              </span>
+            </div>
+          </div>
+        </section>
+        <section className="about-two-area pt-80">
+          <div className="about-two__shape">
+            <img src="/assets/images/shape/about-two-shape.png" alt="shape" />
+          </div>
+          <div className="container">
+            <div className="row g-4">
+              <div
+                className="col-xl-6 wow fadeInRight"
+                data-wow-delay="200ms"
+                data-wow-duration="1500ms"
+              >
+                <div className="about-two__left-item">
+                  <div className="dots">
+                    <img
+                      className="sway_Y__animation"
+                      src="/assets/images/shape/about-two-dot.png"
+                      alt="shape"
+                    />
+                  </div>
+                  <div className="shape-halper">
+                    <img
+                      className="sway__animation"
+                      src="/assets/images/shape/about-circle-helper.png"
+                      alt="shape"
+                    />
+                  </div>
+                  <div className="image big-image">
+                    <img src="/assets/images/about/about-two-image1.jpg" alt="image" />
+                  </div>
+                  <div className="image sm-image">
+                    <img src="/assets/images/about/about-two-image2.png" alt="image" />
+                  </div>
+                  <div className="circle-shape">
+                    <img
+                      className="animation__rotate"
+                      src="/assets/images/shape/about-two-circle.png"
+                      alt="shape"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div className="col-xl-6">
+                <div className="section-header mb-40">
+                  <h5
+                    className="wow fadeInUp"
+                    data-wow-delay="00ms"
+                    data-wow-duration="1500ms"
+                  >
+                    <img
+                      className="me-1"
+                      src="/assets/images/icon/section-title.png"
+                      alt="icon"
+                    />
+                    WHO WE ARE
+                  </h5>
+                  <h2
+                    className="wow fadeInUp"
+                    data-wow-delay="200ms"
+                    data-wow-duration="1500ms"
+                  >
+                    Our goal is to provide intelligent business solutions.
+                  </h2>
+                  <p
+                    className="wow fadeInUp"
+                    data-wow-delay="400ms"
+                    data-wow-duration="1500ms"
+                  >
+                    Pixelmind Solutions is a leading IT services provider, offering innovative solutions in website development, mobile application design, and digital marketing. We are dedicated to helping businesses thrive in the digital world by delivering tailored, high-quality services that enhance user experiences, drive growth, and build a strong online presence.
+                  </p>
+                </div>
+                <div
+                  className="about-two__right-item wow fadeInDown"
+                  data-wow-delay="200ms"
+                  data-wow-duration="1500ms"
+                >
+                  <ul>
+                    <li>
+                      <i className="fa-solid fa-check" />
+                      Technology Consultancy
+                    </li>
+                    <li>
+                      <i className="fa-solid fa-check" />
+                      We Provide best services
+                    </li>
+                  </ul>
+                  <ul>
+                    <li>
+                      <i className="fa-solid fa-check" />
+                      Maintenance And Support
+                    </li>
+                    <li>
+                      <i className="fa-solid fa-check" />
+                      Requirements Gathering
+                    </li>
+                  </ul>
+                </div>
+                {/* <div
           className="about__info mt-50 wow fadeInDown"
           data-wow-delay="400ms"
           data-wow-duration="1500ms"
@@ -176,63 +176,63 @@ function About() {
           </a>
           <img src="/assets/images/about/singature.png" alt="singature" />
         </div> */}
-      </div>
-    </div>
-  </div>
-</section>
-<section className="offer-area secondary-bg pt-60 pb-60">
-            <div
-              className="offer__shadow wow fadeIn"
-              data-wow-delay="200ms"
+              </div>
+            </div>
+          </div>
+        </section>
+        <section className="offer-area secondary-bg pt-60 pb-60">
+          <div
+            className="offer__shadow wow fadeIn"
+            data-wow-delay="200ms"
+            data-wow-duration="1500ms"
+          >
+            <img
+              src="/assets/images/shape/offer-shadow-shape.png"
+              alt="shadow"
+            />
+          </div>
+          <div className="offer__shape-left">
+            <img
+              className="wow fadeInUpBig"
+              data-wow-delay="400ms"
               data-wow-duration="1500ms"
-            >
-              <img
-                src="/assets/images/shape/offer-shadow-shape.png"
-                alt="shadow"
-              />
-            </div>
-            <div className="offer__shape-left">
-              <img
-                className="wow fadeInUpBig"
-                data-wow-delay="400ms"
-                data-wow-duration="1500ms"
-                src="/assets/images/shape/offer-bg-shape-left.png"
-                alt="shape"
-              />
-            </div>
-            <div className="offer__shape-right">
-              <img
-                className="wow fadeInDownBig"
-                data-wow-delay="400ms"
-                data-wow-duration="1500ms"
-                src="/assets/images/shape/offer-bg-shape-right.png"
-                alt="shape"
-              />
-            </div>
-            <div className="container">
-              <div className="d-flex gap-4 flex-wrap align-items-center justify-content-between mb-95">
-                <div className="section-header">
-                  <h5
-                    className="wow fadeInLeft"
-                    data-wow-delay="00ms"
-                    data-wow-duration="1500ms"
-                  >
-                    <img
-                      className="me-1"
-                      src="/assets/images/icon/section-title.png"
-                      alt="icon"
-                    />
-                    Our offering
-                  </h5>
-                  <h2
-                    className="text-white wow fadeInLeft"
-                    data-wow-delay="200ms"
-                    data-wow-duration="1500ms"
-                  >
-                    Boost and Lead With <br /> Technology Trends
-                  </h2>
-                </div>
-                {/* <a
+              src="/assets/images/shape/offer-bg-shape-left.png"
+              alt="shape"
+            />
+          </div>
+          <div className="offer__shape-right">
+            <img
+              className="wow fadeInDownBig"
+              data-wow-delay="400ms"
+              data-wow-duration="1500ms"
+              src="/assets/images/shape/offer-bg-shape-right.png"
+              alt="shape"
+            />
+          </div>
+          <div className="container">
+            <div className="d-flex gap-4 flex-wrap align-items-center justify-content-between mb-95">
+              <div className="section-header">
+                <h5
+                  className="wow fadeInLeft"
+                  data-wow-delay="00ms"
+                  data-wow-duration="1500ms"
+                >
+                  <img
+                    className="me-1"
+                    src="/assets/images/icon/section-title.png"
+                    alt="icon"
+                  />
+                  Our offering
+                </h5>
+                <h2
+                  className="text-white wow fadeInLeft"
+                  data-wow-delay="200ms"
+                  data-wow-duration="1500ms"
+                >
+                  Boost and Lead With <br /> Technology Trends
+                </h2>
+              </div>
+              {/* <a
                   href="pricing.html"
                   className="btn-one wow fadeInUp"
                   data-wow-delay="200ms"
@@ -240,129 +240,129 @@ function About() {
                 >
                   Explore More <i className="fa-regular fa-arrow-right-long" />
                 </a> */}
+            </div>
+            <div className="row g-4">
+              <div
+                className="col-lg-2 col-md-4 col-sm-6 wow bounceInUp"
+                data-wow-delay="00ms"
+                data-wow-duration="1500ms"
+              >
+                <div className="offer__item">
+                  <div className="shape-top">
+                    <img
+                      src="/assets/images/shape/offter-item-shape-top.png"
+                      alt="shape"
+                    />
+                  </div>
+                  <div className="shape-bottom">
+                    <img
+                      src="/assets/images/shape/offter-item-shape-bottom.png"
+                      alt="shape"
+                    />
+                  </div>
+                  <div className="offer__icon">
+                    <svg
+                      width={36}
+                      height={36}
+                      viewBox="0 0 36 36"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M18 0C10.3961 0 0 5.74724 0 18C0 29.9409 9.99921 36 18 36C31.7268 36 36 23.974 36 18C36 9.18425 29.2535 0 18 0ZM13.826 1.6937C11.948 3.29528 10.389 5.94567 9.38268 9.23386C8.07874 8.46142 6.8811 7.50472 5.81811 6.39213C8.01496 4.08898 10.7929 2.47323 13.826 1.6937ZM5.04567 7.25669C6.23622 8.49685 7.58976 9.55276 9.06378 10.389C8.51102 12.5362 8.18504 14.9173 8.14252 17.4189H1.17638C1.30394 13.6843 2.66457 10.1197 5.04567 7.25669ZM5.04567 28.7433C2.65748 25.8803 1.30394 22.3158 1.17638 18.5811H8.14252C8.18504 21.0898 8.51102 23.4638 9.06378 25.611C7.59685 26.4543 6.24331 27.5032 5.04567 28.7433ZM5.81811 29.615C6.8811 28.5024 8.07874 27.5457 9.38268 26.7732C10.389 30.0543 11.948 32.7118 13.826 34.3134C10.7929 33.5268 8.01496 31.911 5.81811 29.615ZM17.4189 34.7953C14.4 34.4126 11.7992 31.0394 10.3961 26.2063C12.5646 25.1079 14.9598 24.4913 17.4189 24.3992V34.7953ZM17.4189 23.2441C14.8535 23.3291 12.3591 23.9598 10.0984 25.0654C9.62362 23.0811 9.34016 20.8913 9.29764 18.5811H17.4189V23.2441ZM17.4189 17.4189H9.29764C9.34016 15.1087 9.62362 12.9189 10.0984 10.9346C12.3661 12.0402 14.8606 12.6709 17.4189 12.7559V17.4189ZM17.4189 11.6008C14.9528 11.5157 12.5646 10.8921 10.3961 9.7937C11.7992 4.95354 14.4 1.5874 17.4189 1.20472V11.6008ZM30.9543 7.25669C33.3354 10.1197 34.6961 13.6843 34.8236 17.4189H27.8646C27.8221 14.9102 27.4961 12.5362 26.9433 10.389C28.4102 9.54567 29.7638 8.49685 30.9543 7.25669ZM30.1819 6.38504C29.1189 7.49764 27.9213 8.45433 26.6173 9.22677C25.611 5.94567 24.052 3.29528 22.174 1.68661C25.2071 2.47323 27.985 4.08898 30.1819 6.38504ZM18.5811 1.20472C21.6 1.5874 24.2008 4.96063 25.6039 9.7937C23.4354 10.8921 21.0472 11.5087 18.5811 11.6008V1.20472ZM18.5811 12.7559C21.1465 12.6709 23.6409 12.0402 25.9016 10.9346C26.3764 12.9189 26.6598 15.1087 26.7024 17.4189H18.5811V12.7559ZM18.5811 18.5811H26.7024C26.6598 20.8913 26.3764 23.0811 25.9016 25.0654C23.6195 23.9424 21.1233 23.3213 18.5811 23.2441V18.5811ZM18.5811 34.7953V24.3992C21.0472 24.4843 23.4354 25.1079 25.6039 26.2063C24.2008 31.0465 21.6 34.4126 18.5811 34.7953ZM22.174 34.3063C24.052 32.7047 25.611 30.0543 26.6173 26.7661C27.9213 27.5386 29.1189 28.4953 30.1819 29.6079C27.985 31.911 25.2071 33.5268 22.174 34.3063ZM30.9543 28.7433C29.7638 27.5032 28.4102 26.4543 26.9433 25.611C27.4961 23.4638 27.8221 21.0827 27.8646 18.5811H34.8236C34.6961 22.3158 33.3354 25.8803 30.9543 28.7433Z"
+                        fill="#06cabc"
+                      />
+                    </svg>
+                  </div>
+                  <h4 className="text-white mt-20">Website</h4>
+                </div>
               </div>
-              <div className="row g-4">
-                <div
-                  className="col-lg-2 col-md-4 col-sm-6 wow bounceInUp"
-                  data-wow-delay="00ms"
-                  data-wow-duration="1500ms"
-                >
-                  <div className="offer__item">
-                    <div className="shape-top">
-                      <img
-                        src="/assets/images/shape/offter-item-shape-top.png"
-                        alt="shape"
+              <div
+                className="col-lg-2 col-md-4 col-sm-6 wow bounceInUp"
+                data-wow-delay="100ms"
+                data-wow-duration="1500ms"
+              >
+                <div className="offer__item">
+                  <div className="shape-top">
+                    <img
+                      src="/assets/images/shape/offter-item-shape-top.png"
+                      alt="shape"
+                    />
+                  </div>
+                  <div className="shape-bottom">
+                    <img
+                      src="/assets/images/shape/offter-item-shape-bottom.png"
+                      alt="shape"
+                    />
+                  </div>
+                  <div className="offer__icon">
+                    <svg
+                      width={36}
+                      height={36}
+                      viewBox="0 0 36 36"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M22.3329 3.58535L23.91 0.956761C23.9526 0.885641 23.9809 0.806813 23.9931 0.724776C24.0053 0.64274 24.0012 0.559103 23.9811 0.47864C23.961 0.398177 23.9252 0.322464 23.8758 0.255824C23.8265 0.189184 23.7644 0.132922 23.6933 0.0902496C23.6222 0.0475777 23.5434 0.0193317 23.4613 0.00712437C23.3793 -0.00508296 23.2957 -0.00101255 23.2152 0.0191032C23.1347 0.039219 23.059 0.0749861 22.9924 0.124362C22.9257 0.173739 22.8695 0.235758 22.8268 0.306877L21.1626 3.08072C20.1717 2.72831 19.1107 2.52621 18.0004 2.52621C16.8901 2.52621 15.829 2.72831 14.8381 3.08072L13.1739 0.306877C13.0878 0.163244 12.948 0.0597288 12.7855 0.0191032C12.623 -0.0215224 12.4511 0.00406979 12.3074 0.0902497C12.1638 0.17643 12.0603 0.316138 12.0196 0.47864C11.979 0.641142 12.0046 0.813128 12.0908 0.956761L13.6678 3.58535C10.6192 5.16111 8.52686 8.33789 8.52686 12.0004C8.52686 12.1679 8.59339 12.3285 8.71184 12.4469C8.83028 12.5654 8.99092 12.6319 9.15842 12.6319H26.8423C27.0098 12.6319 27.1705 12.5654 27.2889 12.4469C27.4074 12.3285 27.4739 12.1679 27.4739 12.0004C27.4733 8.33853 25.3815 5.16174 22.3329 3.58535ZM9.81399 11.3688C10.1374 7.13539 13.6855 3.78997 18.0004 3.78997C22.3152 3.78997 25.8634 7.13539 26.1868 11.3688H9.81399Z"
+                        fill="#06cabc"
                       />
-                    </div>
-                    <div className="shape-bottom">
-                      <img
-                        src="/assets/images/shape/offter-item-shape-bottom.png"
-                        alt="shape"
+                      <path
+                        d="M22.4068 7.177H21.5744C21.464 7.177 21.3581 7.22085 21.2801 7.2989C21.202 7.37696 21.1582 7.48282 21.1582 7.5932V8.42561C21.1582 8.6555 21.3445 8.84181 21.5744 8.84181H22.4074C22.5178 8.84181 22.6237 8.79796 22.7017 8.71991C22.7798 8.64186 22.8236 8.536 22.8236 8.42561V7.5932C22.8234 7.48276 22.7795 7.3769 22.7013 7.29887C22.6231 7.22083 22.5172 7.177 22.4068 7.177ZM14.4257 7.177H13.5926C13.4822 7.177 13.3764 7.22085 13.2983 7.2989C13.2203 7.37696 13.1764 7.48282 13.1764 7.5932V8.42561C13.1764 8.6555 13.3627 8.84181 13.5926 8.84181H14.4257C14.536 8.84181 14.6419 8.79796 14.72 8.71991C14.798 8.64186 14.8419 8.536 14.8419 8.42561V7.5932C14.8419 7.48282 14.798 7.37696 14.72 7.2989C14.6419 7.22085 14.536 7.177 14.4257 7.177ZM26.8416 13.2634H9.15774C8.99024 13.2634 8.8296 13.33 8.71116 13.4484C8.59272 13.5668 8.52618 13.7275 8.52618 13.895V26.6343C8.52751 27.4433 8.8497 28.2188 9.42205 28.7905C9.9944 29.3623 10.7702 29.6837 11.5792 29.6842H12.3156V33.4774C12.3156 34.8681 13.4486 35.9999 14.8419 35.9999C16.2351 35.9999 17.3681 34.8681 17.3681 33.4774V29.6842H18.6313V33.4774C18.6313 34.8681 19.7643 35.9999 21.1575 35.9999C22.5508 35.9999 23.6838 34.8681 23.6838 33.4774V29.6842H24.4202C25.2293 29.6839 26.0051 29.3625 26.5775 28.7907C27.1499 28.2189 27.472 27.4434 27.4732 26.6343V13.895C27.4732 13.7275 27.4067 13.5668 27.2882 13.4484C27.1698 13.33 27.0091 13.2634 26.8416 13.2634ZM26.2101 26.6343C26.2092 27.1085 26.0203 27.5629 25.6847 27.8979C25.3491 28.2329 24.8944 28.4211 24.4202 28.421H23.0522C22.8847 28.421 22.7241 28.4876 22.6057 28.606C22.4872 28.7245 22.4207 28.8851 22.4207 29.0526V33.4774C22.4207 33.8124 22.2876 34.1337 22.0507 34.3706C21.8138 34.6074 21.4925 34.7405 21.1575 34.7405C20.8225 34.7405 20.5012 34.6074 20.2644 34.3706C20.0275 34.1337 19.8944 33.8124 19.8944 33.4774V29.0526C19.8944 28.8851 19.8279 28.7245 19.7094 28.606C19.591 28.4876 19.4303 28.421 19.2628 28.421H16.7366C16.5691 28.421 16.4084 28.4876 16.29 28.606C16.1715 28.7245 16.105 28.8851 16.105 29.0526V33.4774C16.105 33.8124 15.9719 34.1337 15.735 34.3706C15.4981 34.6074 15.1769 34.7405 14.8419 34.7405C14.5069 34.7405 14.1856 34.6074 13.9487 34.3706C13.7118 34.1337 13.5787 33.8124 13.5787 33.4774V29.0526C13.5787 28.8851 13.5122 28.7245 13.3937 28.606C13.2753 28.4876 13.1147 28.421 12.9472 28.421H11.5798C11.1056 28.4209 10.6509 28.2327 10.3153 27.8978C9.97962 27.5629 9.79048 27.1085 9.78931 26.6343V14.5266H26.2101V26.6343ZM30.3153 13.2634C29.0963 13.2634 28.1048 14.2562 28.1048 15.4764V24.3133C28.1048 25.5335 29.0963 26.5263 30.3153 26.5263C31.5342 26.5263 32.5258 25.5335 32.5258 24.3133V15.4764C32.5254 14.89 32.2925 14.3277 31.8781 13.9129C31.4637 13.498 30.9017 13.2644 30.3153 13.2634ZM31.2626 24.3133C31.2626 24.8369 30.8376 25.2632 30.3153 25.2632C29.793 25.2632 29.3679 24.8369 29.3679 24.3133V15.4764C29.3679 14.9529 29.793 14.5266 30.3153 14.5266C30.8376 14.5266 31.2626 14.9529 31.2626 15.4764V24.3133ZM5.68412 13.2634C4.46519 13.2634 3.47363 14.2562 3.47363 15.4764V24.3133C3.47363 25.5335 4.46519 26.5263 5.68412 26.5263C6.90305 26.5263 7.89461 25.5335 7.89461 24.3133V15.4764C7.89427 14.89 7.66136 14.3277 7.24696 13.9129C6.83255 13.498 6.27051 13.2644 5.68412 13.2634ZM6.63147 24.3133C6.63147 24.8369 6.20643 25.2632 5.68412 25.2632C5.16181 25.2632 4.73677 24.8369 4.73677 24.3133V15.4764C4.73677 14.9529 5.16181 14.5266 5.68412 14.5266C6.20643 14.5266 6.63147 14.9529 6.63147 15.4764V24.3133Z"
+                        fill="#06cabc"
                       />
-                    </div>
-                    <div className="offer__icon">
-                      <svg
-                        width={36}
-                        height={36}
-                        viewBox="0 0 36 36"
-                        fill="none"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
+                    </svg>
+                  </div>
+                  <h4 className="text-white mt-20">Android</h4>
+                </div>
+              </div>
+              <div
+                className="col-lg-2 col-md-4 col-sm-6 wow bounceInUp"
+                data-wow-delay="200ms"
+                data-wow-duration="1500ms"
+              >
+                <div className="offer__item">
+                  <div className="shape-top">
+                    <img
+                      src="/assets/images/shape/offter-item-shape-top.png"
+                      alt="shape"
+                    />
+                  </div>
+                  <div className="shape-bottom">
+                    <img
+                      src="/assets/images/shape/offter-item-shape-bottom.png"
+                      alt="shape"
+                    />
+                  </div>
+                  <div className="offer__icon">
+                    <svg
+                      width={36}
+                      height={36}
+                      viewBox="0 0 36 36"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <g clipPath="url(#clip0_602_122)">
                         <path
-                          d="M18 0C10.3961 0 0 5.74724 0 18C0 29.9409 9.99921 36 18 36C31.7268 36 36 23.974 36 18C36 9.18425 29.2535 0 18 0ZM13.826 1.6937C11.948 3.29528 10.389 5.94567 9.38268 9.23386C8.07874 8.46142 6.8811 7.50472 5.81811 6.39213C8.01496 4.08898 10.7929 2.47323 13.826 1.6937ZM5.04567 7.25669C6.23622 8.49685 7.58976 9.55276 9.06378 10.389C8.51102 12.5362 8.18504 14.9173 8.14252 17.4189H1.17638C1.30394 13.6843 2.66457 10.1197 5.04567 7.25669ZM5.04567 28.7433C2.65748 25.8803 1.30394 22.3158 1.17638 18.5811H8.14252C8.18504 21.0898 8.51102 23.4638 9.06378 25.611C7.59685 26.4543 6.24331 27.5032 5.04567 28.7433ZM5.81811 29.615C6.8811 28.5024 8.07874 27.5457 9.38268 26.7732C10.389 30.0543 11.948 32.7118 13.826 34.3134C10.7929 33.5268 8.01496 31.911 5.81811 29.615ZM17.4189 34.7953C14.4 34.4126 11.7992 31.0394 10.3961 26.2063C12.5646 25.1079 14.9598 24.4913 17.4189 24.3992V34.7953ZM17.4189 23.2441C14.8535 23.3291 12.3591 23.9598 10.0984 25.0654C9.62362 23.0811 9.34016 20.8913 9.29764 18.5811H17.4189V23.2441ZM17.4189 17.4189H9.29764C9.34016 15.1087 9.62362 12.9189 10.0984 10.9346C12.3661 12.0402 14.8606 12.6709 17.4189 12.7559V17.4189ZM17.4189 11.6008C14.9528 11.5157 12.5646 10.8921 10.3961 9.7937C11.7992 4.95354 14.4 1.5874 17.4189 1.20472V11.6008ZM30.9543 7.25669C33.3354 10.1197 34.6961 13.6843 34.8236 17.4189H27.8646C27.8221 14.9102 27.4961 12.5362 26.9433 10.389C28.4102 9.54567 29.7638 8.49685 30.9543 7.25669ZM30.1819 6.38504C29.1189 7.49764 27.9213 8.45433 26.6173 9.22677C25.611 5.94567 24.052 3.29528 22.174 1.68661C25.2071 2.47323 27.985 4.08898 30.1819 6.38504ZM18.5811 1.20472C21.6 1.5874 24.2008 4.96063 25.6039 9.7937C23.4354 10.8921 21.0472 11.5087 18.5811 11.6008V1.20472ZM18.5811 12.7559C21.1465 12.6709 23.6409 12.0402 25.9016 10.9346C26.3764 12.9189 26.6598 15.1087 26.7024 17.4189H18.5811V12.7559ZM18.5811 18.5811H26.7024C26.6598 20.8913 26.3764 23.0811 25.9016 25.0654C23.6195 23.9424 21.1233 23.3213 18.5811 23.2441V18.5811ZM18.5811 34.7953V24.3992C21.0472 24.4843 23.4354 25.1079 25.6039 26.2063C24.2008 31.0465 21.6 34.4126 18.5811 34.7953ZM22.174 34.3063C24.052 32.7047 25.611 30.0543 26.6173 26.7661C27.9213 27.5386 29.1189 28.4953 30.1819 29.6079C27.985 31.911 25.2071 33.5268 22.174 34.3063ZM30.9543 28.7433C29.7638 27.5032 28.4102 26.4543 26.9433 25.611C27.4961 23.4638 27.8221 21.0827 27.8646 18.5811H34.8236C34.6961 22.3158 33.3354 25.8803 30.9543 28.7433Z"
+                          d="M25.368 0.727224L25.3301 0L24.6063 0.0778922C24.5353 0.0854747 17.5395 0.928503 17.0597 8.75012L17.0115 9.53318L17.7945 9.48011C17.8745 9.47459 25.7981 8.84249 25.368 0.727224ZM24.0025 1.60058C23.8708 6.3141 20.2037 7.62517 18.5204 7.97878C19.1614 3.39831 22.4832 2.00245 24.0025 1.60058Z"
                           fill="#06cabc"
                         />
-                      </svg>
-                    </div>
-                    <h4 className="text-white mt-20">Website</h4>
-                  </div>
-                </div>
-                <div
-                  className="col-lg-2 col-md-4 col-sm-6 wow bounceInUp"
-                  data-wow-delay="100ms"
-                  data-wow-duration="1500ms"
-                >
-                  <div className="offer__item">
-                    <div className="shape-top">
-                      <img
-                        src="/assets/images/shape/offter-item-shape-top.png"
-                        alt="shape"
-                      />
-                    </div>
-                    <div className="shape-bottom">
-                      <img
-                        src="/assets/images/shape/offter-item-shape-bottom.png"
-                        alt="shape"
-                      />
-                    </div>
-                    <div className="offer__icon">
-                      <svg
-                        width={36}
-                        height={36}
-                        viewBox="0 0 36 36"
-                        fill="none"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
                         <path
-                          d="M22.3329 3.58535L23.91 0.956761C23.9526 0.885641 23.9809 0.806813 23.9931 0.724776C24.0053 0.64274 24.0012 0.559103 23.9811 0.47864C23.961 0.398177 23.9252 0.322464 23.8758 0.255824C23.8265 0.189184 23.7644 0.132922 23.6933 0.0902496C23.6222 0.0475777 23.5434 0.0193317 23.4613 0.00712437C23.3793 -0.00508296 23.2957 -0.00101255 23.2152 0.0191032C23.1347 0.039219 23.059 0.0749861 22.9924 0.124362C22.9257 0.173739 22.8695 0.235758 22.8268 0.306877L21.1626 3.08072C20.1717 2.72831 19.1107 2.52621 18.0004 2.52621C16.8901 2.52621 15.829 2.72831 14.8381 3.08072L13.1739 0.306877C13.0878 0.163244 12.948 0.0597288 12.7855 0.0191032C12.623 -0.0215224 12.4511 0.00406979 12.3074 0.0902497C12.1638 0.17643 12.0603 0.316138 12.0196 0.47864C11.979 0.641142 12.0046 0.813128 12.0908 0.956761L13.6678 3.58535C10.6192 5.16111 8.52686 8.33789 8.52686 12.0004C8.52686 12.1679 8.59339 12.3285 8.71184 12.4469C8.83028 12.5654 8.99092 12.6319 9.15842 12.6319H26.8423C27.0098 12.6319 27.1705 12.5654 27.2889 12.4469C27.4074 12.3285 27.4739 12.1679 27.4739 12.0004C27.4733 8.33853 25.3815 5.16174 22.3329 3.58535ZM9.81399 11.3688C10.1374 7.13539 13.6855 3.78997 18.0004 3.78997C22.3152 3.78997 25.8634 7.13539 26.1868 11.3688H9.81399Z"
+                          d="M32.1109 25.8609L31.6704 25.7182C29.0048 24.8566 27.2147 22.415 27.2147 19.6426C27.2147 17.1763 28.6092 14.9705 30.8549 13.8855L31.525 13.5622L31.1514 12.9191C30.9914 12.6434 29.4963 10.2011 26.3379 9.39256C23.8329 8.7515 21.0164 9.31881 17.9634 11.0793C16.671 10.2949 12.3779 8.03393 8.9624 10.3004C8.29377 10.6699 1.20696 14.9153 4.89546 26.3703C5.00369 26.6267 7.57551 32.652 10.6188 34.9088C11.4398 35.6933 13.5394 36.6735 15.9389 35.0377C16.3546 34.8661 19.136 33.7956 20.9006 35.0494C21.552 35.4954 22.6894 36.0007 23.8908 36.0007C24.8021 36.0007 25.7499 35.7105 26.5509 34.8833C26.9245 34.56 30.3373 31.514 32.1109 26.6888L32.1626 26.5482L32.1109 25.8609ZM25.63 33.8556L25.5769 33.9059C24.0652 35.4934 21.7733 33.9748 21.6885 33.9183C20.7869 33.2772 19.7426 33.0684 18.763 33.0684C16.9853 33.0684 15.4219 33.757 15.322 33.8018L15.2096 33.8652C13.1286 35.3176 11.7038 34.0396 11.5528 33.8942L11.4715 33.8245C8.71908 31.8173 6.1893 25.8926 6.18586 25.8906C2.73378 15.1593 9.34704 11.6494 9.62828 11.5067L9.7041 11.4619C12.9073 9.31122 17.5119 12.4242 17.5574 12.4552L17.9248 12.7075L18.3053 12.4779C21.1729 10.7443 23.7605 10.1549 25.996 10.7278C27.8171 11.1937 28.9779 12.3318 29.5459 13.0314C27.2388 14.4452 25.8368 16.9123 25.8368 19.6426C25.8368 22.7831 27.722 25.5735 30.5944 26.7873C28.8263 31.1031 25.6637 33.8273 25.63 33.8556Z"
                           fill="#06cabc"
                         />
-                        <path
-                          d="M22.4068 7.177H21.5744C21.464 7.177 21.3581 7.22085 21.2801 7.2989C21.202 7.37696 21.1582 7.48282 21.1582 7.5932V8.42561C21.1582 8.6555 21.3445 8.84181 21.5744 8.84181H22.4074C22.5178 8.84181 22.6237 8.79796 22.7017 8.71991C22.7798 8.64186 22.8236 8.536 22.8236 8.42561V7.5932C22.8234 7.48276 22.7795 7.3769 22.7013 7.29887C22.6231 7.22083 22.5172 7.177 22.4068 7.177ZM14.4257 7.177H13.5926C13.4822 7.177 13.3764 7.22085 13.2983 7.2989C13.2203 7.37696 13.1764 7.48282 13.1764 7.5932V8.42561C13.1764 8.6555 13.3627 8.84181 13.5926 8.84181H14.4257C14.536 8.84181 14.6419 8.79796 14.72 8.71991C14.798 8.64186 14.8419 8.536 14.8419 8.42561V7.5932C14.8419 7.48282 14.798 7.37696 14.72 7.2989C14.6419 7.22085 14.536 7.177 14.4257 7.177ZM26.8416 13.2634H9.15774C8.99024 13.2634 8.8296 13.33 8.71116 13.4484C8.59272 13.5668 8.52618 13.7275 8.52618 13.895V26.6343C8.52751 27.4433 8.8497 28.2188 9.42205 28.7905C9.9944 29.3623 10.7702 29.6837 11.5792 29.6842H12.3156V33.4774C12.3156 34.8681 13.4486 35.9999 14.8419 35.9999C16.2351 35.9999 17.3681 34.8681 17.3681 33.4774V29.6842H18.6313V33.4774C18.6313 34.8681 19.7643 35.9999 21.1575 35.9999C22.5508 35.9999 23.6838 34.8681 23.6838 33.4774V29.6842H24.4202C25.2293 29.6839 26.0051 29.3625 26.5775 28.7907C27.1499 28.2189 27.472 27.4434 27.4732 26.6343V13.895C27.4732 13.7275 27.4067 13.5668 27.2882 13.4484C27.1698 13.33 27.0091 13.2634 26.8416 13.2634ZM26.2101 26.6343C26.2092 27.1085 26.0203 27.5629 25.6847 27.8979C25.3491 28.2329 24.8944 28.4211 24.4202 28.421H23.0522C22.8847 28.421 22.7241 28.4876 22.6057 28.606C22.4872 28.7245 22.4207 28.8851 22.4207 29.0526V33.4774C22.4207 33.8124 22.2876 34.1337 22.0507 34.3706C21.8138 34.6074 21.4925 34.7405 21.1575 34.7405C20.8225 34.7405 20.5012 34.6074 20.2644 34.3706C20.0275 34.1337 19.8944 33.8124 19.8944 33.4774V29.0526C19.8944 28.8851 19.8279 28.7245 19.7094 28.606C19.591 28.4876 19.4303 28.421 19.2628 28.421H16.7366C16.5691 28.421 16.4084 28.4876 16.29 28.606C16.1715 28.7245 16.105 28.8851 16.105 29.0526V33.4774C16.105 33.8124 15.9719 34.1337 15.735 34.3706C15.4981 34.6074 15.1769 34.7405 14.8419 34.7405C14.5069 34.7405 14.1856 34.6074 13.9487 34.3706C13.7118 34.1337 13.5787 33.8124 13.5787 33.4774V29.0526C13.5787 28.8851 13.5122 28.7245 13.3937 28.606C13.2753 28.4876 13.1147 28.421 12.9472 28.421H11.5798C11.1056 28.4209 10.6509 28.2327 10.3153 27.8978C9.97962 27.5629 9.79048 27.1085 9.78931 26.6343V14.5266H26.2101V26.6343ZM30.3153 13.2634C29.0963 13.2634 28.1048 14.2562 28.1048 15.4764V24.3133C28.1048 25.5335 29.0963 26.5263 30.3153 26.5263C31.5342 26.5263 32.5258 25.5335 32.5258 24.3133V15.4764C32.5254 14.89 32.2925 14.3277 31.8781 13.9129C31.4637 13.498 30.9017 13.2644 30.3153 13.2634ZM31.2626 24.3133C31.2626 24.8369 30.8376 25.2632 30.3153 25.2632C29.793 25.2632 29.3679 24.8369 29.3679 24.3133V15.4764C29.3679 14.9529 29.793 14.5266 30.3153 14.5266C30.8376 14.5266 31.2626 14.9529 31.2626 15.4764V24.3133ZM5.68412 13.2634C4.46519 13.2634 3.47363 14.2562 3.47363 15.4764V24.3133C3.47363 25.5335 4.46519 26.5263 5.68412 26.5263C6.90305 26.5263 7.89461 25.5335 7.89461 24.3133V15.4764C7.89427 14.89 7.66136 14.3277 7.24696 13.9129C6.83255 13.498 6.27051 13.2644 5.68412 13.2634ZM6.63147 24.3133C6.63147 24.8369 6.20643 25.2632 5.68412 25.2632C5.16181 25.2632 4.73677 24.8369 4.73677 24.3133V15.4764C4.73677 14.9529 5.16181 14.5266 5.68412 14.5266C6.20643 14.5266 6.63147 14.9529 6.63147 15.4764V24.3133Z"
-                          fill="#06cabc"
-                        />
-                      </svg>
-                    </div>
-                    <h4 className="text-white mt-20">Android</h4>
+                      </g>
+                      <defs>
+                        <clipPath>
+                          <rect width={36} height={36} fill="white" />
+                        </clipPath>
+                      </defs>
+                    </svg>
                   </div>
+                  <h4 className="text-white mt-20">IOS</h4>
                 </div>
-                <div
-                  className="col-lg-2 col-md-4 col-sm-6 wow bounceInUp"
-                  data-wow-delay="200ms"
-                  data-wow-duration="1500ms"
-                >
-                  <div className="offer__item">
-                    <div className="shape-top">
-                      <img
-                        src="/assets/images/shape/offter-item-shape-top.png"
-                        alt="shape"
-                      />
-                    </div>
-                    <div className="shape-bottom">
-                      <img
-                        src="/assets/images/shape/offter-item-shape-bottom.png"
-                        alt="shape"
-                      />
-                    </div>
-                    <div className="offer__icon">
-                      <svg
-                        width={36}
-                        height={36}
-                        viewBox="0 0 36 36"
-                        fill="none"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <g clipPath="url(#clip0_602_122)">
-                          <path
-                            d="M25.368 0.727224L25.3301 0L24.6063 0.0778922C24.5353 0.0854747 17.5395 0.928503 17.0597 8.75012L17.0115 9.53318L17.7945 9.48011C17.8745 9.47459 25.7981 8.84249 25.368 0.727224ZM24.0025 1.60058C23.8708 6.3141 20.2037 7.62517 18.5204 7.97878C19.1614 3.39831 22.4832 2.00245 24.0025 1.60058Z"
-                            fill="#06cabc"
-                          />
-                          <path
-                            d="M32.1109 25.8609L31.6704 25.7182C29.0048 24.8566 27.2147 22.415 27.2147 19.6426C27.2147 17.1763 28.6092 14.9705 30.8549 13.8855L31.525 13.5622L31.1514 12.9191C30.9914 12.6434 29.4963 10.2011 26.3379 9.39256C23.8329 8.7515 21.0164 9.31881 17.9634 11.0793C16.671 10.2949 12.3779 8.03393 8.9624 10.3004C8.29377 10.6699 1.20696 14.9153 4.89546 26.3703C5.00369 26.6267 7.57551 32.652 10.6188 34.9088C11.4398 35.6933 13.5394 36.6735 15.9389 35.0377C16.3546 34.8661 19.136 33.7956 20.9006 35.0494C21.552 35.4954 22.6894 36.0007 23.8908 36.0007C24.8021 36.0007 25.7499 35.7105 26.5509 34.8833C26.9245 34.56 30.3373 31.514 32.1109 26.6888L32.1626 26.5482L32.1109 25.8609ZM25.63 33.8556L25.5769 33.9059C24.0652 35.4934 21.7733 33.9748 21.6885 33.9183C20.7869 33.2772 19.7426 33.0684 18.763 33.0684C16.9853 33.0684 15.4219 33.757 15.322 33.8018L15.2096 33.8652C13.1286 35.3176 11.7038 34.0396 11.5528 33.8942L11.4715 33.8245C8.71908 31.8173 6.1893 25.8926 6.18586 25.8906C2.73378 15.1593 9.34704 11.6494 9.62828 11.5067L9.7041 11.4619C12.9073 9.31122 17.5119 12.4242 17.5574 12.4552L17.9248 12.7075L18.3053 12.4779C21.1729 10.7443 23.7605 10.1549 25.996 10.7278C27.8171 11.1937 28.9779 12.3318 29.5459 13.0314C27.2388 14.4452 25.8368 16.9123 25.8368 19.6426C25.8368 22.7831 27.722 25.5735 30.5944 26.7873C28.8263 31.1031 25.6637 33.8273 25.63 33.8556Z"
-                            fill="#06cabc"
-                          />
-                        </g>
-                        <defs>
-                          <clipPath>
-                            <rect width={36} height={36} fill="white" />
-                          </clipPath>
-                        </defs>
-                      </svg>
-                    </div>
-                    <h4 className="text-white mt-20">IOS</h4>
-                  </div>
-                </div>
-                {/* <div
+              </div>
+              {/* <div
                   className="col-lg-2 col-md-4 col-sm-6 wow bounceInUp"
                   data-wow-delay="300ms"
                   data-wow-duration="1500ms"
@@ -463,161 +463,161 @@ function About() {
                     <h4 className="text-white mt-20">Tv</h4>
                   </div>
                 </div> */}
-                <div
-                  className="col-lg-2 col-md-4 col-sm-6 wow bounceInUp"
-                  data-wow-delay="500ms"
-                  data-wow-duration="1500ms"
-                >
-                  <div className="offer__item">
-                    <div className="shape-top">
-                      <img
-                        src="/assets/images/shape/offter-item-shape-top.png"
-                        alt="shape"
+              <div
+                className="col-lg-2 col-md-4 col-sm-6 wow bounceInUp"
+                data-wow-delay="500ms"
+                data-wow-duration="1500ms"
+              >
+                <div className="offer__item">
+                  <div className="shape-top">
+                    <img
+                      src="/assets/images/shape/offter-item-shape-top.png"
+                      alt="shape"
+                    />
+                  </div>
+                  <div className="shape-bottom">
+                    <img
+                      src="/assets/images/shape/offter-item-shape-bottom.png"
+                      alt="shape"
+                    />
+                  </div>
+                  <div className="offer__icon">
+                    <svg
+                      width={36}
+                      height={36}
+                      viewBox="0 0 36 36"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M17.9999 10.2061C15.6829 10.2061 13.7979 12.0901 13.7979 14.406C13.7979 16.722 15.6828 18.606 17.9999 18.606C20.317 18.606 22.202 16.7219 22.202 14.406C22.202 12.0901 20.317 10.2061 17.9999 10.2061ZM17.9999 17.4061C16.3446 17.4061 14.9979 16.0601 14.9979 14.406C14.9979 12.7519 16.3446 11.406 17.9999 11.406C19.6552 11.406 21.002 12.7519 21.002 14.406C21.002 16.0601 19.6552 17.4061 17.9999 17.4061Z"
+                        fill="#06cabc"
                       />
-                    </div>
-                    <div className="shape-bottom">
-                      <img
-                        src="/assets/images/shape/offter-item-shape-bottom.png"
-                        alt="shape"
+                      <path
+                        d="M25.1903 18.0102C25.192 17.882 25.2001 17.7544 25.2001 17.626C25.2001 10.7685 22.7292 4.40667 18.4208 0.171803C18.3084 0.0616816 18.1574 0 18 0C17.8427 0 17.6917 0.0616816 17.5793 0.171803C13.2709 4.40667 10.8 10.7685 10.8 17.626C10.8 17.7544 10.8081 17.882 10.8098 18.0102C7.91877 19.5144 6 23.5346 6 28.1996C6 28.3587 6.06321 28.5113 6.17573 28.6238C6.28825 28.7364 6.44085 28.7996 6.59998 28.7996H13.5941C13.5948 28.7996 13.5954 28.7999 13.5961 28.7999H13.9297L12.6759 30.8884C12.6212 30.9795 12.5917 31.0834 12.5904 31.1896C12.589 31.2958 12.6159 31.4005 12.6683 31.4928C12.7206 31.5852 12.7965 31.6621 12.8882 31.7156C12.9799 31.7691 13.0842 31.7972 13.1904 31.7972H22.7925C22.8986 31.7972 23.0029 31.7691 23.0946 31.7156C23.1863 31.6621 23.2622 31.5852 23.3145 31.4928C23.3669 31.4005 23.3938 31.2958 23.3925 31.1896C23.3911 31.0834 23.3616 30.9795 23.3069 30.8884L22.053 28.7999H22.404C22.4047 28.7999 22.4053 28.7996 22.406 28.7996H29.4001C29.5592 28.7996 29.7118 28.7364 29.8243 28.6238C29.9369 28.5113 30.0001 28.3587 30.0001 28.1996C30.0001 23.5347 28.0814 19.5144 25.1903 18.0102ZM18.0001 1.45473C19.2677 2.78406 20.3501 4.32033 21.2367 6.00572H14.7634C15.6501 4.32026 16.7325 2.78399 18.0001 1.45473ZM7.21177 27.5996C7.35472 23.9749 8.78488 20.794 10.8614 19.374C11.0423 22.2454 11.6673 25.0445 12.6977 27.5996H7.21177ZM14.2504 30.5973L15.3293 28.7999H20.6533L21.7325 30.5973H14.2504ZM22.0117 27.5999H13.9884C12.6868 24.5589 12.0001 21.1194 12.0001 17.626C12.0001 13.8965 12.767 10.3296 14.1786 7.20568H21.8216C23.2332 10.3296 24.0001 13.8965 24.0001 17.626C24.0001 21.1195 23.3134 24.5589 22.0117 27.5999ZM23.3024 27.5996C24.3329 25.0445 24.9579 22.2454 25.1387 19.374C27.2153 20.794 28.6454 23.9749 28.7884 27.5996H23.3024ZM18.0001 32.4005C17.9213 32.4005 17.8433 32.416 17.7705 32.4462C17.6977 32.4763 17.6315 32.5205 17.5758 32.5762C17.5201 32.632 17.4759 32.6981 17.4458 32.7709C17.4156 32.8437 17.4001 32.9217 17.4001 33.0005V35.3999C17.4001 35.559 17.4633 35.7116 17.5758 35.8242C17.6883 35.9367 17.8409 35.9999 18.0001 35.9999C18.1592 35.9999 18.3118 35.9367 18.4243 35.8242C18.5368 35.7116 18.6001 35.559 18.6001 35.3999V33.0006C18.6001 32.9218 18.5845 32.8437 18.5544 32.7709C18.5243 32.6981 18.4801 32.632 18.4243 32.5763C18.3686 32.5205 18.3025 32.4763 18.2297 32.4462C18.1569 32.416 18.0789 32.4005 18.0001 32.4005ZM14.9969 32.4005C14.9181 32.4005 14.8401 32.416 14.7673 32.4462C14.6945 32.4763 14.6283 32.5205 14.5726 32.5762C14.5169 32.632 14.4727 32.6981 14.4426 32.7709C14.4124 32.8437 14.3969 32.9217 14.3969 33.0005V34.1993C14.3969 34.3584 14.4601 34.5111 14.5726 34.6236C14.6851 34.7361 14.8377 34.7993 14.9969 34.7993C15.156 34.7993 15.3086 34.7361 15.4211 34.6236C15.5336 34.5111 15.5969 34.3584 15.5969 34.1993V33.0005C15.5968 32.8414 15.5336 32.6888 15.4211 32.5763C15.3086 32.4637 15.156 32.4005 14.9969 32.4005ZM21.0033 32.4005C20.9246 32.4005 20.8465 32.416 20.7737 32.4462C20.7009 32.4763 20.6348 32.5205 20.5791 32.5762C20.5234 32.632 20.4792 32.6981 20.449 32.7709C20.4189 32.8437 20.4034 32.9217 20.4034 33.0005V34.1993C20.4034 34.3584 20.4666 34.5111 20.5791 34.6236C20.6916 34.7361 20.8442 34.7993 21.0033 34.7993C21.1625 34.7993 21.3151 34.7361 21.4276 34.6236C21.5401 34.5111 21.6033 34.3584 21.6033 34.1993V33.0005C21.6033 32.8414 21.5401 32.6888 21.4276 32.5763C21.3151 32.4637 21.1625 32.4005 21.0033 32.4005Z"
+                        fill="#06cabc"
                       />
-                    </div>
-                    <div className="offer__icon">
-                      <svg
-                        width={36}
-                        height={36}
-                        viewBox="0 0 36 36"
-                        fill="none"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <path
-                          d="M17.9999 10.2061C15.6829 10.2061 13.7979 12.0901 13.7979 14.406C13.7979 16.722 15.6828 18.606 17.9999 18.606C20.317 18.606 22.202 16.7219 22.202 14.406C22.202 12.0901 20.317 10.2061 17.9999 10.2061ZM17.9999 17.4061C16.3446 17.4061 14.9979 16.0601 14.9979 14.406C14.9979 12.7519 16.3446 11.406 17.9999 11.406C19.6552 11.406 21.002 12.7519 21.002 14.406C21.002 16.0601 19.6552 17.4061 17.9999 17.4061Z"
-                          fill="#06cabc"
-                        />
-                        <path
-                          d="M25.1903 18.0102C25.192 17.882 25.2001 17.7544 25.2001 17.626C25.2001 10.7685 22.7292 4.40667 18.4208 0.171803C18.3084 0.0616816 18.1574 0 18 0C17.8427 0 17.6917 0.0616816 17.5793 0.171803C13.2709 4.40667 10.8 10.7685 10.8 17.626C10.8 17.7544 10.8081 17.882 10.8098 18.0102C7.91877 19.5144 6 23.5346 6 28.1996C6 28.3587 6.06321 28.5113 6.17573 28.6238C6.28825 28.7364 6.44085 28.7996 6.59998 28.7996H13.5941C13.5948 28.7996 13.5954 28.7999 13.5961 28.7999H13.9297L12.6759 30.8884C12.6212 30.9795 12.5917 31.0834 12.5904 31.1896C12.589 31.2958 12.6159 31.4005 12.6683 31.4928C12.7206 31.5852 12.7965 31.6621 12.8882 31.7156C12.9799 31.7691 13.0842 31.7972 13.1904 31.7972H22.7925C22.8986 31.7972 23.0029 31.7691 23.0946 31.7156C23.1863 31.6621 23.2622 31.5852 23.3145 31.4928C23.3669 31.4005 23.3938 31.2958 23.3925 31.1896C23.3911 31.0834 23.3616 30.9795 23.3069 30.8884L22.053 28.7999H22.404C22.4047 28.7999 22.4053 28.7996 22.406 28.7996H29.4001C29.5592 28.7996 29.7118 28.7364 29.8243 28.6238C29.9369 28.5113 30.0001 28.3587 30.0001 28.1996C30.0001 23.5347 28.0814 19.5144 25.1903 18.0102ZM18.0001 1.45473C19.2677 2.78406 20.3501 4.32033 21.2367 6.00572H14.7634C15.6501 4.32026 16.7325 2.78399 18.0001 1.45473ZM7.21177 27.5996C7.35472 23.9749 8.78488 20.794 10.8614 19.374C11.0423 22.2454 11.6673 25.0445 12.6977 27.5996H7.21177ZM14.2504 30.5973L15.3293 28.7999H20.6533L21.7325 30.5973H14.2504ZM22.0117 27.5999H13.9884C12.6868 24.5589 12.0001 21.1194 12.0001 17.626C12.0001 13.8965 12.767 10.3296 14.1786 7.20568H21.8216C23.2332 10.3296 24.0001 13.8965 24.0001 17.626C24.0001 21.1195 23.3134 24.5589 22.0117 27.5999ZM23.3024 27.5996C24.3329 25.0445 24.9579 22.2454 25.1387 19.374C27.2153 20.794 28.6454 23.9749 28.7884 27.5996H23.3024ZM18.0001 32.4005C17.9213 32.4005 17.8433 32.416 17.7705 32.4462C17.6977 32.4763 17.6315 32.5205 17.5758 32.5762C17.5201 32.632 17.4759 32.6981 17.4458 32.7709C17.4156 32.8437 17.4001 32.9217 17.4001 33.0005V35.3999C17.4001 35.559 17.4633 35.7116 17.5758 35.8242C17.6883 35.9367 17.8409 35.9999 18.0001 35.9999C18.1592 35.9999 18.3118 35.9367 18.4243 35.8242C18.5368 35.7116 18.6001 35.559 18.6001 35.3999V33.0006C18.6001 32.9218 18.5845 32.8437 18.5544 32.7709C18.5243 32.6981 18.4801 32.632 18.4243 32.5763C18.3686 32.5205 18.3025 32.4763 18.2297 32.4462C18.1569 32.416 18.0789 32.4005 18.0001 32.4005ZM14.9969 32.4005C14.9181 32.4005 14.8401 32.416 14.7673 32.4462C14.6945 32.4763 14.6283 32.5205 14.5726 32.5762C14.5169 32.632 14.4727 32.6981 14.4426 32.7709C14.4124 32.8437 14.3969 32.9217 14.3969 33.0005V34.1993C14.3969 34.3584 14.4601 34.5111 14.5726 34.6236C14.6851 34.7361 14.8377 34.7993 14.9969 34.7993C15.156 34.7993 15.3086 34.7361 15.4211 34.6236C15.5336 34.5111 15.5969 34.3584 15.5969 34.1993V33.0005C15.5968 32.8414 15.5336 32.6888 15.4211 32.5763C15.3086 32.4637 15.156 32.4005 14.9969 32.4005ZM21.0033 32.4005C20.9246 32.4005 20.8465 32.416 20.7737 32.4462C20.7009 32.4763 20.6348 32.5205 20.5791 32.5762C20.5234 32.632 20.4792 32.6981 20.449 32.7709C20.4189 32.8437 20.4034 32.9217 20.4034 33.0005V34.1993C20.4034 34.3584 20.4666 34.5111 20.5791 34.6236C20.6916 34.7361 20.8442 34.7993 21.0033 34.7993C21.1625 34.7993 21.3151 34.7361 21.4276 34.6236C21.5401 34.5111 21.6033 34.3584 21.6033 34.1993V33.0005C21.6033 32.8414 21.5401 32.6888 21.4276 32.5763C21.3151 32.4637 21.1625 32.4005 21.0033 32.4005Z"
-                          fill="#06cabc"
-                        />
-                      </svg>
-                    </div>
-                    <h4 className="text-white mt-20">MARKETING</h4>
+                    </svg>
+                  </div>
+                  <h4 className="text-white mt-20">MARKETING</h4>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section className="process-area pt-60 pb-60">
+          <div className="container">
+            <div className="section-header text-center mb-60">
+              <h5
+                className="wow fadeInUp"
+                data-wow-delay="00ms"
+                data-wow-duration="1500ms"
+              >
+                <img
+                  className="me-1"
+                  src="/assets/images/icon/section-title.png"
+                  alt="icon"
+                />
+                Work Process
+              </h5>
+              <h2
+                className="wow fadeInUp"
+                data-wow-delay="200ms"
+                data-wow-duration="1500ms"
+              >
+                Our Development Process
+              </h2>
+            </div>
+            <div className="row g-4">
+              <div
+                className="col-lg-4 wow fadeInUp"
+                data-wow-delay="00ms"
+                data-wow-duration="1500ms"
+              >
+                <div className="process__item mb-100">
+                  <div className="process-arry bobble__animation">
+                    <img
+                      src="/assets/images/process/process-arry.png"
+                      alt="arry-icon"
+                    />
+                  </div>
+                  <div className="process__image">
+                    <img
+                      src="/assets/images/process/process-image1.png"
+                      alt="image"
+                    />
+                    <span className="process-number">1</span>
+                  </div>
+                  <div className="process__content">
+                    <h4 className="mt-25 mb-10">Define Requirements</h4>
+                    <p>
+                      We start by understanding your business goals, target
+                      audience, and technical needs to ensure a clear and
+                      effective project roadmap.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div
+                className="col-lg-4 wow fadeInUp"
+                data-wow-delay="200ms"
+                data-wow-duration="1500ms"
+              >
+                <div className="process__item mb-100">
+                  <div className="process-arry bobble__animation">
+                    <img
+                      src="/assets/images/process/process-arry.png"
+                      alt="arry-icon"
+                    />
+                  </div>
+                  <div className="process__image">
+                    <img
+                      src="/assets/images/process/process-image2.png"
+                      alt="image"
+                    />
+                    <span className="process-number">2</span>
+                  </div>
+                  <div className="process__content">
+                    <h4 className="mt-25 mb-10">Design &amp; Prototyping</h4>
+                    <p>
+                      Our team creates intuitive designs and prototypes,
+                      transforming concepts into visually engaging and
+                      functional layouts for seamless user experience.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div
+                className="col-lg-4 wow fadeInUp"
+                data-wow-delay="400ms"
+                data-wow-duration="1500ms"
+              >
+                <div className="process__item">
+                  <div className="process__image">
+                    <img
+                      src="/assets/images/process/process-image3.png"
+                      alt="image"
+                    />
+                    <span className="process-number">3</span>
+                  </div>
+                  <div className="process__content">
+                    <h4 className="mt-25 mb-10">Finial Solution</h4>
+                    <p>
+                      We deliver a fully developed, tested, and optimized
+                      solution, tailored to meet your objectives, ensuring
+                      high performance and scalability.
+                    </p>
                   </div>
                 </div>
               </div>
             </div>
-          </section>
-          <section className="process-area pt-60 pb-60">
-            <div className="container">
-              <div className="section-header text-center mb-60">
-                <h5
-                  className="wow fadeInUp"
-                  data-wow-delay="00ms"
-                  data-wow-duration="1500ms"
-                >
-                  <img
-                    className="me-1"
-                    src="/assets/images/icon/section-title.png"
-                    alt="icon"
-                  />
-                  Work Process
-                </h5>
-                <h2
-                  className="wow fadeInUp"
-                  data-wow-delay="200ms"
-                  data-wow-duration="1500ms"
-                >
-                  Our Development Process
-                </h2>
-              </div>
-              <div className="row g-4">
-                <div
-                  className="col-lg-4 wow fadeInUp"
-                  data-wow-delay="00ms"
-                  data-wow-duration="1500ms"
-                >
-                  <div className="process__item mb-100">
-                    <div className="process-arry bobble__animation">
-                      <img
-                        src="/assets/images/process/process-arry.png"
-                        alt="arry-icon"
-                      />
-                    </div>
-                    <div className="process__image">
-                      <img
-                        src="/assets/images/process/process-image1.png"
-                        alt="image"
-                      />
-                      <span className="process-number">1</span>
-                    </div>
-                    <div className="process__content">
-                      <h4 className="mt-25 mb-10">Define Requirements</h4>
-                      <p>
-                        We start by understanding your business goals, target
-                        audience, and technical needs to ensure a clear and
-                        effective project roadmap.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div
-                  className="col-lg-4 wow fadeInUp"
-                  data-wow-delay="200ms"
-                  data-wow-duration="1500ms"
-                >
-                  <div className="process__item mb-100">
-                    <div className="process-arry bobble__animation">
-                      <img
-                        src="/assets/images/process/process-arry.png"
-                        alt="arry-icon"
-                      />
-                    </div>
-                    <div className="process__image">
-                      <img
-                        src="/assets/images/process/process-image2.png"
-                        alt="image"
-                      />
-                      <span className="process-number">2</span>
-                    </div>
-                    <div className="process__content">
-                      <h4 className="mt-25 mb-10">Design &amp; Prototyping</h4>
-                      <p>
-                        Our team creates intuitive designs and prototypes,
-                        transforming concepts into visually engaging and
-                        functional layouts for seamless user experience.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div
-                  className="col-lg-4 wow fadeInUp"
-                  data-wow-delay="400ms"
-                  data-wow-duration="1500ms"
-                >
-                  <div className="process__item">
-                    <div className="process__image">
-                      <img
-                        src="/assets/images/process/process-image3.png"
-                        alt="image"
-                      />
-                      <span className="process-number">3</span>
-                    </div>
-                    <div className="process__content">
-                      <h4 className="mt-25 mb-10">Finial Solution</h4>
-                      <p>
-                        We deliver a fully developed, tested, and optimized
-                        solution, tailored to meet your objectives, ensuring
-                        high performance and scalability.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </section>
-          {/* Process area end here */}
-          {/* Testimonial area start here */}
-       <Contactform />
+          </div>
+        </section>
+        {/* Process area end here */}
+        {/* Testimonial area start here */}
+        <Contactform />
 
-</main>
+      </main>
 
       <Footer />
     </div>
