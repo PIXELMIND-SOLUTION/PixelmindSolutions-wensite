@@ -831,74 +831,180 @@ function Home() {
           </section>
           {/* About area end here */}
           {/* Counter area start here */}
-          {/* <section className="counter-area">
-            <div className="container">
-              <div className="counter__wrp gradient-bg">
-                <div
-                  className="counter__shape wow slideInRight"
-                  data-wow-delay="200ms"
-                  data-wow-duration="1500ms"
-                >
-                  <img
-                    src="/assets/images/shape/counnter-bg-shape.png"
-                    alt="shape"
-                  />
-                </div>
-                <div
-                  className="counter__item wow bounceInUp"
-                  data-wow-delay="00ms"
-                  data-wow-duration="1000ms"
-                >
-                  <img src="/assets/images/icon/counter-icon1.png" alt="icon" />
-                  <div className="content">
-                    <h3>
-                      <span className="count">499</span>+
-                    </h3>
-                    <p className="text-white">Satisfied Clients</p>
-                  </div>
-                </div>
-                <div
-                  className="counter__item wow bounceInUp"
-                  data-wow-delay="200ms"
-                  data-wow-duration="1000ms"
-                >
-                  <img src="/assets/images/icon/counter-icon2.png" alt="icon" />
-                  <div className="content">
-                    <h3>
-                      <span className="count">25</span>+
-                    </h3>
-                    <p className="text-white">Finished Projects</p>
-                  </div>
-                </div>
-                <div
-                  className="counter__item wow bounceInUp"
-                  data-wow-delay="400ms"
-                  data-wow-duration="1000ms"
-                >
-                  <img src="/assets/images/icon/counter-icon3.png" alt="icon" />
-                  <div className="content">
-                    <h3>
-                      <span className="count">50</span>+
-                    </h3>
-                    <p className="text-white">Skilled Experts</p>
-                  </div>
-                </div>
-                <div
-                  className="counter__item wow bounceInUp"
-                  data-wow-delay="800ms"
-                  data-wow-duration="1000ms"
-                >
-                  <img src="/assets/images/icon/counter-icon4.png" alt="icon" />
-                  <div className="content">
-                    <h3>
-                      <span className="count">30</span>+
-                    </h3>
-                    <p className="text-white">Media Posts</p>
-                  </div>
-                </div>
+          <section className="counter-area pt-60 pb-60">
+  <div className="container">
+    <div className="counter__wrp gradient-bg position-relative overflow-hidden p-4 p-md-5">
+      {/* Background Shape */}
+      <div className="counter__shape wow slideInRight" 
+           data-wow-delay="200ms" 
+           data-wow-duration="1500ms">
+        <img src="/assets/images/shape/counnter-bg-shape.png" alt="shape" />
+      </div>
+      
+      {/* Section Title */}
+      <h2 className="text-light text-center mb-4 mb-md-5">Our Achievements</h2>
+      
+      <div className="row g-4 justify-content-center">
+        {/* Counter Item 1 */}
+        <div className="col-xl-3 col-lg-4 col-md-6 col-sm-6 wow bounceInUp" 
+             data-wow-delay="00ms" 
+             data-wow-duration="1000ms">
+          <div className="counter__item h-100">
+            <div className="d-flex flex-column flex-sm-row align-items-center text-center text-sm-start">
+              <div className="icon-bg rounded-circle bg-white d-flex align-items-center justify-content-center me-sm-4 mb-3 mb-sm-0 mx-auto mx-sm-0">
+                <img src="/assets/images/icon/counter-icon1.png" alt="icon" className="img-fluid" style={{maxWidth: '40px'}} />
+              </div>
+              <div className="content">
+                <h3 className="mb-0">
+                  <span className="count">499</span>+
+                </h3>
+                <p className="text-white mb-0">Satisfied Clients</p>
               </div>
             </div>
-          </section> */}
+          </div>
+        </div>
+
+        {/* Counter Item 2 */}
+        <div className="col-xl-3 col-lg-4 col-md-6 col-sm-6 wow bounceInUp" 
+             data-wow-delay="200ms" 
+             data-wow-duration="1000ms">
+          <div className="counter__item h-100">
+            <div className="d-flex flex-column flex-sm-row align-items-center text-center text-sm-start">
+              <div className="icon-bg rounded-circle bg-white d-flex align-items-center justify-content-center me-sm-4 mb-3 mb-sm-0 mx-auto mx-sm-0">
+                <img src="/assets/images/icon/counter-icon2.png" alt="icon" className="img-fluid" style={{maxWidth: '40px'}} />
+              </div>
+              <div className="content">
+                <h3 className="mb-0">
+                  <span className="count">25</span>+
+                </h3>
+                <p className="text-white mb-0">Finished Projects</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {/* Counter Item 3 */}
+        <div className="col-xl-3 col-lg-4 col-md-6 col-sm-6 wow bounceInUp" 
+             data-wow-delay="400ms" 
+             data-wow-duration="1000ms">
+          <div className="counter__item h-100">
+            <div className="d-flex flex-column flex-sm-row align-items-center text-center text-sm-start">
+              <div className="icon-bg rounded-circle bg-white d-flex align-items-center justify-content-center me-sm-4 mb-3 mb-sm-0 mx-auto mx-sm-0">
+                <img src="/assets/images/icon/counter-icon3.png" alt="icon" className="img-fluid" style={{maxWidth: '40px'}} />
+              </div>
+              <div className="content">
+                <h3 className="mb-0">
+                  <span className="count">50</span>+
+                </h3>
+                <p className="text-white mb-0">Skilled Experts</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {/* Counter Item 4 */}
+        <div className="col-xl-3 col-lg-4 col-md-6 col-sm-6 wow bounceInUp" 
+             data-wow-delay="800ms" 
+             data-wow-duration="1000ms">
+          <div className="counter__item h-100">
+            <div className="d-flex flex-column flex-sm-row align-items-center text-center text-sm-start">
+              <div className="icon-bg rounded-circle bg-white d-flex align-items-center justify-content-center me-sm-4 mb-3 mb-sm-0 mx-auto mx-sm-0">
+                <img src="/assets/images/icon/counter-icon4.png" alt="icon" className="img-fluid" style={{maxWidth: '40px'}} />
+              </div>
+              <div className="content">
+                <h3 className="mb-0">
+                  <span className="count">30</span>+
+                </h3>
+                <p className="text-white mb-0">Media Posts</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  {/* Responsive Styles */}
+  <style jsx>{`
+    .counter-area {
+      position: relative;
+    }
+    .gradient-bg {
+      background: linear-gradient(135deg, #06cabc 0%, #2e77b0 100%);
+      border-radius: 15px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    }
+    .counter__item {
+      background: rgba(255,255,255,0.1);
+      backdrop-filter: blur(5px);
+      border-radius: 10px;
+      padding: 20px;
+      transition: all 0.3s ease;
+    }
+    .counter__item:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    }
+    .icon-bg {
+      width: 60px;
+      height: 60px;
+      padding: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+    .counter__item h3 {
+      color: white;
+      font-size: 28px;
+      font-weight: 700;
+    }
+    .counter__item p {
+      font-size: 14px;
+      opacity: 0.9;
+    }
+    .counter__shape {
+      position: absolute;
+      right: 0;
+      top: 0;
+      z-index: 0;
+    }
+    .counter__shape img {
+      opacity: 0.2;
+      max-width: 200px;
+    }
+    
+    /* Mobile First Approach */
+    @media (min-width: 576px) {
+      .icon-bg {
+        width: 70px;
+        height: 70px;
+        padding: 15px;
+      }
+      .counter__item h3 {
+        font-size: 32px;
+      }
+      .counter__item p {
+        font-size: 16px;
+      }
+    }
+    
+    @media (min-width: 768px) {
+      .counter__shape img {
+        max-width: 250px;
+      }
+    }
+    
+    @media (min-width: 992px) {
+      .counter__shape img {
+        max-width: 300px;
+      }
+    }
+    
+    @media (min-width: 1200px) {
+      .counter__shape img {
+        max-width: none;
+      }
+    }
+  `}</style>
+</section>
           {/* Counter area end here */}
           {/* Cause area start here */}
           {/* <section className="case-area pt-60 pb-60">

@@ -17,6 +17,7 @@ import { getDateParts, getAllBlogPosts } from './Components/blogData';
 import Blog1 from './blogs/Blog1';
 import Blog2 from './blogs/Blog2';
 import Blog3 from './blogs/Blog3';
+import Portfolio from './Components/Portfolio';
 
 
 function App() {
@@ -30,6 +31,7 @@ function App() {
       <Route path="/uiuxdesign" element={<Design />} />
       <Route path="/webdevelopment" element={<Webdevelopment />} />
       <Route path="/digitalmarketing" element={<Digitalmarketing />} />
+      <Route path="/portfolio" element={<Portfolio />} />
       <Route path="/formdata" element={<Contactdata />} />
       <Route path="/blog" element={<Blog />} />
       <Route path="/blog/empowering-businesses-through-it-services" element={<Blog1 recentPosts={getAllBlogPosts()} getDateParts={getDateParts} />} />

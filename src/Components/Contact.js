@@ -57,7 +57,7 @@ function Contact() {
 
     if (validateForm()) {
       axios
-        .post("https://678cb478f067bf9e28e7ff6a.mockapi.io/api/v1/info/contact", formData)
+        .post("https://678cb478f067bf9e24e7ff6a.mockapi.io/api/v1/info/contact", formData)
         .then((response) => {
           console.log("Data submitted successfully:", response.data);
           toast.success("Message sent successfully!", {
@@ -155,7 +155,7 @@ function Contact() {
                       <li className="mb-4">
                         <div className="d-flex align-items-start">
                           <div className="me-3">
-                            <i className="bi bi-geo-alt-fill fs-4" style={{color: "#06cabc"}}></i>
+                            <i className="bi bi-geo-alt-fill fs-4" style={{ color: "#06cabc" }}></i>
                           </div>
                           <div>
                             <span className="text-white">Location</span>
@@ -171,7 +171,7 @@ function Contact() {
                       <li className="mb-4">
                         <div className="d-flex align-items-start">
                           <div className="me-3">
-                            <i className="bi bi-telephone-fill fs-4"  style={{color: "#06cabc"}}></i>
+                            <i className="bi bi-telephone-fill fs-4" style={{ color: "#06cabc" }}></i>
                           </div>
                           <div>
                             <span className="text-white">Call Us 24/7</span>
@@ -185,7 +185,7 @@ function Contact() {
                       <li className="mb-4">
                         <div className="d-flex align-items-start">
                           <div className="me-3">
-                            <i className="bi bi-envelope-fill fs-4" style={{color: "#06cabc"}}></i>
+                            <i className="bi bi-envelope-fill fs-4" style={{ color: "#06cabc" }}></i>
                           </div>
                           <div>
                             <span className="text-white">Make a Quote</span>
@@ -207,16 +207,16 @@ function Contact() {
                     <h4 className="text-white mb-3">Follow Social:</h4>
                     <div className="social d-flex gap-3">
                       <a href="https://www.facebook.com/share/1E6gPK4vhm/" target="_blank" rel="noopener noreferrer">
-                        <i className="bi bi-facebook fs-5 " style={{color: "#06cabc"}}></i>
+                        <i className="bi bi-facebook fs-5 " style={{ color: "#06cabc" }}></i>
                       </a>
                       <a href="https://www.instagram.com/pixelmindsolutions?igsh=ZmQ1c2c0b2twdTd1" target="_blank" rel="noopener noreferrer">
-                        <i className="bi bi-instagram fs-5 " style={{color: "#06cabc"}}></i>
+                        <i className="bi bi-instagram fs-5 " style={{ color: "#06cabc" }}></i>
                       </a>
                       <a href="https://x.com/PIXELMINDS41249" target="_blank">
-                        <i className="bi bi-twitter-x fs-5" style={{color: "#06cabc"}}></i>
+                        <i className="bi bi-twitter-x fs-5" style={{ color: "#06cabc" }}></i>
                       </a>
                       <a href="https://www.linkedin.com/company/pixelmindsolutions-pvt-ltd/" target="_blank">
-                        <i className="bi bi-linkedin fs-5 " style={{color: "#06cabc"}}></i>
+                        <i className="bi bi-linkedin fs-5 " style={{ color: "#06cabc" }}></i>
                       </a>
                     </div>
                   </div>

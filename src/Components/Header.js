@@ -1,10 +1,13 @@
 import React, { useState, useEffect } from "react";
 import { Link } from 'react-router-dom';
 import ContactModal from "./ContactModal";
+import ChatbotModal from "./ChatBotModal";
 
 function Header() {
   const [sticky, setSticky] = useState("");
-  const [showModal, setShowModal] = useState(false);
+  const [showModal, setShowModal] = useState(false); 
+  const [chatModal, setChatModal] = useState(false);
+
 
   useEffect(() => {
     // handleShow();
@@ -123,6 +126,11 @@ function Header() {
                     <i className="fa-brands fa-linkedin-in" />
                   </a>
                 </li>
+                <li>
+                  <a href="https://www.youtube.com/@PixelmindsolutionsPvtLtd1" target="_blank">
+                    <i className="fa-brands fa-youtube" />
+                  </a>
+                </li>
 
               </ul>
             </div>
@@ -159,9 +167,9 @@ function Header() {
                       <Link to="/blog">Blog</Link>
                     </li>
 
-                    {/* <li>
-                <Link to="/portfolio">Our Portfolio</Link>
-              </li> */}
+                    <li>
+                      <Link to="/portfolio">Our Portfolio</Link>
+                    </li>
 
                   </ul>
                 </nav>
@@ -217,6 +225,9 @@ function Header() {
                       <Link style={{ color: "white" }} to="/blog">Blog</Link>
                     </li>
 
+                    <li>
+                      <Link to="/portfolio">Our Portfolio</Link>
+                    </li>
 
 
                   </ul>
@@ -258,6 +269,9 @@ function Header() {
             <a href="https://www.instagram.com/pixelmindsolutions?igsh=ZmQ1c2c0b2twdTd1" target="_blank">
               <i className="fa-brands fa-instagram" />
             </a>
+            <a href="https://www.youtube.com/@PixelmindsolutionsPvtLtd1" target="_blank">
+              <i className="fa-brands fa-youtube" />
+            </a>
           </div>
           <button id="closeButton" className="text-white">
             <i className="fa-solid fa-xmark" />
@@ -282,6 +296,16 @@ function Header() {
           </div>
         </div>
 
+        {/* Chat with AI floating button */}
+        <div className="ai-chat-float">
+          <button
+            className="ai-chat-link"
+            onClick={() => setChatModal(true)}
+          >
+            <i className="fa-solid fa-robot ai-chat-icon"></i>
+          </button>
+        </div>
+
         {/* WhatsApp floating button */}
         <div className="whatsapp-float">
           <a
@@ -295,6 +319,7 @@ function Header() {
         </div>
       </div>
       <ContactModal show={showModal} onClose={() => setShowModal(false)} />
+      <ChatbotModal show={chatModal} onClose={() => setChatModal(false)} />
     </>
   )
 }

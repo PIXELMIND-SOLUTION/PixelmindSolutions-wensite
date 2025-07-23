@@ -80,7 +80,9 @@ function Footer() {
                 <a target='blank' href="https://www.linkedin.com/company/pixelmindsolutions-pvt-ltd/">
                   <i className="fa-brands fa-linkedin-in" />
                 </a>
-
+                <a href="https://www.youtube.com/@PixelmindsolutionsPvtLtd1" target="_blank">
+                  <i className="fa-brands fa-youtube" />
+                </a>
               </div>
             </div>
             <div
@@ -108,6 +110,16 @@ function Footer() {
                 <li>
                   <a href="/contact" data-discover="true">
                     <i className="fa-regular fa-angles-right me-1" /> Contact
+                  </a>
+                </li>
+                <li>
+                  <a href="/blog" data-discover="true">
+                    <i className="fa-regular fa-angles-right me-1" /> Blogs
+                  </a>
+                </li>
+                <li>
+                  <a href="/portfolio" data-discover="true">
+                    <i className="fa-regular fa-angles-right me-1" /> Our Portfolio
                   </a>
                 </li>
               </ul>
@@ -140,6 +152,13 @@ function Footer() {
                   <div className="info">
                     <h5>Phone Call:</h5>
                     <a href='tel: +91 9666317749'> +91 9666317749</a>,<a href="tel: +91 9052097475" className="ms-1">+91 9052097475</a>
+                  </div>
+                </li>
+                <li>
+                  <i className="fa-brands fa-youtube" />
+                  <div className="info">
+                    <h5>Youtube:</h5>
+                    <a href="https://www.youtube.com/@PixelmindsolutionsPvtLtd1" target="_blank">Pixelmindsolutions Channel</a>
                   </div>
                 </li>
               </ul>
