@@ -4331,6 +4331,10 @@ input.main-search-input::placeholder {
   box-shadow: none;
 }
 
+.bg-modal {
+  background: var(--gradient-bg);
+}
+
 .talk-us__item {
   background: var(--gradient-bg);
   padding: 60px;

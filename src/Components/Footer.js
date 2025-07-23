@@ -139,7 +139,7 @@ function Footer() {
                   <i className="fa-duotone fa-phone" />
                   <div className="info">
                     <h5>Phone Call:</h5>
-                    <a href='tel: +91 9666317749'> +91 9666317749</a>
+                    <a href='tel: +91 9666317749'> +91 9666317749</a>,<a href="tel: +91 9052097475" className="ms-1">+91 9052097475</a>
                   </div>
                 </li>
               </ul>

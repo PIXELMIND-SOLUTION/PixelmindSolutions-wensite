@@ -12,7 +12,7 @@ function About() {
         <title>Experts in Web, Mobile, and Digital Marketing | About Pixelmind Solutions</title>
         <meta name="description" content="Discover Pixelmind Solutions – a leading IT and digital services company in Hyderabad offering expert web development, mobile app solutions, and results-focused digital marketing. Learn more about our mission and team." />
         <meta name="keywords" content="best software company in hyderabad, it software company in hyderabad, it companies in hyderabad, web development services, web developers in hyderabad, web development companies in hyderabad, best web design company in hyderabad, best ui/ux design companies in hyderabad, app designers in hyderabad, ios app development companies in hyderabad, best app developers in hyderabad, digital marketing companies in hyderabad, digital marketing consultants in hyderabad, website maintenance companies" />
-
+        <link rel="canonical" href="https://www.pixelmindsolutions.com/about" />
       </Helmet>
       <Header />
       <main>

@@ -30,3 +30,11 @@ export function getAllBlogPosts() {
 export function getBlogPostByname(name) {
     return blogPosts.find((post) => post.name === name);
 }
+
+// getDateParts.js
+export function getDateParts(dateStr) {
+  const dateObj = new Date(dateStr);
+  const day = String(dateObj.getDate()).padStart(2, '0');
+  const month = dateObj.toLocaleString('default', { month: 'short' });
+  return { day, month };
+}
