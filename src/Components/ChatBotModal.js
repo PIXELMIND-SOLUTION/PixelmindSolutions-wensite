@@ -25,11 +25,11 @@ const ChatbotModal = ({ show, onClose }) => {
     <div 
       style={{ 
         position: 'fixed',
-        bottom: '200px',    // Adjust this value based on your chat icon's height
-        right: '20px',      // Distance from the right edge
+        bottom: window.innerWidth <= 768 ? '0' : '100px',
+        right: window.innerWidth <= 768 ? '0' : '100px',
+        width: window.innerWidth <= 768 ? '100%' : '400px',
+        height: window.innerWidth <= 768 ? '100%' : '550px',
         zIndex: 9999,
-        width: '350px',
-        height: '400px'
       }}
     >
       <div 
@@ -37,10 +37,10 @@ const ChatbotModal = ({ show, onClose }) => {
         style={{
           width: "100%",
           height: "100%",
-          borderRadius: "10px",
+          borderRadius: window.innerWidth <= 768 ? '0' : '10px',
           backgroundColor: "#128C7E",
           border: "none",
-          boxShadow: "0 5px 15px rgba(0,0,0,0.5)",
+          boxShadow: window.innerWidth <= 768 ? 'none' : "0 5px 15px rgba(0,0,0,0.5)",
           display: 'flex',
           flexDirection: 'column',
           overflow: 'hidden',
@@ -61,7 +61,7 @@ const ChatbotModal = ({ show, onClose }) => {
             fontWeight: '600',
             color: 'white'
           }}>
-            <strong>Digi AI</strong>
+            <strong>PMS AI</strong>
           </h4>
           <button 
             onClick={onClose}
@@ -70,8 +70,9 @@ const ChatbotModal = ({ show, onClose }) => {
               background: 'none',
               border: 'none',
               color: 'white',
-              fontSize: '16px',
-              cursor: 'pointer'
+              fontSize: '20px',
+              cursor: 'pointer',
+              padding: '0 10px'
             }}
           >×</button>
         </div>
@@ -110,6 +111,20 @@ const ChatbotModal = ({ show, onClose }) => {
             
             iframe {
               color-scheme: dark;
+            }
+
+            @media (max-width: 768px) {
+              .chatbot-modal-container {
+                animation: fadeIn 0.2s ease-out;
+              }
+              @keyframes fadeIn {
+                from {
+                  opacity: 0;
+                }
+                to {
+                  opacity: 1;
+                }
+              }
             }
           `}
         </style>

@@ -443,5 +443,3 @@ function BlogDetails() {
         </>
     );
 }
-
-export default BlogDetails;

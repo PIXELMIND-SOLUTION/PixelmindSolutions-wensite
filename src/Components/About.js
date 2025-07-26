@@ -130,14 +130,14 @@ function About() {
                     data-wow-delay="200ms"
                     data-wow-duration="1500ms"
                   >
-                    Our goal is to provide intelligent business solutions.
+                    Transforming Businesses Through Intelligent Innovation
                   </h2>
                   <p
                     className="wow fadeInUp"
                     data-wow-delay="400ms"
                     data-wow-duration="1500ms"
                   >
-                    Pixelmind Solutions is a leading IT services provider, offering innovative solutions in website development, mobile application design, and digital marketing. We are dedicated to helping businesses thrive in the digital world by delivering tailored, high-quality services that enhance user experiences, drive growth, and build a strong online presence.
+                    Pixelmind Solutions is a trusted IT services partner, delivering cutting-edge solutions in web development, mobile app design, and digital marketing.We help businesses succeed in the digital age by providing them with specialized, high-performing services that enhance user experience, promote expansion, and strengthen their digital identity.
                   </p>
                 </div>
                 <div

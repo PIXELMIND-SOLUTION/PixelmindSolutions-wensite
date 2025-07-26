@@ -4,7 +4,7 @@ import { Helmet } from "react-helmet";
 import Header from "../Components/Header";
 import Footer from "../Components/Footer";
 
-function Blog1({ recentPosts, getDateParts }) {
+function Blog1() {
     return (
         <>
             <Header />
@@ -144,36 +144,82 @@ function Blog1({ recentPosts, getDateParts }) {
                         </div>
 
                         <div className="col-12 col-lg-4">
-                            <div className="sidebar-widget p-4 bg-light rounded " style={{ top: '20px' }}>
-                                <h4 className="widget-title mb-4"><strong>Recent Posts</strong></h4>
+                            <div className="sidebar-widget p-4 bg-light rounded" style={{ top: '20px' }}>
+                                <h4 className="widget-title mb-4">
+                                    <strong>Recent Posts</strong>
+                                </h4>
                                 <div className="recent-posts">
-                                    {recentPosts.map(post => {
-                                        const { day, month } = getDateParts(post.date);
-                                        return (
-                                            <div key={post.id} className="recent-post-item mb-4">
-                                                <div className="recent-post-img d-flex">
-                                                    <Link to={`/blog/${post.name}`}>
-                                                        <img
-                                                            src={`/assets/images/blog/blog-image${post.id}.jpg`}
-                                                            alt={post.title}
-                                                            className="img-fluid rounded"
-                                                            style={{ width: '80px', height: '80px', objectFit: 'cover' }}
-                                                        />
+                                    {/* Post 1 */}
+                                    <div className="recent-post-item mb-4">
+                                        <div className="recent-post-img d-flex">
+                                            <Link to="/blog/empowering-businesses-through-it-services">
+                                                <img
+                                                    src="/assets/images/blog/blog-image1.jpg"
+                                                    alt="PIXELMINDSOLUTIONS: Empowering Businesses Through Innovative IT Services"
+                                                    className="img-fluid rounded"
+                                                    style={{ width: '80px', height: '80px', objectFit: 'cover' }}
+                                                />
+                                            </Link>
+                                            <div className="recent-post-content ps-3">
+                                                <span className="recent-post-date d-block text-muted small">
+                                                    Jul 1
+                                                </span>
+                                                <h6 className="recent-post-title mt-1">
+                                                    <Link to="/blog/empowering-businesses-through-it-services" className="text-dark text-decoration-none">
+                                                        PIXELMINDSOLUTIONS: Empowering Businesses Through Innovative IT Services
                                                     </Link>
-                                                    <div className="recent-post-content ps-3">
-                                                        <span className="recent-post-date d-block text-muted small">
-                                                            {month} {day}
-                                                        </span>
-                                                        <h6 className="recent-post-title mt-1">
-                                                            <Link to={`/blog/${post.name}`} className="text-dark text-decoration-none">
-                                                                {post.title}
-                                                            </Link>
-                                                        </h6>
-                                                    </div>
-                                                </div>
+                                                </h6>
                                             </div>
-                                        );
-                                    })}
+                                        </div>
+                                    </div>
+
+                                    {/* Post 2 */}
+                                    <div className="recent-post-item mb-4">
+                                        <div className="recent-post-img d-flex">
+                                            <Link to="/blog/professional-it-consulting-and-app-development">
+                                                <img
+                                                    src="/assets/images/blog/blog-image2.jpg"
+                                                    alt="PIXELMINDSOLUTIONS: Driving Innovation Through Smart IT Services"
+                                                    className="img-fluid rounded"
+                                                    style={{ width: '80px', height: '80px', objectFit: 'cover' }}
+                                                />
+                                            </Link>
+                                            <div className="recent-post-content ps-3">
+                                                <span className="recent-post-date d-block text-muted small">
+                                                    Jul 2
+                                                </span>
+                                                <h6 className="recent-post-title mt-1">
+                                                    <Link to="/blog/professional-it-consulting-and-app-development" className="text-dark text-decoration-none">
+                                                        PIXELMINDSOLUTIONS: Driving Innovation Through Smart IT Services
+                                                    </Link>
+                                                </h6>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    {/* Post 3 */}
+                                    <div className="recent-post-item mb-4">
+                                        <div className="recent-post-img d-flex">
+                                            <Link to="/blog/application-maintainence-and-digital-growth-strategy">
+                                                <img
+                                                    src="/assets/images/blog/blog-image3.jpg"
+                                                    alt="How PIXELMINDSOLUTIONS is Shaping the Future of Digital Transformation"
+                                                    className="img-fluid rounded"
+                                                    style={{ width: '80px', height: '80px', objectFit: 'cover' }}
+                                                />
+                                            </Link>
+                                            <div className="recent-post-content ps-3">
+                                                <span className="recent-post-date d-block text-muted small">
+                                                    Jul 3
+                                                </span>
+                                                <h6 className="recent-post-title mt-1">
+                                                    <Link to="/blog/application-maintainence-and-digital-growth-strategy" className="text-dark text-decoration-none">
+                                                        How PIXELMINDSOLUTIONS is Shaping the Future of Digital Transformation
+                                                    </Link>
+                                                </h6>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
