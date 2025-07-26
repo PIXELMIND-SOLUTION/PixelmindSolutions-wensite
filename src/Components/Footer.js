@@ -173,7 +173,7 @@ function Footer() {
                 data-wow-delay="00ms"
                 data-wow-duration="1500ms"
               >
-                © All Copyright 2025 by <a href="#">Pixelmind Solutions Pvt Ltd.</a>
+                © All Copyright 2025 by <a href="#">Pixelmind Solutions Pvt Ltd</a>
               </p>
               <ul
                 className="d-flex align-items-center gap-4 wow fadeInDown"
