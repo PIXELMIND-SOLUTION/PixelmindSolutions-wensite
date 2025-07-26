@@ -242,7 +242,7 @@ function Header() {
 
             <li className="py-2">
               <i className="fa-solid primary-color fa-phone-volume" />{" "}
-              <a href="tel: +91 9666317749"> +91 9666317749</a>
+              <a href="tel: +91 9666317749"> +91 9666317749</a>,<a href="tel: +91 9052097475"> +91 9052097475</a>
             </li>
             <li>
               <i className="fa-solid primary-color fa-paper-plane" />{" "}
