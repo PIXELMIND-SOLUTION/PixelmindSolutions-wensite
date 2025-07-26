@@ -34,9 +34,9 @@ function App() {
       <Route path="/portfolio" element={<Portfolio />} />
       <Route path="/formdata" element={<Contactdata />} />
       <Route path="/blog" element={<Blog />} />
-      <Route path="/blog/empowering-businesses-through-it-services" element={<Blog1 recentPosts={getAllBlogPosts()} getDateParts={getDateParts} />} />
-      <Route path="/blog/professional-it-consulting-and-app-development" element={<Blog2 recentPosts={getAllBlogPosts()} getDateParts={getDateParts} />} />
-      <Route path="/blog/application-maintainence-and-digital-growth-strategy" element={<Blog3 recentPosts={getAllBlogPosts()} getDateParts={getDateParts} />} />
+      <Route path="/blog/empowering-businesses-through-it-services" element={<Blog1/>} />
+      <Route path="/blog/professional-it-consulting-and-app-development" element={<Blog2/>} />
+      <Route path="/blog/application-maintainence-and-digital-growth-strategy" element={<Blog3/>} />
       {/* <Route path="/" element={<Home />} /> */}
     </Routes>
   );

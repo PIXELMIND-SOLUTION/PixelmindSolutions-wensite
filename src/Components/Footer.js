@@ -154,13 +154,13 @@ function Footer() {
                     <a href='tel: +91 9666317749'> +91 9666317749</a>,<a href="tel: +91 9052097475" className="ms-1">+91 9052097475</a>
                   </div>
                 </li>
-                <li>
+                {/* <li>
                   <i className="fa-brands fa-youtube" />
                   <div className="info">
                     <h5>Youtube:</h5>
                     <a href="https://www.youtube.com/@PixelmindsolutionsPvtLtd1" target="_blank">Pixelmindsolutions Channel</a>
                   </div>
-                </li>
+                </li> */}
               </ul>
             </div>
           </div>
@@ -173,7 +173,7 @@ function Footer() {
                 data-wow-delay="00ms"
                 data-wow-duration="1500ms"
               >
-                © All Copyright 2025 by <a href="#0">Pixelmind Solutions</a>
+                © All Copyright 2025 by <a href="#">Pixelmind Solutions Pvt Ltd.</a>
               </p>
               <ul
                 className="d-flex align-items-center gap-4 wow fadeInDown"

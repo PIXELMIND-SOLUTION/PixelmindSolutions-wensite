@@ -5,7 +5,7 @@ import ChatbotModal from "./ChatBotModal";
 
 function Header() {
   const [sticky, setSticky] = useState("");
-  const [showModal, setShowModal] = useState(false); 
+  const [showModal, setShowModal] = useState(false);
   const [chatModal, setChatModal] = useState(false);
 
 
@@ -153,14 +153,14 @@ function Header() {
                       <Link to="/">Home</Link>
                     </li>
                     <li>
-                      <Link to="/about">About</Link>
+                      <Link to="/about">About Us</Link>
                     </li>
                     <li>
                       <Link to="/services">Services</Link>
                     </li>
 
                     <li>
-                      <Link to="/contact">Contact</Link>
+                      <Link to="/portfolio">Portfolio</Link>
                     </li>
 
                     <li>
@@ -168,7 +168,7 @@ function Header() {
                     </li>
 
                     <li>
-                      <Link to="/portfolio">Our Portfolio</Link>
+                      <Link to="/contact">Contact Us</Link>
                     </li>
 
                   </ul>
@@ -190,9 +190,6 @@ function Header() {
         {/* Sidebar area start here */}
         <div id="targetElement" className="sidebar-area sidebar__hide">
           <div className="sidebar__overlay" />
-          {/* <Link to="/" className="logo mb-40">
-      <img src="/assets/images/logo/logo.svg" alt="logo" />
-    </Link> */}
           <Link to="/" className="logo1  mb-40">
             <img style={{ width: "50px" }} src="/assets/images/icon/counter-icon3.png" alt="icon" />
             <h2 className="text-white">pixelmind</h2>
@@ -201,9 +198,6 @@ function Header() {
             {/* <input type="text" placeholder="Search..." />
       <i className="fa-regular fa-magnifying-glass" /> */}
             <div className="">
-              {/* <Link to="/" className="logo">
-          <img src="/assets/images/logo/logo-light.svg" alt="logo" />
-        </Link> */}
               <div className="main-menu">
                 <nav className="">
                   <ul>
@@ -211,14 +205,14 @@ function Header() {
                       <Link style={{ color: "white" }} to="/">Home</Link>
                     </li>
                     <li>
-                      <Link style={{ color: "white" }} to="/about">About</Link>
+                      <Link style={{ color: "white" }} to="/about">About Us</Link>
                     </li>
                     <li>
                       <Link style={{ color: "white" }} to="/services">Services</Link>
                     </li>
 
                     <li>
-                      <Link style={{ color: "white" }} to="/contact">Contact</Link>
+                      <Link style={{ color: "white" }} to="/portfolio">Portfolio</Link>
                     </li>
 
                     <li>
@@ -226,9 +220,8 @@ function Header() {
                     </li>
 
                     <li>
-                      <Link to="/portfolio">Our Portfolio</Link>
+                      <Link style={{ color: "white" }} to="/contact">Contact Us</Link>
                     </li>
-
 
                   </ul>
                 </nav>
@@ -239,7 +232,7 @@ function Header() {
                 </button>
 
               </div>
-              <div className="bars d-block d-lg-none">
+              <div className="bars d-none d-lg-none">
                 <i id="openButton" className="fa-solid fa-bars" />
               </div>
             </div>
