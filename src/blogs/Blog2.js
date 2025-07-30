@@ -56,8 +56,12 @@ function Blog2() {
                             <Helmet>
                                 <link rel="canonical" href="https://www.pixelmindsolutions.com/blog/professional-it-consulting-and-app-development" />
                                 <title>IT Support & Digital Services for Your Business</title>
-                                <meta name="description" content="Obtain comprehensive digital assistance that includes online and app development, SEO, and advertising strategy." />
-                                <meta name="keywords" content="Mobile app marketing services in Hyderabad, Affordable IT support services for companies, PPC campaign management for IT service providers, Custom software development with digital marketing support, Website redesign and SEO services, Custom IT solutions for small businesses" />
+                                <meta name="description" content="Obtain comprehensive digital assistance that 
+                                includes online and app development, SEO, and advertising strategy." />
+                                <meta name="keywords" content="Mobile app marketing services in Hyderabad, 
+                                Affordable IT support services for companies, PPC campaign management for IT service providers, 
+                                Custom software development with digital marketing support, Website redesign and SEO services, 
+                                Custom IT solutions for small businesses" />
                             </Helmet>
 
                             <section className="blog-details-area pb-5">
