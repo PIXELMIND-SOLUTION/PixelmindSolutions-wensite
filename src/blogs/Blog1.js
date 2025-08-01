@@ -7,6 +7,12 @@ import Footer from "../Components/Footer";
 function Blog1() {
     return (
         <>
+            <Helmet>
+                <link rel="canonical" href="https://www.pixelmindsolutions.com/blog/empowering-businesses-through-it-services" />
+                <title>Digital Marketing & App Dev IT Services</title>
+                <meta name="description" content="From app creation to digital promotion, our IT team supports your business at every digital stage." />
+                <meta name="keywords" content="Digital Marketing and IT services in KPHB, Best Online Marketing Service in Hyderabad, IT Service Providers in KPHP, Software development company in Hyderabad, Mobile App Development in Gacchibowli, UI/UX in Hyderabad, Best IT Company in KPHP, Affortable Software IT Company in Hyderabad, Best Online Services in Hyderabad, Top Digital Marketing Services in KPHP, Best SEO Services in Hyderabad, Social Media Services Near Me, PIXELMINDSOLUTIONS in KPHP, PPC Services in Hyderabad, Digital Marketing Company in KPHP" />
+            </Helmet>
             <Header />
             <div className="container-fluid p-0">
                 <section
@@ -52,12 +58,7 @@ function Blog1() {
                 <div className="container mt-5">
                     <div className="row">
                         <div className="col-12 col-lg-8 pe-lg-5">
-                            <Helmet>
-                                <link rel="canonical" href="https://www.pixelmindsolutions.com/blog/empowering-businesses-through-it-services" />
-                                <title>Digital Marketing & App Dev IT Services</title>
-                                <meta name="description" content="From app creation to digital promotion, our IT team supports your business at every digital stage." />
-                                <meta name="keywords" content="Digital Marketing and IT services in KPHB, Best Online Marketing Service in Hyderabad, IT Service Providers in KPHP, Software development company in Hyderabad, Mobile App Development in Gacchibowli, UI/UX in Hyderabad, Best IT Company in KPHP, Affortable Software IT Company in Hyderabad, Best Online Services in Hyderabad, Top Digital Marketing Services in KPHP, Best SEO Services in Hyderabad, Social Media Services Near Me, PIXELMINDSOLUTIONS in KPHP, PPC Services in Hyderabad, Digital Marketing Company in KPHP" />
-                            </Helmet>
+
 
                             <section className="blog-details-area pb-5">
                                 <div className="blog__details">

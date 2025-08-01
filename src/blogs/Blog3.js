@@ -9,6 +9,12 @@ import { GiBrain } from "react-icons/gi";
 function Blog3() {
     return (
         <>
+            <Helmet>
+                <link rel="canonical" href="https://www.pixelmindsolutions.com/blog/application-maintainence-and-digital-growth-strategy" />
+                <title>Smart IT Services & Digital Marketing Experts</title>
+                <meta name="description" content="Grow your business with expert IT solutions and data-driven digital marketing that deliver measurable results." />
+                <meta name="keywords" content="Email marketing and SEO for mobile apps, Best web and app development company in Hyderabad, Local SEO for IT service providers, Professional website design company in Kukatpally, Social media marketing for small businesses in Hyderabad, Google Ads management for Hyderabad" />
+            </Helmet>
             <Header />
             <div className="container-fluid p-0">
                 <section
@@ -54,12 +60,7 @@ function Blog3() {
                 <div className="container mt-5">
                     <div className="row">
                         <div className="col-12 col-lg-8 pe-lg-5">
-                            <Helmet>
-                                <link rel="canonical" href="https://www.pixelmindsolutions.com/blog/application-maintainence-and-digital-growth-strategy" />
-                                <title>Smart IT Services & Digital Marketing Experts</title>
-                                <meta name="description" content="Grow your business with expert IT solutions and data-driven digital marketing that deliver measurable results." />
-                                <meta name="keywords" content="Email marketing and SEO for mobile apps, Best web and app development company in Hyderabad, Local SEO for IT service providers, Professional website design company in Kukatpally, Social media marketing for small businesses in Hyderabad, Google Ads management for Hyderabad" />
-                            </Helmet>
+
 
                             <section className="blog-details-area pb-5">
                                 <div className="blog__details">
