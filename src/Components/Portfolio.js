@@ -46,6 +46,14 @@ function Portfolio() {
             image: "/assets/images/banner/carnival.jpg",
             icon: "/assets/images/logo/carnival.png",
             link: "https://carnivalcastle.com/"
+        },
+        {
+            id: 5,
+            title: "1 SQUARE",
+            description: "A clever and safe community marketplace platform created especially for Hyderabad is called 1Square. It facilitates the discovery, listing, and trading of goods within the community by bringing together local consumers and sellers. Offering users a smooth listing procedure, transparent communication, and secure transactions is the primary objective.",
+            image: "/assets/images/banner/onesquare.png",
+            icon: "/assets/images/logo/onesquare.png",
+            link: "https://atozkeysolution.com/"
         }
     ];
 
@@ -89,8 +97,14 @@ function Portfolio() {
                                     <div key={item.id} className="col-lg-4 col-md-6">
                                         <div className="service-two__item">
                                             <div className="image">
-                                                <img src={item.image} alt={item.title} className='img-fluid' />
+                                                <img
+                                                    src={item.image}
+                                                    alt={item.title}
+                                                    className="img-fluid w-100"
+                                                    style={{ height: "250px", objectFit: "cover", borderRadius: "10px" }}
+                                                />
                                             </div>
+
                                             <div className="service-two__content">
                                                 <div className="icon">
                                                     <img src={item.icon} alt="icon" className='img-fluid' />

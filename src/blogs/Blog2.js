@@ -9,7 +9,6 @@ function Blog2() {
     return (
         <>
             <Helmet>
-                <link rel="canonical" href="https://www.pixelmindsolutions.com/blog/professional-it-consulting-and-app-development" />
                 <title>IT Support & Digital Services for Your Business</title>
                 <meta name="description" content="Obtain comprehensive digital assistance that 
                                 includes online and app development, SEO, and advertising strategy." />
@@ -17,6 +16,7 @@ function Blog2() {
                                 Affordable IT support services for companies, PPC campaign management for IT service providers, 
                                 Custom software development with digital marketing support, Website redesign and SEO services, 
                                 Custom IT solutions for small businesses" />
+                <link rel="canonical" href="https://www.pixelmindsolutions.com/blog/professional-it-consulting-and-app-development" />
             </Helmet>
             <Header />
             <div className="container-fluid p-0">
@@ -53,11 +53,21 @@ function Blog2() {
                             alt="shape"
                         />
                     </div>
-                    <div className="container">
-                        <h2 className="wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
+                    <div className="container py-5">
+                        <h1
+                            className="wow fadeInUp fs-1 fw-bold text-center text-white"
+                            data-wow-delay="200ms"
+                            data-wow-duration="1500ms"
+                            style={{
+                                lineHeight: "1.3",
+                                maxWidth: "900px",
+                                margin: "0 auto",
+                            }}
+                        >
                             PIXELMINDSOLUTIONS: Driving Innovation Through Smart IT Services
-                        </h2>
+                        </h1>
                     </div>
+
                 </section>
 
                 <div className="container mt-5">
@@ -82,10 +92,10 @@ function Blog2() {
 
                                         <p className="">In today's highly technological industry(<em>IT Services</em>), having a strong online presence is very essential. At the front of this digital revolution, <strong>PIXELMINDSOLUTIONS</strong> provides innovative IT solutions that enable companies to expand, interact with clients, and maintain a competitive edge.</p>
 
-                                        <h3 className="mt-4 d-flex align-items-center gap-2">
+                                        <h2 className="mt-4 d-flex align-items-center gap-2 fs-3">
                                             <FaSearch color="#06cabc" size={28} />
                                             <span>About PIXELMINDSOLUTIONS</span>
-                                        </h3>
+                                        </h2>
                                         <p>A progressive <a
                                             href="/"
                                             className="text-primary"
@@ -118,10 +128,10 @@ function Blog2() {
                                             </li>
                                         </ul>
 
-                                        <h3 className="mt-4 d-flex align-items-center gap-2">
+                                        <h4 className="mt-4 d-flex align-items-center gap-2">
                                             <FaLightbulb color="#06cabc" size={28} />
                                             <span>Why Businesses Trust PIXELMINDSOLUTIONS</span>
-                                        </h3>
+                                        </h4>
 
                                         <ul className="list-group list-group-flush mb-3">
                                             <li className="list-group-item border-0 ps-0"><strong>✅ Tailored Solutions:</strong> Custom-built based on your industry, goals, and budget.</li>
@@ -136,10 +146,10 @@ function Blog2() {
                                             <li className="list-group-item border-0 ps-0"><strong>📈 Real Results:</strong> Proven success in boosting website engagement for both local and global businesses.</li>
                                         </ul>
 
-                                        <h3 className="mt-4 d-flex align-items-center gap-2">
+                                        <h5 className="mt-4 d-flex align-items-center gap-2">
                                             <FaThumbtack color="#06cabc" size={28} />
                                             <span>Conclusion</span>
-                                        </h3>
+                                        </h5>
                                         <p>Partnering with a dependable <em>IT solutions</em> provider is essential in this day and age when a company's success is determined by its digital presence.
                                             With <strong>PIXELMINDSOLUTIONS</strong>' extensive offerings, businesses can reach their full online potential.</p>
 

@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import { HelmetProvider } from 'react-helmet-async';
 import { Routes, Route } from "react-router-dom";
 import Home from "./Components/Home"
 import About from './Components/About';
@@ -22,23 +23,27 @@ import Portfolio from './Components/Portfolio';
 
 function App() {
   return (
-    <Routes>
-      <Route path="/" element={<Home />} />
-      <Route path="/about" element={<About />} />
-      <Route path="/services" element={<Services />} />
-      <Route path="/contact" element={<Contact />} />
-      <Route path="/appdevelopment" element={<Appdevelopment />} />
-      <Route path="/uiuxdesign" element={<Design />} />
-      <Route path="/webdevelopment" element={<Webdevelopment />} />
-      <Route path="/digitalmarketing" element={<Digitalmarketing />} />
-      <Route path="/portfolio" element={<Portfolio />} />
-      <Route path="/formdata" element={<Contactdata />} />
-      <Route path="/blog" element={<Blog />} />
-      <Route path="/blog/empowering-businesses-through-it-services" element={<Blog1/>} />
-      <Route path="/blog/professional-it-consulting-and-app-development" element={<Blog2/>} />
-      <Route path="/blog/application-maintainence-and-digital-growth-strategy" element={<Blog3/>} />
-      {/* <Route path="/" element={<Home />} /> */}
-    </Routes>
+    <>
+      <HelmetProvider>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/services" element={<Services />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/appdevelopment" element={<Appdevelopment />} />
+          <Route path="/uiuxdesign" element={<Design />} />
+          <Route path="/webdevelopment" element={<Webdevelopment />} />
+          <Route path="/digitalmarketing" element={<Digitalmarketing />} />
+          <Route path="/portfolio" element={<Portfolio />} />
+          <Route path="/formdata" element={<Contactdata />} />
+          <Route path="/blog" element={<Blog />} />
+          <Route path="/blog/empowering-businesses-through-it-services" element={<Blog1 />} />
+          <Route path="/blog/professional-it-consulting-and-app-development" element={<Blog2 />} />
+          <Route path="/blog/application-maintainence-and-digital-growth-strategy" element={<Blog3 />} />
+          {/* <Route path="/" element={<Home />} /> */}
+        </Routes>
+      </HelmetProvider>
+    </>
   );
 }
 

@@ -10,10 +10,10 @@ function Blog3() {
     return (
         <>
             <Helmet>
-                <link rel="canonical" href="https://www.pixelmindsolutions.com/blog/application-maintainence-and-digital-growth-strategy" />
                 <title>Smart IT Services & Digital Marketing Experts</title>
                 <meta name="description" content="Grow your business with expert IT solutions and data-driven digital marketing that deliver measurable results." />
                 <meta name="keywords" content="Email marketing and SEO for mobile apps, Best web and app development company in Hyderabad, Local SEO for IT service providers, Professional website design company in Kukatpally, Social media marketing for small businesses in Hyderabad, Google Ads management for Hyderabad" />
+                <link rel="canonical" href="https://www.pixelmindsolutions.com/blog/application-maintainence-and-digital-growth-strategy" />
             </Helmet>
             <Header />
             <div className="container-fluid p-0">
@@ -50,11 +50,21 @@ function Blog3() {
                             alt="shape"
                         />
                     </div>
-                    <div className="container">
-                        <h2 className="wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
+                    <div className="container py-5">
+                        <h1
+                            className="wow fadeInUp fs-1 text-center fw-semibold text-white"
+                            data-wow-delay="200ms"
+                            data-wow-duration="1500ms"
+                            style={{
+                                lineHeight: "1.3",
+                                maxWidth: "900px",
+                                margin: "0 auto",
+                            }}
+                        >
                             How PIXELMINDSOLUTIONS is Shaping the Future of Digital Transformation
-                        </h2>
+                        </h1>
                     </div>
+
                 </section>
 
                 <div className="container mt-5">
@@ -79,7 +89,7 @@ function Blog3() {
 
                                         <p className=""><em>Digital innovation</em> is the key to staying competitive in today's business landscape. Companies need more than just a website—they need digital systems that drive efficiency, deliver value, and engage their customers. This is where <strong>PIXELMINDSOLUTIONS</strong> makes a lasting impact.</p>
 
-                                        <h3 className="mt-4">The Vision Behind PixelMind</h3>
+                                        <h2 className="mt-4 fs-4">The Vision Behind PixelMind</h2>
                                         <p>At its core, <em>PIXELMINDSOLUTIONS</em> is more than just an IT company—it is a digital transformation partner. The team offers
                                             <a
                                                 href="/services"
@@ -90,7 +100,7 @@ function Blog3() {
                                             </a> that assist businesses in navigating and achieving success in the digital age. Their services place a strong emphasis on creativity, technology, and strategy. From concept to execution, PIXELMINDSOLUTIONS supports clients through every phase of their digital journey.</p>
 
 
-                                        <h3 className="mt-4 d-flex align-items-center gap-2">
+                                        <h3 className="mt-4 fs-4 d-flex align-items-center gap-2">
                                             <FaGem color="#06cabc" size={28} />
                                             <strong>Core Offerings that Drive Digital Growth</strong>
                                         </h3>
@@ -136,10 +146,10 @@ function Blog3() {
                                         </ul>
                                         <p>Their goal is clear: to help you get found and grow faster.</p>
 
-                                        <h3 className="mt-4 d-flex align-items-center gap-2">
+                                        <h4 className="mt-4 fs-4 d-flex align-items-center gap-2">
                                             <GiBrain color="#06cabc" size={28} />
                                             <span>What Sets PIXELMINDSOLUTIONS Apart?</span>
-                                        </h3>
+                                        </h4>
 
                                         <ul className="list-group list-group-flush mb-3">
                                             <li className="list-group-item border-0 ps-0">🔸 <strong>Tech Meets Creativity:</strong> Every project is a blend of creative design and powerful code.</li>
@@ -147,7 +157,7 @@ function Blog3() {
                                             <li className="list-group-item border-0 ps-0">🔸 <strong>Continuous Innovation:</strong> The team stays up to date with new trends in AI, design, mobile tech, and digital marketing.</li>
                                         </ul>
 
-                                        <h3 className="mt-4">Final Words</h3>
+                                        <h5 className="mt-4 fs-4">Final Words</h5>
                                         <p>The digital world is changing fast—and PIXELMINDSOLUTIONS ensures you don't get left behind. They assist brands in transformation, growth, and leadership by combining experience, innovation, and client dedication to perfection.</p>
 
                                         <div className="mt-5">
