@@ -41,13 +41,15 @@ CSS TABLE OF CONTENTS
 	Pace.on("done", function () {
 		$("#preloader").addClass("isdone");
 		$(".loading").addClass("isdone");
-	});
+	})});
 	// Preloader area end here ***
 
 	// Mouse cursor area start here ***
 function mousecursor() {
     if (document.querySelector("body")) {
         const e = document.querySelector(".cursor-inner"),
+              t = document.querySelector(".cursor-outer");
+        if (!e || !t) return;
               t = document.querySelector(".cursor-outer");
 
         // If either cursor element doesn't exist, stop
@@ -89,7 +91,9 @@ $(function () {
 
 	// Header area start here ***
 	// Mobile menu
-	$(".header-area nav").meanmenu();
+if ($(".header-area nav").length) {
+    $(".header-area nav").meanmenu();
+}
 	// Menu Fixed
 	var fixed_top = $(".header-area");
 	$(window).on("scroll", function () {
@@ -405,6 +409,7 @@ $(function () {
 	// Background image date area end here ***
 
 	// Video popup area start here ***
+if ($(".video-popup").length) {
 	$(".video-popup").magnificPopup({
 		type: "iframe",
 		iframe: {
@@ -439,33 +444,42 @@ $(function () {
 	// Video popup area end here ***
 
 	// Counter up area start here ***
+if ($(".count").length) {
 	$(".count").counterUp({
 		delay: 30,
 		time: 3000,
 	});
+}
+if ($(".progress-count").length) {
 	$(".progress-count").counterUp({
 		delay: 30,
 		time: 1000,
 	});
+}
 	// Counter up area end here ***
 
 	// Nice seclect area start here ***
 	$(document).ready(function () {
-		$("select").niceSelect();
+if ($("select").length) {
+    $("select").niceSelect();
+}
 	});
 	// Nice seclect area end here ***
 
 	// Footer image popup start here ***
+if ($(".footer-popup").length) {
 	$(".footer-popup").magnificPopup({
 		type: "image",
 		gallery: {
 			enabled: true,
 		},
 	});
+}
 	// Footer image popup end here ***
 
 	// Back to top area start here ***
 var scrollPath = document.querySelector(".scroll-up path");
+if (scrollPath) {
 
 if (scrollPath) {
     var pathLength = scrollPath.getTotalLength();
@@ -507,10 +521,11 @@ if (scrollPath) {
         return false;
     });
 }
+}
 // Back to top area end here ***
 
 
 	// WOW Animatin area start here ***
 	new WOW().init();
 	// WOW Animatin area start here ***
-})(jQuery);
+}(jQuery);
